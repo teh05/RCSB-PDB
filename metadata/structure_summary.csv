@@ -1,0 +1,4 @@
+pdb_id,n_models,n_chains,chain_ids,n_residues,n_polymer_residues,n_water_residues,n_atoms,n_ca,experimental_method,resolution,title,space_group,source_path
+1LYZ,1,1,A,230,129,101,1102,129,X-RAY DIFFRACTION,2.0,Real-space refinement of the structure of hen egg-white lysozyme,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\1LYZ.cif.gz
+1UBQ,1,1,A,134,76,58,660,76,X-RAY DIFFRACTION,1.8,STRUCTURE OF UBIQUITIN REFINED AT 1.8 ANGSTROMS RESOLUTION,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\1UBQ.cif.gz
+4HHB,1,4,A;B;C;D,801,574,221,4779,574,X-RAY DIFFRACTION,1.74,THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\4HHB.cif.gz

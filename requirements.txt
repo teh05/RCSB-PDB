@@ -1,0 +1,25 @@
+# GPU stacks are OS-specific. Install carefully on Windows.
+#
+# PyTorch CUDA (Blackwell / RTX 50 needs recent cu128+ builds):
+#   pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu128
+#
+# JAX GPU on native Windows (official jax[cuda13] is Linux-only):
+#   pip install winjax==0.11.0.post6
+#
+# Flax: install with --no-deps after winjax so pip does not try to bump jax
+# past 0.11.0 (winjax pin). Prefer flax>=0.12.9 on Python 3.14.
+#
+# orbax-checkpoint 0.12.x ships ultra-deep test fixture paths that hit
+# Windows MAX_PATH under %APPDATA%\Python\...; install a trimmed copy or
+# enable Win32 long paths if full orbax is required.
+
+numpy>=2.0
+PyYAML>=6.0
+matplotlib>=3.8
+gemmi==0.7.5
+winjax==0.11.0.post6
+flax==0.12.9
+optax>=0.2.4
+msgpack
+treescope>=0.1.7
+tensorstore

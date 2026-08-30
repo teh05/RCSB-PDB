@@ -1,0 +1,11 @@
+seed: 0
+batch_size: 3
+learning_rate: 0.001
+hidden_dim: 64
+num_layers: 3
+radius_cutoff: 8.0
+representation: ca
+epochs: 20
+device: cuda
+task: edge_ca_distance_regression
+model: gcn
