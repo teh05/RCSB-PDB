@@ -31,6 +31,7 @@ def test_pml_script_uses_cartoon_and_quoted_paths(tmp_path: Path):
     text = _pml_script(cif, png, "1UBQ")
     assert "show cartoon" in text
     assert "show sticks, organic" in text
+    assert "cmd.png" in text
     assert "quit" in text
     assert cif.resolve().as_posix() in text
     assert png.resolve().as_posix() in text

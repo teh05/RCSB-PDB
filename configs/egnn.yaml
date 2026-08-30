@@ -1,5 +1,6 @@
 seed: 0
-batch_size: 3
+batch_size: 8
+val_fraction: 0.2
 learning_rate: 0.001
 hidden_dim: 64
 num_layers: 3
@@ -9,3 +10,9 @@ epochs: 20
 device: cuda
 task: edge_ca_distance_regression
 model: egnn
+n_structures: 1000
+resolution_max: 2.5
+min_polymer_residues: 50
+max_polymer_residues: 350
+plot_max: 8
+cartoon_max: 8

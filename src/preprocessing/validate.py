@@ -97,7 +97,11 @@ def write_structure_summary_csv(
     return path
 
 
-def summarize_raw_dir(raw_dir: Path | None = None) -> tuple[list[StructureData], Path]:
+def summarize_raw_dir(
+    raw_dir: Path | None = None,
+    *,
+    skip_errors: bool = True,
+) -> tuple[list[StructureData], Path]:
     raw_dir = raw_dir or RAW_DIR
     structures: list[StructureData] = []
     reports: list[dict[str, Any]] = []
@@ -105,9 +109,18 @@ def summarize_raw_dir(raw_dir: Path | None = None) -> tuple[list[StructureData],
     if not files:
         raise FileNotFoundError(f"No mmCIF files in {raw_dir}")
     for path in files:
-        structure = load_structure(path)
-        validate_not_empty(structure)
+        try:
+            print(f"parse {path.name}", flush=True)
+            structure = load_structure(path)
+            validate_not_empty(structure)
+        except Exception as exc:
+            if not skip_errors:
+                raise
+            print(f"skip {path.name}: {exc}")
+            continue
         structures.append(structure)
         reports.append(structure_report(structure))
+    if not structures:
+        raise ValueError(f"No valid mmCIF structures in {raw_dir}")
     csv_path = write_structure_summary_csv(reports)
     return structures, csv_path

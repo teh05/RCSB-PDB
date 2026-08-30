@@ -16,11 +16,20 @@ from src.io.discover import discover_mmcif_files
 from src.paths import PLOTS_DIR, RAW_DIR, ensure_dirs
 
 _PYMOL_NAMES = ("pymol", "pymol.exe", "PyMOL.exe", "PyMOLWin.exe")
-_PYMOL_DIRS = (
-    Path(r"C:\Program Files\PyMOL"),
-    Path(r"C:\Program Files\Schrödinger\PyMOL"),
-    Path(r"C:\Program Files (x86)\PyMOL"),
-)
+
+
+def _known_windows_pymol() -> list[Path]:
+    local = os.environ.get("LOCALAPPDATA", "")
+    program = os.environ.get("ProgramFiles", r"C:\Program Files")
+    roots = [
+        Path(local) / "Schrodinger" / "PyMOL2" / "Scripts" / "pymol.exe",
+        Path(local) / "Schrodinger" / "PyMOL2" / "PyMOLWin.exe",
+        Path(local) / "Schrodinger" / "PyMOL" / "Scripts" / "pymol.exe",
+        Path(program) / "PyMOL" / "PyMOLWin.exe",
+        Path(program) / "Schrödinger" / "PyMOL" / "PyMOLWin.exe",
+        Path(r"C:\Program Files (x86)\PyMOL") / "PyMOLWin.exe",
+    ]
+    return [p for p in roots if str(p)]
 
 
 def _depth_limited_search(root: Path, names: tuple[str, ...], max_depth: int = 4) -> Path | None:
@@ -44,27 +53,22 @@ def find_pymol() -> Path | None:
         found = shutil.which(name)
         if found:
             return Path(found)
-    for folder in _PYMOL_DIRS:
-        if not folder.is_dir():
-            continue
-        for name in _PYMOL_NAMES:
-            candidate = folder / name
-            if candidate.is_file():
-                return candidate
-        found = _depth_limited_search(folder, _PYMOL_NAMES, max_depth=3)
-        if found:
-            return found
+    for candidate in _known_windows_pymol():
+        if candidate.is_file():
+            return candidate
     extra_roots = [
         Path(os.environ.get("ProgramFiles", r"C:\Program Files")),
         Path(os.environ.get("LOCALAPPDATA", "")) / "Programs" if os.environ.get("LOCALAPPDATA") else None,
+        Path(os.environ.get("LOCALAPPDATA", "")) / "Schrodinger" if os.environ.get("LOCALAPPDATA") else None,
     ]
     for root in extra_roots:
         if root is None or not root.is_dir():
             continue
-        for child in root.iterdir():
+        children = [root] if root.name.lower() in {"pymol2", "pymol", "schrodinger"} else list(root.iterdir())
+        for child in children:
             if not child.is_dir():
                 continue
-            if "pymol" not in child.name.lower() and "schrodinger" not in child.name.lower():
+            if "pymol" not in child.name.lower() and "schrodinger" not in child.name.lower() and child != root:
                 continue
             found = _depth_limited_search(child, _PYMOL_NAMES, max_depth=4)
             if found:
@@ -97,7 +101,7 @@ def _pml_script(cif_path: Path, png_path: Path, object_name: str) -> str:
             "orient",
             "zoom",
             "ray 1200, 900",
-            f'png "{png}", dpi=150',
+            f'cmd.png(r"{png}", dpi=150)',
             "quit",
             "",
         ]
@@ -148,11 +152,13 @@ def render_raw_cartoons(
     raw_dir: Path | None = None,
     *,
     skip_if_missing: bool = True,
+    max_n: int = 8,
+    prefer_ids: tuple[str, ...] = ("1UBQ", "1LYZ", "4HHB"),
 ) -> tuple[list[Path], str | None]:
-    """Render cartoons for every mmCIF in raw/.
+    """Render cartoons for a sample of mmCIF files in raw/.
 
     Returns (written_paths, skip_reason). skip_reason is set when PyMOL is absent
-    and skip_if_missing is True.
+    and skip_if_missing is True. Full-dataset cartoon rendering is not attempted.
     """
     pymol = find_pymol()
     if pymol is None:
@@ -160,7 +166,24 @@ def render_raw_cartoons(
         if skip_if_missing:
             return [], msg
         raise FileNotFoundError(msg)
+    files = discover_mmcif_files(raw_dir or RAW_DIR)
+    by_id = {pdb_id_from_mmcif(p): p for p in files}
+    chosen: list[Path] = []
+    for pid in prefer_ids:
+        if pid in by_id and by_id[pid] not in chosen:
+            chosen.append(by_id[pid])
+        if max_n and len(chosen) >= max_n:
+            break
+    if max_n is None or max_n < 0:
+        rest = files
+    else:
+        rest = files
+    for p in rest:
+        if max_n and len(chosen) >= max_n:
+            break
+        if p not in chosen:
+            chosen.append(p)
     written: list[Path] = []
-    for cif in discover_mmcif_files(raw_dir or RAW_DIR):
+    for cif in chosen:
         written.append(render_cartoon(cif, pymol=pymol))
     return written, None

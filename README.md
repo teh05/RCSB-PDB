@@ -3,8 +3,9 @@
 Development pipeline for converting RCSB mmCIF structures into protein graphs,
 then comparing PyTorch and JAX/Flax geometric models on CUDA.
 
-The three local PDBs (`1UBQ`, `1LYZ`, `4HHB`) are a **debug dataset**, not a
-generalization benchmark.
+Default dataset: **1000** X-ray protein-only entries (resolution ≤ 2.5 Å,
+50–350 polymer residues) downloaded into `raw/`. This is still an engineering
+set, not a published generalization benchmark.
 
 ## Hardware (this machine)
 
@@ -20,41 +21,43 @@ PyTorch and JAX **must run in separate processes** on Windows (different cuDNN f
 
 ```bash
 python scripts/check_environment.py
+python scripts/download_rcsb.py configs/egnn.yaml
 python scripts/preprocess.py
-python scripts/build_graph.py
-python scripts/visualize.py
-python scripts/train_pytorch.py
+python scripts/build_graph.py configs/egnn.yaml
+python scripts/visualize.py configs/egnn.yaml
 python scripts/train_pytorch.py configs/egnn.yaml
 python scripts/train_jax.py configs/egnn.yaml
 python scripts/benchmark_cuda.py
 ```
 
+Existing mmCIF files in `raw/` are kept and counted toward `n_structures`.
+Training uses mini-batches and an 80/20 train/val split when N ≥ 5.
+
 `benchmark_cuda.py` does not import either framework. It subprocesses the E(3)
-checks and both EGNN trainers, then writes `results/metrics/phase8_benchmark.json`.
-Pass `--from-metrics` to rebuild that file from existing JSON without retraining.
+checks and both EGNN trainers. Pass `--from-metrics` to rebuild the JSON
+without retraining.
 
 ## Diagnostic task
 
 Predict **C-alpha pairwise distances on graph edges**. Labels come from 3D
 coordinates. Engineering check (forward/backward/GPU), not a biological function
-model and not a generalization result.
+model.
 
 - Phase 7: `BaselineGCN` — residue type + graph topology (no coordinates in the net)
 - Phase 8: `EGNN` — SE(3) messages from `||x_i - x_j||^2`; coordinates update
   equivariantly; predicted distances are invariant
+- Phase 9: same EGNN task on the 1000-entry RCSB set (mini-batch + val split)
 
 ## Representations
 
 - All-atom: every unique atom name per residue, `coords.shape = (N_atom, 3)`
 - C-alpha: one `CA` per residue, `coords.shape = (N_res, 3)` (~8× fewer nodes)
 
-Graphs are residue/C-alpha. Sequential edges stay inside a chain; radius cutoff is set in `configs/baseline.yaml`.
+Graphs are residue/C-alpha. Sequential edges stay inside a chain; radius cutoff is set in config.
 
-Raw mmCIF files stay in `raw/` and must not be re-downloaded.
-
-`scripts/visualize.py` writes matplotlib diagnostics and, if PyMOL is on PATH,
-headless cartoons (`results/plots/<PDB>_cartoon.png`) from `raw/*.cif.gz`.
-Cartoons are skipped when PyMOL is missing — it is not a required dependency.
+`scripts/visualize.py` writes a **sample** of matplotlib plots (`plot_max`) and,
+if PyMOL is installed, cartoons (`cartoon_max`) from `raw/*.cif.gz`.
+It does not cartoon all 1000 structures.
 
 ```text
 pymol raw/1UBQ.cif.gz

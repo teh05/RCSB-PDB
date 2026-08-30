@@ -27,25 +27,19 @@ def main() -> int:
             f"No C-alpha npz in {STRUCTURES_DIR}. Run python scripts/preprocess.py first."
         )
     for path in files:
-        coords = load_coordinate_set(path)
-        graph = build_residue_graph(coords, radius_cutoff=cutoff)
+        try:
+            coords = load_coordinate_set(path)
+            graph = build_residue_graph(coords, radius_cutoff=cutoff)
+        except Exception as exc:
+            print(f"skip {path.name}: {exc}")
+            continue
         out = GRAPHS_DIR / f"{graph.pdb_id}_ca_r{cutoff:g}.npz"
         save_graph(graph, out)
         n_seq = int((graph.edge_type == 0).sum())
         n_rad = int((graph.edge_type == 1).sum())
         print(
-            json.dumps(
-                {
-                    "pdb_id": graph.pdb_id,
-                    "n_nodes": graph.n_nodes,
-                    "n_edges": graph.n_edges,
-                    "n_seq_directed": n_seq,
-                    "n_radius_directed": n_rad,
-                    "radius_cutoff": cutoff,
-                    "path": str(out),
-                },
-                indent=2,
-            )
+            f"{graph.pdb_id}  V={graph.n_nodes}  E={graph.n_edges}  "
+            f"seq={n_seq}  radius={n_rad}"
         )
     return 0
 

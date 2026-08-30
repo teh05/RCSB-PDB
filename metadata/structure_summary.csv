@@ -1,4 +1,1001 @@
 pdb_id,n_models,n_chains,chain_ids,n_residues,n_polymer_residues,n_water_residues,n_atoms,n_ca,experimental_method,resolution,title,space_group,source_path
+10CX,1,1,A,389,179,208,2009,228,X-RAY DIFFRACTION,0.9,Crystal structure of Pyrobaculum calidifontis Rpp30,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10CX.cif.gz
+10DT,1,1,A,322,177,136,3084,179,X-RAY DIFFRACTION,1.8,Crystal Structure of Human Wild-Type Fgr SH3-SH2-Linker Domains.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10DT.cif.gz
+10FS,1,1,A,290,172,110,2980,179,X-RAY DIFFRACTION,1.3,Crystal Structure of Human Fgr SH3-SH2-High Affinity Linker Mutant 1 (HAL1) Domains.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10FS.cif.gz
+10FV,1,1,A,201,156,34,2644,156,X-RAY DIFFRACTION,1.8,Crystal Structure of Human Fgr SH3-SH2-High Affinity Linker Mutant 2 (HAL2) Domains.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10FV.cif.gz
+10GA,1,1,A,278,164,110,2812,170,X-RAY DIFFRACTION,1.6,Crystal Structure of Human Fgr SH3-SH2-High Affinity Linker Mutant 3 (HAL3) Domains.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10GA.cif.gz
+10RY,1,1,A,462,302,157,2554,303,X-RAY DIFFRACTION,1.902,Crystal structure of compound 8t bound to PaLpxC,P 63,E:\dataset penelitian\RCSB-PDB\raw\10RY.cif.gz
+10UR,1,1,A,425,222,200,1952,224,X-RAY DIFFRACTION,1.8,"Cohesin domain number 4 from gene locus Rcal_0153 of Ruminococcus callidus, a type 5 cohesin",C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\10UR.cif.gz
+10UT,1,2,A;B,437,278,157,2331,285,X-RAY DIFFRACTION,1.6,"Cohesin domain number 1 from gene locus Rcal_2938 of Ruminococcus callidus, a type 4 cohesin",P 41,E:\dataset penelitian\RCSB-PDB\raw\10UT.cif.gz
+10UV,1,2,A;B,396,276,119,2226,280,X-RAY DIFFRACTION,2.0,"Cohesin domain number 2 from gene locus Rcal_2938 of Ruminococcus callidus, a type 4 cohesin",C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\10UV.cif.gz
+10UY,1,1,A,374,164,210,2774,176,X-RAY DIFFRACTION,1.1,"Cohesin domain number 4 from gene locus Rcal_2942 of Ruminococcus callidus, a type 4 cohesin",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\10UY.cif.gz
+10WY,1,2,A;B,325,178,144,3005,184,X-RAY DIFFRACTION,1.6,Rhodococcus hoagii DnaA DI in the P4(3)2(1)2 space group,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\10WY.cif.gz
+10XA,1,1,A,309,92,216,1744,101,X-RAY DIFFRACTION,1.25,Nocardia asteroides DnaA DI in the P31(1)21 space group,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\10XA.cif.gz
+10XB,1,1,A,115,99,12,756,99,X-RAY DIFFRACTION,2.4,Nocardia asteroides DnaA DI protein in the I23 space group,I 2 3,E:\dataset penelitian\RCSB-PDB\raw\10XB.cif.gz
+10XC,1,1,A,254,90,163,1743,104,X-RAY DIFFRACTION,1.2,Nocardia asteroides DnaA DI in the P4(1)22 space group,P 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\10XC.cif.gz
+10XD,1,1,A,180,93,87,794,94,X-RAY DIFFRACTION,1.95,Rhodococcus ruber DnaA DI,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\10XD.cif.gz
+10XE,1,2,A;B,511,182,322,3744,211,X-RAY DIFFRACTION,0.96,Corynebacterium diphtheriae DnaA DI,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\10XE.cif.gz
+10XF,1,1,A,176,90,86,791,95,X-RAY DIFFRACTION,1.8,Corynebacterium bovis DnaA DI,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\10XF.cif.gz
+10XG,1,1,A,240,90,150,877,98,X-RAY DIFFRACTION,1.6,Corynebacterium bovis DnaA DI S89C disulfide-linked dimer,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\10XG.cif.gz
+10XH,1,2,A;B,285,175,110,1481,181,X-RAY DIFFRACTION,1.9,Bifidobacterium bifidum DnaA DI,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\10XH.cif.gz
+10XL,1,2,B;A,299,159,140,1365,164,X-RAY DIFFRACTION,1.65,Pseudonocardia thermophila DnaA DI,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\10XL.cif.gz
+10XO,1,1,A,134,84,48,710,87,X-RAY DIFFRACTION,2.0,Streptomyces lividans DnaA DI protein in the P6(1)22 space group,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\10XO.cif.gz
+10XP,1,2,A;B,270,173,94,1436,178,X-RAY DIFFRACTION,2.0,Streptomyces lividans DnaA DI protein in the I222 space group.,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\10XP.cif.gz
+11CG,1,1,A,251,139,100,1216,139,X-RAY DIFFRACTION,1.15,CHAP domain of Staphylococcus aureus-specific lysin L2,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\11CG.cif.gz
+11GZ,1,1,A,360,220,137,3702,220,X-RAY DIFFRACTION,2.44,TEP1 TIR/DUF4062 domain,P 43 3 2,E:\dataset penelitian\RCSB-PDB\raw\11GZ.cif.gz
+11KP,1,2,A;B,596,275,321,2626,296,X-RAY DIFFRACTION,1.48,Crystal structure of the Caenorhabditis elegans telomeric POT-1-TEBP-1 complex interface,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\11KP.cif.gz
+11MQ,1,1,A,159,135,16,1192,136,X-RAY DIFFRACTION,2.38,Crystal Structure of Fluorophore-binding Protein NovoTag657-holo,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\11MQ.cif.gz
+11NQ,1,1,A,439,176,260,1733,185,X-RAY DIFFRACTION,1.22,Crystal structure of viral OTU domain protease from Songling Virus,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\11NQ.cif.gz
+11NY,1,1,A,392,156,235,1517,162,X-RAY DIFFRACTION,1.37,Crystal Structure of viral OTU domain protease from Tacheng Tick Virus 1,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\11NY.cif.gz
+11UC,1,1,A,592,330,259,2997,336,X-RAY DIFFRACTION,1.962,Crystal structure of Casein Kinase 2 (CK2) alpha in complex with BMS-595,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\11UC.cif.gz
+12FA,1,1,A,181,97,84,1516,97,X-RAY DIFFRACTION,1.48,Crystal structure of EsxA from Streptococcus intermedius,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\12FA.cif.gz
+12KZ,1,1,A,328,169,155,1593,172,X-RAY DIFFRACTION,1.45,Crystal structure of human KRAS G12C covalently bound to thiazol-2-yl piperidine compound 3,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\12KZ.cif.gz
+12LA,1,1,A,361,169,188,1636,174,X-RAY DIFFRACTION,1.1,Crystal structure of human KRAS G12C covalently bound to 4-methyl-thiazol-5-yl piperidine compound 4,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\12LA.cif.gz
+12LB,1,1,A,343,169,170,1603,172,X-RAY DIFFRACTION,1.26,"Crystal structure of human KRAS G12C covalently bound to 1,4-dimethyl-pyrazol-5-yl piperidine compound 5",H 3 2,E:\dataset penelitian\RCSB-PDB\raw\12LB.cif.gz
+12LC,1,1,A,278,169,106,1534,169,X-RAY DIFFRACTION,1.9,Crystal structure of human KRAS G12C covalently bound to AM-8719,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\12LC.cif.gz
+12LO,1,1,A,147,56,91,525,56,X-RAY DIFFRACTION,1.37,X-ray crystal structure of Protein GB1 mutant K13A,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\12LO.cif.gz
+12RM,1,2,A;B,662,284,374,5018,290,X-RAY DIFFRACTION,1.695,Structure of turkey hemoglobin A at 1.7 Angstrom resolution (tetragonal form),P 42 21 2,E:\dataset penelitian\RCSB-PDB\raw\12RM.cif.gz
+12UW,1,2,A;B,535,335,194,2907,337,X-RAY DIFFRACTION,2.05,Crystal structure of KRAS(Q61K) bound to GDP and ligand,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\12UW.cif.gz
+12VR,1,1,A,400,294,106,2399,298,X-RAY DIFFRACTION,2.05,The structure of the C117D variant of the COVID-2 main protease,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\12VR.cif.gz
+12XE,1,1,A,313,170,139,1597,172,X-RAY DIFFRACTION,1.01,Crystal structure of KRAS(Q61K) bound to GppNHp and ligand,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\12XE.cif.gz
+13CZ,1,2,A;B,368,302,66,2336,302,X-RAY DIFFRACTION,2.136,Crystal structure of DcrB from Salmonella enterica at pH 5.0,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\13CZ.cif.gz
+13DZ,1,1,A,358,204,151,1796,207,X-RAY DIFFRACTION,1.72,X-ray crystal structure of human biliverdin beta IX reductase in complex with NADP and BCT002104,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\13DZ.cif.gz
+13EA,1,1,A,372,204,165,1813,209,X-RAY DIFFRACTION,1.74,X-ray crystal structure of human biliverdin beta IX reductase in complex with NADP and BCT002066,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\13EA.cif.gz
+13EB,1,1,A,309,204,102,1746,207,X-RAY DIFFRACTION,1.82,X-ray crystal structure of human biliverdin beta IX reductase in complex with NADP and BCT002109,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\13EB.cif.gz
+13EE,1,2,A;B,435,302,133,2407,302,X-RAY DIFFRACTION,1.729,Crystal structure of DcrB from Salmonella enterica at pH 4.0,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\13EE.cif.gz
+13IQ,1,1,A,269,205,57,1652,206,X-RAY DIFFRACTION,1.87,E. coli DnaK bound to Telaprevir,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\13IQ.cif.gz
+13IU,1,1,A,283,218,64,1761,221,X-RAY DIFFRACTION,1.87,E. coli DnaK bound to peptide PA9,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\13IU.cif.gz
+13JG,1,1,A,444,219,221,1978,223,X-RAY DIFFRACTION,1.52,"E. coli DnaK bound to peptide PA1, structure B",I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\13JG.cif.gz
+13LV,1,1,A,290,286,3,2282,290,X-RAY DIFFRACTION,2.22,Structure of PKMYT1 bound to allosteric inhibitor P29-(S),P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\13LV.cif.gz
+13LW,1,1,A,299,285,13,2268,285,X-RAY DIFFRACTION,1.95,Structure of PKMYT1 bound to inhibitor P32-(S),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\13LW.cif.gz
+13LX,1,1,A,287,285,1,2263,285,X-RAY DIFFRACTION,2.2,Structure of PKMYT1 bound to inhibitor P32-(R),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\13LX.cif.gz
+13TC,1,2,A;B,208,162,43,2727,162,X-RAY DIFFRACTION,1.7,Orf9b homodimer in complex with fragment ZINC000039281982,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TC.cif.gz
+13TD,1,2,A;B,215,162,50,2730,162,X-RAY DIFFRACTION,1.7,Orf9b homodimer in complex with fragment ZINC000008614810,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TD.cif.gz
+13TE,1,2,A;B,206,162,41,2723,162,X-RAY DIFFRACTION,1.7,Orf9b homodimer in complex with fragment ZINC000000164607,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TE.cif.gz
+13TF,1,2,A;B,215,162,50,2732,162,X-RAY DIFFRACTION,1.72,Orf9b homodimer in complex with fragment ZINC000000158741,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TF.cif.gz
+13TG,1,2,A;B,180,162,14,2710,162,X-RAY DIFFRACTION,2.39,Orf9b homodimer in complex with fragment ZINC000000152502,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TG.cif.gz
+13TH,1,2,A;B,190,163,25,2707,163,X-RAY DIFFRACTION,2.2,Orf9b homodimer in complex with fragment ZINC000018154848,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TH.cif.gz
+13TI,1,2,A;B,237,162,72,2753,162,X-RAY DIFFRACTION,1.62,Orf9b homodimer in complex with fragment ZINC000002560357,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TI.cif.gz
+13TJ,1,2,A;B,193,162,28,2709,162,X-RAY DIFFRACTION,2.3,Orf9b homodimer in complex with fragment ZINC000000158540,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TJ.cif.gz
+13TK,1,2,A;B,218,162,53,2738,162,X-RAY DIFFRACTION,1.56,Orf9b homodimer in complex with fragment ZINC000000174344,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TK.cif.gz
+13TL,1,2,A;B,214,162,49,2745,162,X-RAY DIFFRACTION,1.51,Orf9b homodimer in complex with fragment ZINC000020213524,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TL.cif.gz
+13TM,1,2,A;B,204,162,39,2736,162,X-RAY DIFFRACTION,1.71,Orf9b homodimer in complex with fragment ZINC000020283605,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TM.cif.gz
+13TN,1,2,A;B,186,162,21,2703,162,X-RAY DIFFRACTION,2.3,Orf9b homodimer in complex with fragment ZINC000000388280,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TN.cif.gz
+13TO,1,2,A;B,236,162,71,2750,162,X-RAY DIFFRACTION,1.4,Orf9b homodimer in complex with fragment ZINC000084843283,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TO.cif.gz
+13TP,1,2,A;B,224,162,59,2737,162,X-RAY DIFFRACTION,1.55,Orf9b homodimer in complex with fragment ZINC000000156863,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TP.cif.gz
+13TQ,1,2,A;B,209,163,44,2730,163,X-RAY DIFFRACTION,1.69,Orf9b homodimer in complex with fragment ZINC000006657973,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TQ.cif.gz
+13TR,1,2,A;B,240,162,75,2761,162,X-RAY DIFFRACTION,1.49,Orf9b homodimer in complex with fragment ZINC000004219237,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TR.cif.gz
+13TS,1,2,A;B,236,162,71,2751,162,X-RAY DIFFRACTION,1.43,Orf9b homodimer in complex with fragment ZINC000000164504,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TS.cif.gz
+13TT,1,2,A;B,197,162,32,2712,162,X-RAY DIFFRACTION,1.87,Orf9b homodimer in complex with fragment ZINC000019015078,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TT.cif.gz
+13TU,1,2,A;B,203,162,38,2732,162,X-RAY DIFFRACTION,1.83,Orf9b homodimer in complex with fragment ZINC000037716618,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TU.cif.gz
+13TV,1,2,A;B,226,162,61,2754,162,X-RAY DIFFRACTION,1.56,Orf9b homodimer in complex with fragment ZINC000000146551,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TV.cif.gz
+13TW,1,2,A;B,235,162,69,2767,162,X-RAY DIFFRACTION,1.49,Orf9b homodimer in complex with fragment ZINC000000002055,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TW.cif.gz
+13TX,1,2,A;B,235,162,70,2748,162,X-RAY DIFFRACTION,1.37,Orf9b homodimer in complex with fragment ZINC000000107891,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TX.cif.gz
+13TY,1,2,A;B,218,162,53,2738,162,X-RAY DIFFRACTION,1.64,Orf9b homodimer in complex with fragment ZINC000000337835,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TY.cif.gz
+13TZ,1,2,A;B,220,162,55,2737,162,X-RAY DIFFRACTION,1.71,Orf9b homodimer in complex with fragment ZINC000000083028,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13TZ.cif.gz
+13UA,1,2,A;B,227,162,62,2747,162,X-RAY DIFFRACTION,1.47,Orf9b homodimer in complex with fragment ZINC000002508153,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UA.cif.gz
+13UB,1,2,A;B,205,162,40,2721,162,X-RAY DIFFRACTION,1.71,Orf9b homodimer in complex with fragment ZINC000000053963,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UB.cif.gz
+13UC,1,2,A;B,229,162,64,2743,162,X-RAY DIFFRACTION,1.44,Orf9b homodimer in complex with fragment ZINC000038866729,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UC.cif.gz
+13UD,1,2,A;B,220,162,55,2735,162,X-RAY DIFFRACTION,1.61,Orf9b homodimer in complex with fragment ZINC000000404753,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UD.cif.gz
+13UE,1,2,A;B,212,162,46,2747,162,X-RAY DIFFRACTION,1.65,Orf9b homodimer in complex with fragment ZINC000000459533,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UE.cif.gz
+13UF,1,2,A;B,238,162,73,2757,162,X-RAY DIFFRACTION,1.59,Orf9b homodimer in complex with fragment ZINC000000158156,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UF.cif.gz
+13UG,1,2,A;B,203,162,38,2721,162,X-RAY DIFFRACTION,1.77,Orf9b homodimer in complex with fragment ZINC000004787230,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UG.cif.gz
+13UH,1,2,A;B,232,162,67,2752,162,X-RAY DIFFRACTION,1.48,Orf9b homodimer in complex with fragment ZINC000004218283,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UH.cif.gz
+13UI,1,2,A;B,218,162,53,2733,162,X-RAY DIFFRACTION,1.62,Orf9b homodimer in complex with fragment ZINC000008615114,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UI.cif.gz
+13UJ,1,2,A;B,234,162,69,2750,162,X-RAY DIFFRACTION,1.39,Orf9b homodimer in complex with fragment ZINC000006661362,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UJ.cif.gz
+13UK,1,2,A;B,239,162,74,2762,162,X-RAY DIFFRACTION,1.45,Orf9b homodimer in complex with fragment ZINC000000120508,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UK.cif.gz
+13UL,1,2,A;B,246,162,81,2763,162,X-RAY DIFFRACTION,1.46,Orf9b homodimer in complex with fragment ZINC000000123600,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UL.cif.gz
+13UM,1,2,A;B,231,162,66,2751,162,X-RAY DIFFRACTION,1.79,Orf9b homodimer in complex with fragment ZINC000001389101,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UM.cif.gz
+13UN,1,2,A;B,221,162,54,2780,162,X-RAY DIFFRACTION,1.42,Orf9b homodimer in complex with fragment ZINC000002582714,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UN.cif.gz
+13UO,1,2,A;B,205,162,40,2719,162,X-RAY DIFFRACTION,1.74,Orf9b homodimer in complex with fragment ZINC000008981465,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UO.cif.gz
+13UP,1,2,A;B,227,165,59,2806,165,X-RAY DIFFRACTION,1.47,Orf9b homodimer in complex with fragment ZINC000001729552,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UP.cif.gz
+13UQ,1,2,A;B,198,162,33,2724,162,X-RAY DIFFRACTION,2.0,Orf9b homodimer in complex with fragment ZINC000001689349,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UQ.cif.gz
+13UR,1,2,A;B,188,162,23,2711,162,X-RAY DIFFRACTION,1.99,Orf9b homodimer in complex with fragment ZINC000000394620,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UR.cif.gz
+13US,1,2,A;B,228,162,63,2745,162,X-RAY DIFFRACTION,1.5,Orf9b homodimer in complex with fragment ZINC000001683100,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13US.cif.gz
+13UT,1,2,A;B,213,162,48,2732,162,X-RAY DIFFRACTION,1.62,Orf9b homodimer in complex with fragment ZINC000016697555,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UT.cif.gz
+13UU,1,2,A;B,199,162,34,2716,162,X-RAY DIFFRACTION,2.07,Orf9b homodimer in complex with fragment ZINC000020269204,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UU.cif.gz
+13UV,1,2,A;B,195,162,30,2710,162,X-RAY DIFFRACTION,1.88,Orf9b homodimer in complex with fragment ZINC000017744334,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UV.cif.gz
+13UW,1,2,A;B,204,166,35,2785,166,X-RAY DIFFRACTION,1.85,Orf9b homodimer in complex with fragment ZINC000002386971,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UW.cif.gz
+13UX,1,2,A;B,237,162,72,2757,162,X-RAY DIFFRACTION,1.59,Orf9b homodimer in complex with fragment ZINC000034977567,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UX.cif.gz
+13UY,1,2,A;B,232,162,67,2751,162,X-RAY DIFFRACTION,1.53,Orf9b homodimer in complex with Enamine Z992449454,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UY.cif.gz
+13UZ,1,2,A;B,241,162,76,2777,162,X-RAY DIFFRACTION,1.62,Orf9b homodimer in complex with Enamine Z1682226079,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13UZ.cif.gz
+13VA,1,2,A;B,216,162,51,2743,162,X-RAY DIFFRACTION,1.7,Orf9b homodimer in complex with Enamine Z3234951291,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\13VA.cif.gz
 1LYZ,1,1,A,230,129,101,1102,129,X-RAY DIFFRACTION,2.0,Real-space refinement of the structure of hen egg-white lysozyme,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\1LYZ.cif.gz
 1UBQ,1,1,A,134,76,58,660,76,X-RAY DIFFRACTION,1.8,STRUCTURE OF UBIQUITIN REFINED AT 1.8 ANGSTROMS RESOLUTION,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\1UBQ.cif.gz
+21DT,1,1,A,687,295,379,2866,296,X-RAY DIFFRACTION,1.48,X-ray structure of the Haloalkane dehalogenase HaloTag7 labeled with BD566-HTL substrate,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\21DT.cif.gz
+21ED,1,1,A,57,54,3,451,54,X-RAY DIFFRACTION,2.31,Crystal structure of human PHF20L1(85-142),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\21ED.cif.gz
+21EE,1,2,A;B,135,75,60,717,76,X-RAY DIFFRACTION,1.34,Crystal structure of human PHF20L1(1-80) in complex with H3K36me,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\21EE.cif.gz
+21EJ,1,2,A;B,505,236,265,4019,238,X-RAY DIFFRACTION,1.035,"Crystal structure of a cupin protein (tm1459, H52A mutant) soaked in CuSO4",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\21EJ.cif.gz
+21EK,1,1,A,263,114,148,2020,118,X-RAY DIFFRACTION,1.162,"Crystal structure of a cupin protein (tm1459, presequence-truncated H52A mutant) soaked in CuSO4",P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\21EK.cif.gz
+21EL,1,2,A;B,369,233,129,3658,234,X-RAY DIFFRACTION,1.253,"Crystal structure of a cupin protein (tm1459, H52A mutant) soaked in CuSO4 and picolinic acid",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\21EL.cif.gz
+21EM,1,2,A;B,339,235,98,1900,235,X-RAY DIFFRACTION,1.595,"Crystal structure of a cupin protein (tm1459, D50N/H52G/H92A/F104W mutant) soaked in CuSO4",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\21EM.cif.gz
+21FN,1,1,A,536,262,271,2302,262,X-RAY DIFFRACTION,1.6,Crystal structure of high-molecular-weight PAH dihydrodiol dehydrogenase PahB from Altererythrobacter sp. H2,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\21FN.cif.gz
+21GI,1,1,A,303,227,76,3730,227,X-RAY DIFFRACTION,2.277,Crystal Structure of a Designed Protein Three-twist Knot,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\21GI.cif.gz
+21HO,1,1,A,300,172,123,1498,172,X-RAY DIFFRACTION,2.4,Crystal strucrue of HuHF-C2-MEO complex,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21HO.cif.gz
+21JM,1,1,A,577,262,312,2354,262,X-RAY DIFFRACTION,1.35,Crystal structure of high-molecular-weight PAH dihydrodiol dehydrogenase PahB from Altererythrobacter sp. H2 in complex with substrate,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\21JM.cif.gz
+21KW,1,1,A,383,173,206,1578,173,X-RAY DIFFRACTION,2.0,Crystal strucrue of HuHF-C2-SEM complex,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21KW.cif.gz
+21LE,1,1,A,413,173,237,1609,174,X-RAY DIFFRACTION,2.0,Crystal strucrue of HuHF-C2-CAR complex,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LE.cif.gz
+21LO,1,1,A,336,173,154,1642,178,X-RAY DIFFRACTION,1.99,Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56F/R59G/E60F/E63F) with unsubstituted C60 Fullerene,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LO.cif.gz
+21LP,1,1,A,406,172,223,1698,185,X-RAY DIFFRACTION,1.57,Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56F/R59G/E60F/E63F),F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LP.cif.gz
+21LQ,1,1,A,403,173,221,1637,178,X-RAY DIFFRACTION,1.76,Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56Y/R59G/E60Y/E63Y),F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LQ.cif.gz
+21LR,1,1,A,386,173,203,1679,182,X-RAY DIFFRACTION,1.5,Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56W/R59G/E60W/E63W),F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LR.cif.gz
+21LS,1,1,A,410,171,227,1647,180,X-RAY DIFFRACTION,1.57,Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56A/R59G/E60A/E63A),F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\21LS.cif.gz
+21NG,1,2,A;B,266,166,100,1373,166,X-RAY DIFFRACTION,1.53,structure of IFP35 NID domain dimer form,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\21NG.cif.gz
+21VU,1,2,A;H,421,310,111,2429,311,X-RAY DIFFRACTION,2.2,Crystal structure of Brucella melitensis CobT N-terminal domain complex with CobS small domain.,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\21VU.cif.gz
+22IZ,1,4,A;D;C;B,427,206,221,1864,206,X-RAY DIFFRACTION,1.52,Crystal structure of MDM2 in complex with St3-R staple peptide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\22IZ.cif.gz
+22LX,1,1,A,250,146,99,1269,153,X-RAY DIFFRACTION,1.5,De novo designed S-locus Protein 11 (SP11)-like protein (P6522 form),P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\22LX.cif.gz
+23AA,1,2,A;B,237,208,29,1821,208,X-RAY DIFFRACTION,2.03,Type II-A Anti-CRISPR protein AcrIIA17 from Streptococcus gallolyticus,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\23AA.cif.gz
+23AG,1,2,A;B,274,106,168,1044,106,X-RAY DIFFRACTION,1.61,Crystal structure of BAZ2A in complex with an S-HDAg_K72ac peptide,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\23AG.cif.gz
+23LX,1,1,A,523,300,222,2596,302,X-RAY DIFFRACTION,1.7,Crystal structure of SARS-CoV-2 main protease P168 deletion mutant in complex with leritrelvir,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\23LX.cif.gz
+23MK,1,1,A,432,301,129,2481,302,X-RAY DIFFRACTION,2.2,Crystal structure of SARS-CoV-2 main protease P168 deletion and A173V mutant in complex with leritrelvir,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\23MK.cif.gz
+23VL,1,1,A,329,289,40,2284,289,X-RAY DIFFRACTION,2.1,Crystal structure of AS-like domain of APS kinase from Entamoeba histolytica,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\23VL.cif.gz
+24GE,1,1,A,754,325,423,3008,338,X-RAY DIFFRACTION,1.65,"Crystal structure of HpsK from Ruegeria pomeroyi in complex with S-DHPS (2,3-dihydroxypropanesulfonate)",C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\24GE.cif.gz
+24GF,1,1,A,645,325,316,2823,330,X-RAY DIFFRACTION,1.958,"Crystal structure of HpsK from Ruegeria pomeroyi in complex with R-DHPS (2,3-dihydroxypropanesulfonate)",C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\24GF.cif.gz
+24HT,1,2,A;I,301,184,108,1641,188,X-RAY DIFFRACTION,1.7,Human KRAS G12D (GDP-bound) in complex with macrocyclic peptide inhibitor AP2527,P 61,E:\dataset penelitian\RCSB-PDB\raw\24HT.cif.gz
+24KJ,1,1,A,242,111,129,1099,113,X-RAY DIFFRACTION,1.8,Crystal structure of second bromodomain (BD2) of human BRD2 in complex with 2PE and P6G,P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\24KJ.cif.gz
+24KK,1,1,A,328,114,213,1234,120,X-RAY DIFFRACTION,1.2,Crystal structure of the second bromodomain (BD2) of human BRD2 in complex with Mefanamic acid,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\24KK.cif.gz
+24KM,1,1,A,270,128,141,1233,128,X-RAY DIFFRACTION,1.86,Crystal structure of the first bromodomain (BD1) of human BRD4 in complex with Nimesulide,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\24KM.cif.gz
+24KN,1,1,A,312,115,196,1196,120,X-RAY DIFFRACTION,1.69,Crystal structure of the second bromodomain (BD2) of human BRD2 in complex with Nimesulide,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\24KN.cif.gz
+24KU,1,1,A,343,254,89,2093,257,X-RAY DIFFRACTION,1.6,Crystal structure of the Aeropyrum pernix PCNA1 monomer,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\24KU.cif.gz
+24UH,1,1,A,880,342,537,3308,343,X-RAY DIFFRACTION,1.73,Crystal structure of Haspin (GSG2) with an ATP-mimicking competitive inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\24UH.cif.gz
+24UX,1,1,A,697,293,402,2854,299,X-RAY DIFFRACTION,1.2,Crystal structure of FPP-methyltransferase PcFPPMT from Pseudomonas chlororaphis O6 in complex with SAH,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\24UX.cif.gz
+24UY,1,1,A,486,300,183,2672,302,X-RAY DIFFRACTION,1.7,Crystal structure of FPP-methyltransferase PcFPPMT from Pseudomonas chlororaphis O6 in complex with SAH and GPP,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\24UY.cif.gz
+24WC,1,1,A,779,342,436,3213,343,X-RAY DIFFRACTION,1.88,Crystal structure of Haspin (GSG2) with an ATP-mimicking inhibitor LJ-5242,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\24WC.cif.gz
+25XA,1,2,A;B,548,321,220,2786,321,X-RAY DIFFRACTION,2.4,Crystal structure of bacterial DUSP from Candidatus Chlorohelix allophototropha,P 63,E:\dataset penelitian\RCSB-PDB\raw\25XA.cif.gz
+26AO,1,2,A;B,560,340,220,5492,343,X-RAY DIFFRACTION,1.15,"E. coli peptidyl-prolyl cis-trans isomerase, mutant F4/F5Phe",P 1,E:\dataset penelitian\RCSB-PDB\raw\26AO.cif.gz
+26AP,1,2,B;A,439,197,239,3706,219,X-RAY DIFFRACTION,1.5,Complex between N-lobe Arc mutant F267/F5Phe and nanobody H11,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\26AP.cif.gz
+26DI,1,1,A,409,310,95,2619,310,X-RAY DIFFRACTION,2.329,The structure of isoeugenol/t-anol synthase,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\26DI.cif.gz
+26JK,1,1,A,345,158,187,2725,158,X-RAY DIFFRACTION,1.55,Crystal structure of C36S mutant Glutathione peroxidase of Staphylococcus aureus.,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\26JK.cif.gz
+26QZ,1,4,A;B;C;D,316,260,50,1978,261,X-RAY DIFFRACTION,1.804,Crystal structure of Rhodostomin ARGDP mutant,P 1,E:\dataset penelitian\RCSB-PDB\raw\26QZ.cif.gz
+26RV,1,1,A,315,156,158,1503,156,X-RAY DIFFRACTION,1.89,E coli BFR variant 4QY,P 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\26RV.cif.gz
+26TB,1,1,A,525,281,241,2359,282,X-RAY DIFFRACTION,1.85,Crystal structure of 4-Amino-4-deoxychorismate lyase from Micromonospora aurantiaca ATCC 27029 (holo form) in complex with chorismate,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\26TB.cif.gz
+26TC,1,1,A,494,277,215,2287,278,X-RAY DIFFRACTION,2.0,Crystal structure of 4-Amino-4-deoxychorismate lyase from Micromonospora aurantiaca ATCC 27029 in its holo form,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\26TC.cif.gz
+26UI,1,2,A;B,452,219,233,1995,220,X-RAY DIFFRACTION,1.85,Dimeric C-terminal domain of Nucleocapsid protein of SARS-CoV-2.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\26UI.cif.gz
+27AE,1,1,A,341,178,163,1669,182,X-RAY DIFFRACTION,1.9,Crystal structure of protein PF1862 from Pyrococcus furiosus crystallized at 21 degree Celsius,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\27AE.cif.gz
+27AF,1,1,A,441,179,260,1746,179,X-RAY DIFFRACTION,1.52,Crystal structure of protein PF1862 from Pyrococcus furiosus crystallized at 04 degree Celsius,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\27AF.cif.gz
+27AH,1,2,A;B,397,164,233,1506,167,X-RAY DIFFRACTION,1.4,Crystal structure of the de novo designed miniprotein Gpx15 in the C121 space group.,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\27AH.cif.gz
+27GY,1,1,A,412,223,186,1972,225,X-RAY DIFFRACTION,1.851,Juvenile hormone binding protein complexed with 2-Methyl-1-(4-propyloxybenzyl)-benzimidazole,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\27GY.cif.gz
+27GZ,1,1,A,269,220,48,1762,220,X-RAY DIFFRACTION,2.4,Juvenile hormone binding protein complexed with 2-Methyl-1-(4-butylbenzyl)-benzimidazole,P 63 2 2,E:\dataset penelitian\RCSB-PDB\raw\27GZ.cif.gz
+27RQ,1,2,A;B,297,148,148,1246,152,X-RAY DIFFRACTION,1.75,"Crystal structure of the de novo designed miniprotein binder against PDL1, Gpx41.",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\27RQ.cif.gz
+27ZY,1,1,A,687,315,365,2957,324,X-RAY DIFFRACTION,1.89,Crystal structure of SARS-CoV-2 Papain-Like protease (PLpro) C111S mutant with active-site sulfate,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\27ZY.cif.gz
+28BC,1,1,A,713,317,389,3037,329,X-RAY DIFFRACTION,1.92,Crystal structure of SARS-CoV-2 Papain-Like protease (PLpro) C111S mutant with active-site phosphate,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\28BC.cif.gz
+28DB,1,2,A;B,605,273,332,2551,286,X-RAY DIFFRACTION,1.575,Crystal structure of the thioredoxin domain of Amuc_2173 from Akkermansia muciniphila,P 1,E:\dataset penelitian\RCSB-PDB\raw\28DB.cif.gz
+28EZ,1,2,A;B,256,223,33,1794,223,X-RAY DIFFRACTION,2.18,Crystal structure of AvrSr50-like-0300 from Puccinia graminis f. sp. tritici,P 62 2 2,E:\dataset penelitian\RCSB-PDB\raw\28EZ.cif.gz
+28IT,1,1,A,515,268,244,2406,283,X-RAY DIFFRACTION,1.514,"structure of InhA from Mycobacterium tuberculosis in complex with (E)-2-(4-(4-((4-cyclopropyl-1H-1,2,3-triazol-1-yl)methyl)-2-hydroxyphenoxy)benzylidene)hydrazine-1-carbothioamide (compound 6b)",I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\28IT.cif.gz
+28JY,1,1,A,489,173,302,1731,173,X-RAY DIFFRACTION,1.6,"Iron loaded E61A human H-chain ferritin, anaerobic",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28JY.cif.gz
+28JZ,1,1,A,235,171,55,1463,171,X-RAY DIFFRACTION,2.41,"Iron loaded E61A human H-chain ferritin, 1 hour oxygen soak",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28JZ.cif.gz
+28KA,1,1,A,384,174,196,1645,175,X-RAY DIFFRACTION,2.11,"Iron loaded human H-chain ferritin, anaerobic",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28KA.cif.gz
+28KB,1,1,A,328,174,138,1597,176,X-RAY DIFFRACTION,1.83,"Iron loaded human H-chain ferritin, 3 hour oxygen soak",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28KB.cif.gz
+28KC,1,1,A,348,174,162,1717,189,X-RAY DIFFRACTION,1.94,"Iron loaded human H-chain ferritin, 2 minute oxygen soak",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28KC.cif.gz
+28LZ,1,1,A,368,174,179,1723,187,X-RAY DIFFRACTION,1.94,"Iron loaded human H-chain ferritin, 20 minute oxygen soak",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\28LZ.cif.gz
+28RZ,1,1,A,237,186,46,1465,186,X-RAY DIFFRACTION,2.5,Crystal Structure of the Apo Form of Mycobacterium tuberculosis Guanylate Kinase,I 2 3,E:\dataset penelitian\RCSB-PDB\raw\28RZ.cif.gz
+29AH,1,1,A,355,295,58,2428,295,X-RAY DIFFRACTION,2.2,Crystal structure of PaLpxC complexed with compound 6,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\29AH.cif.gz
+29AK,1,1,A,600,300,296,2826,320,X-RAY DIFFRACTION,1.504,Crystal structure of PaLpxC complexed with compound 8k,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\29AK.cif.gz
+29CT,1,1,A,206,188,16,1526,188,X-RAY DIFFRACTION,1.91,Crystal structure of enterovirus D68-3Cpro in complex with RK-384,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\29CT.cif.gz
+29DA,1,1,A,248,188,58,1566,188,X-RAY DIFFRACTION,2.08,Crystal structure of enterovirus D68-3Cpro in complex with RK-496,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\29DA.cif.gz
+29KI,1,1,A,178,100,77,1581,105,X-RAY DIFFRACTION,1.11,"Spinach Ferredoxin I, Reduced, -400 mV",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29KI.cif.gz
+29KY,1,1,A,663,271,387,5004,297,X-RAY DIFFRACTION,1.11,L-DOPA extradiol dioxygenase from Beta vulgaris,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\29KY.cif.gz
+29KZ,1,1,A,542,267,263,4591,275,X-RAY DIFFRACTION,1.8,L-DOPA extradiol dioxygenase from Beta vulgaris in complex with L-DOPA,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\29KZ.cif.gz
+29LA,1,1,A,687,265,403,5169,295,X-RAY DIFFRACTION,1.13,L-DOPA extradiol dioxygenase from Beta vulgaris in complex with 4-nitrocatechol,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\29LA.cif.gz
+29LC,1,1,A,527,278,241,4722,287,X-RAY DIFFRACTION,1.46,L-DOPA extradiol dioxygenase from Beta vulgaris in complex with mimosine,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\29LC.cif.gz
+29LI,1,1,A,210,118,91,1084,123,X-RAY DIFFRACTION,1.2,Structure of Anopheles gambiae OBP9 in complex with PEG,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29LI.cif.gz
+29LW,1,2,A;B,560,268,284,2588,272,X-RAY DIFFRACTION,1.54,Crystal structure of PpSB1-LOV protein from Pseudomonas putida in complex with 5-deazaflavin mononucleotide (5dFMN),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29LW.cif.gz
+29LX,1,2,A;B,526,268,249,2554,272,X-RAY DIFFRACTION,1.57,Crystal structure of PpSB1-LOV protein from Pseudomonas putida in covalent complex with 5-deazaflavin mononucleotide (5dFMN),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29LX.cif.gz
+29LY,1,1,A,223,120,99,1157,131,X-RAY DIFFRACTION,1.2,Structure of Anopheles gambiae OBP9 in complex with n-Butyl cinnamate,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29LY.cif.gz
+29MC,1,1,A,247,122,123,1196,132,X-RAY DIFFRACTION,1.2,Structure of Anopheles gambiae OBP9 in complex with Methyl eugenol,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29MC.cif.gz
+29MD,1,1,A,216,120,94,1136,130,X-RAY DIFFRACTION,1.2,"Structure of Anopheles gambiae OBP9 in complex with PMD (P-Menthane-3,8-diol)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\29MD.cif.gz
+29MW,1,1,A,342,150,188,1347,150,X-RAY DIFFRACTION,1.22,Crystal structure of Enterovirus A71 2A protease mutant C110A containing VP1-2A junction in the active site determined via sulfur phasing,P 61,E:\dataset penelitian\RCSB-PDB\raw\29MW.cif.gz
+29OH,1,1,AAA,208,129,75,1106,130,X-RAY DIFFRACTION,1.54,X-ray structure of the adduct formed upon reaction of the gold compound AF-Npx with lysozyme (Structure 1),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\29OH.cif.gz
+29OL,1,1,AAA,213,129,79,1106,130,X-RAY DIFFRACTION,1.441,X-ray structure of the adduct formed upon reaction of the gold compound AF-Npx with lysozyme (Structure 2),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\29OL.cif.gz
+29QJ,1,2,A;D,115,66,47,1221,76,X-RAY DIFFRACTION,1.325,Respiratory syncytial virus fusion protein N-terminal heptad repeat domain in complex with Double stapled peptide 4/4g,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\29QJ.cif.gz
+29RY,1,1,A,448,300,148,5033,301,X-RAY DIFFRACTION,1.75,The crystal structure of the apo JAK2 kinase domain,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\29RY.cif.gz
+29TJ,1,2,B;P,430,250,175,2119,251,X-RAY DIFFRACTION,2.3,Structure of the Porcine Reproductive and Respiratory Syndrome virus-2 glycoprotein GP4 antigenic region 59-69 bound to the neutralizing scFv#18,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\29TJ.cif.gz
+30IG,1,1,A,223,129,84,1109,129,X-RAY DIFFRACTION,2.0,"EVAL processed HEWL, N-acetylglucosamine",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\30IG.cif.gz
+30TA,1,1,A,492,257,232,2339,260,X-RAY DIFFRACTION,1.05,"Crystal structure of hCA II in complex with 1-Aryl-6,7-dimethoxy-3,4-dihydroisoquinoline-2(1H)-sulfonamide inhibitor",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\30TA.cif.gz
+30TI,1,2,A;B,517,245,271,2242,257,X-RAY DIFFRACTION,1.5,14-3-3sigma protein binding to ERalpha-strong peptide (RSH mutation),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TI.cif.gz
+30TJ,1,2,A;B,281,235,45,1947,235,X-RAY DIFFRACTION,2.15,14-3-3sigma protein binding to ERalpha-strong peptide (RSH mutation) and stabilizer 3'deAc FC-A,C 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\30TJ.cif.gz
+30TL,1,2,A;B,563,245,316,2276,256,X-RAY DIFFRACTION,1.2,14-3-3sigma protein binding to ERalpha-weak peptide (AAA mutation),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TL.cif.gz
+30TM,1,2,A;B,444,242,200,2156,246,X-RAY DIFFRACTION,1.8,14-3-3sigma protein binding to ERalpha-weak peptide (AAA mutation) and stabilizer 3'deAc FC-A,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TM.cif.gz
+30TN,1,2,A;P,474,245,225,2157,247,X-RAY DIFFRACTION,1.8,14-3-3sigma protein binding to ERalpha-strong peptide (RSH mutation),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TN.cif.gz
+30TO,1,2,A;B,466,248,215,2205,250,X-RAY DIFFRACTION,1.8,14-3-3sigma protein binding to TSC2-strong peptide (RSH mutation) and stabilizer 3'deAc FC-A.,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TO.cif.gz
+30TP,1,2,A;P,495,249,242,2207,258,X-RAY DIFFRACTION,1.6,14-3-3sigma protein binding to TSC2-wt peptide,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TP.cif.gz
+30TQ,1,2,A;B,481,248,231,2206,251,X-RAY DIFFRACTION,1.6,14-3-3sigma protein binding to TSC2-wt peptide and stabilizer 3'deAc FC-A.,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TQ.cif.gz
+30TR,1,2,A;P,517,246,268,2269,263,X-RAY DIFFRACTION,1.3,14-3-3sigma protein binding to TSC2-weak peptide (AAA mutation),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TR.cif.gz
+30TS,1,2,A;B,408,249,158,2132,251,X-RAY DIFFRACTION,1.7,14-3-3sigma protein binding to TSC2-weak peptide (AAA mutation) and stabilizer 3'deAc FC-A.,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TS.cif.gz
+30TT,1,2,A;P,459,245,211,2208,259,X-RAY DIFFRACTION,1.337,14-3-3sigma protein binding to TSC2-wt peptide and molecular glue 22,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\30TT.cif.gz
+30XL,1,1,A,492,262,224,2405,262,X-RAY DIFFRACTION,1.25,Engineered pyrrolysyl-tRNA synthetase (PylRS) from Methanosarcina mazei (Mm) in complex with ATP and AzGVAisoK,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\30XL.cif.gz
+30XX,1,1,A,494,260,231,2376,266,X-RAY DIFFRACTION,1.15,"Crystal structure of hCA II in complex with an 1-Aryl-6,7-dimethoxy-3,4-dihydroisoquinoline-2(1H)-sulfonamide inhibitor",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\30XX.cif.gz
+30ZU,1,1,A,538,224,313,3928,249,X-RAY DIFFRACTION,1.05,Bovine trypsin inhibited by PMSF.,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\30ZU.cif.gz
+31AP,1,1,A,341,238,103,1927,241,X-RAY DIFFRACTION,1.63,Crystal Structure of Bundibugyo Virus VP40 Dimer,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\31AP.cif.gz
+31CT,1,1,A,661,302,354,2789,315,X-RAY DIFFRACTION,1.11,Structure of recombinant Thermoascus aurantiacus xylanase TaXyn10 with an N-terminal pyroglutamate,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\31CT.cif.gz
+31DE,1,1,A,264,208,53,1830,209,X-RAY DIFFRACTION,2.2,Human Pyridoxine-5'-phosphate oxidase in complex with PLP-isoniazid in its active site,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\31DE.cif.gz
+31DF,1,1,A,328,209,117,1897,210,X-RAY DIFFRACTION,1.89,human Pyridoxine-5'-phosphate oxidase in complex with PLP-phenelzine in its active site,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\31DF.cif.gz
+31DG,1,1,A,333,208,122,1942,213,X-RAY DIFFRACTION,2.04,human Pyridoxine-5'-phosphate oxidase in complex with PLP-carbidopa in its active site,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\31DG.cif.gz
+31HP,1,1,A,490,290,189,2582,294,X-RAY DIFFRACTION,1.5,Crystal structure of tau tubulin kinase 2 (TTBK2) in complex with compound 62,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\31HP.cif.gz
+31KJ,1,2,A;B,445,192,250,2002,201,X-RAY DIFFRACTION,1.3,Magnaporthe oryzae effector PWT8,P 43,E:\dataset penelitian\RCSB-PDB\raw\31KJ.cif.gz
+31NP,1,1,A,232,148,80,1310,149,X-RAY DIFFRACTION,1.78,"Crystal structure of the complex of galectin-8N-2,6-anhydro-3-deoxy-3-S-(beta-D-galactopyranosyl)-3-thio-D-glycero-L-altro-heptonamide",I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\31NP.cif.gz
+31RU,1,2,A;Q,336,282,49,2308,282,X-RAY DIFFRACTION,2.3,Crystal structure of PIM1 kinase in complex with compound 20,P 65,E:\dataset penelitian\RCSB-PDB\raw\31RU.cif.gz
+31WA,1,1,A,498,286,209,2514,287,X-RAY DIFFRACTION,1.42,Crystal structure of the HPK1 kinase domain in complex with inhibitor 5b,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\31WA.cif.gz
+31WB,1,1,A,570,286,280,2593,287,X-RAY DIFFRACTION,1.31,Crystal structure of the HPK1 kinase domain in complex with inhibitor 6b,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\31WB.cif.gz
+31WC,1,1,A,573,287,284,2573,287,X-RAY DIFFRACTION,1.386,Crystal structure of the HPK1 kinase domain in complex with inhibitor 12,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\31WC.cif.gz
+31XT,1,1,X,279,174,102,1509,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.06 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31XT.cif.gz
+31YA,1,1,X,265,174,88,1495,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.30 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YA.cif.gz
+31YB,1,1,X,271,174,94,1501,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.18 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YB.cif.gz
+31YO,1,1,X,264,174,87,1494,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.45 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YO.cif.gz
+31YP,1,1,X,268,174,91,1498,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.63 MGy variable temperature dose series, 110 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YP.cif.gz
+31YR,1,1,X,263,174,86,1493,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.97 MGy variable temperature dose series, 120 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YR.cif.gz
+31YU,1,1,X,285,174,108,1515,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 1.15 MGy variable temperature dose series, 130 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YU.cif.gz
+31YV,1,1,X,265,174,88,1495,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 1.33 MGy variable temperature dose series, 140 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YV.cif.gz
+31YW,1,1,X,263,174,86,1493,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 1.49 MGy variable temperature dose series, 150 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YW.cif.gz
+31YX,1,1,X,261,174,84,1491,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 1.66 MGy variable temperature dose series, 160 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YX.cif.gz
+31YY,1,1,X,291,174,114,1521,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 1.84 MGy variable temperature dose series, 165 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31YY.cif.gz
+31ZA,1,1,X,291,174,114,1521,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 2.07 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31ZA.cif.gz
+31ZC,1,1,X,290,174,113,1520,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 2.34 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31ZC.cif.gz
+31ZD,1,1,X,290,174,113,1520,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 2.61 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\31ZD.cif.gz
+32CH,1,1,X,307,174,130,1537,174,X-RAY DIFFRACTION,2.1,"Horse spleen Holoferritin 2.9 MGy constant temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CH.cif.gz
+32CI,1,1,X,290,174,114,1520,174,X-RAY DIFFRACTION,2.2,"Horse spleen Holoferritin 5.8 MGy constant temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CI.cif.gz
+32CJ,1,1,X,289,174,113,1519,174,X-RAY DIFFRACTION,2.28,"Horse spleen Holoferritin 8.7 MGy constant temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CJ.cif.gz
+32CL,1,1,X,276,174,100,1506,174,X-RAY DIFFRACTION,2.47,"Horse spleen Holoferritin 11.6 MGy constant temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CL.cif.gz
+32CO,1,1,X,293,174,117,1523,174,X-RAY DIFFRACTION,2.21,"Horse spleen Holoferritin 2.9 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CO.cif.gz
+32CP,1,1,X,286,174,110,1516,174,X-RAY DIFFRACTION,2.33,"Horse spleen Holoferritin 5.8 MGy variable temperature dose series, 100 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CP.cif.gz
+32CQ,1,1,X,275,174,99,1505,174,X-RAY DIFFRACTION,2.5,"Horse spleen Holoferritin 8.7 MGy variable temperature dose series, 110 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32CQ.cif.gz
+32HC,1,1,A,325,190,133,1751,195,X-RAY DIFFRACTION,1.4,PARP9 Macro Domain 2 P347G mutant in complex with ADPr,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\32HC.cif.gz
+32HL,1,1,X,265,174,88,1495,174,X-RAY DIFFRACTION,2.15,"Horse spleen Apoferritin 0.8 MGy variable temperature dose series, 110 K",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\32HL.cif.gz
+32JE,1,2,A;B,374,254,112,1998,255,X-RAY DIFFRACTION,2.3,Nanobody Nb1 against SOG1 NAC domain,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32JE.cif.gz
+32JG,1,2,A;B,501,253,246,2222,270,X-RAY DIFFRACTION,1.45,Nanobody Nb3 against SOG1 NAC domain,P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\32JG.cif.gz
+32OA,1,1,A,489,150,336,3192,185,X-RAY DIFFRACTION,0.775,The ultra-high-resolution hyaluronan-binding domain of mouse CD44,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\32OA.cif.gz
+32PP,1,1,A,191,125,63,1140,126,X-RAY DIFFRACTION,1.44,CRYSTAL STRUCTURE OF BRD4 BD1 IN COMPLEX WITH Compound 9,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32PP.cif.gz
+32QL,1,1,A,285,175,103,1557,177,X-RAY DIFFRACTION,1.4,Human TRIM21 PRYSPRY domain in complex with HGC652,P 62,E:\dataset penelitian\RCSB-PDB\raw\32QL.cif.gz
+32QM,1,1,A,263,180,81,1564,183,X-RAY DIFFRACTION,1.5,Human TRIM21 PRYSPRY domain in complex with compound 5 (Z31),P 62,E:\dataset penelitian\RCSB-PDB\raw\32QM.cif.gz
+32QN,1,1,A,232,180,48,1551,184,X-RAY DIFFRACTION,1.8,Human TRIM21 PRYSPRY domain in complex with compound 29 (Z37),P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\32QN.cif.gz
+32QO,1,1,A,400,180,217,1796,193,X-RAY DIFFRACTION,1.3,Human TRIM21 PRYSPRY domain in complex with compound 28 (Z38),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32QO.cif.gz
+32QP,1,1,A,225,180,44,1504,180,X-RAY DIFFRACTION,2.1,Human TRIM21 PRYSPRY domain in complex with PRLX-93936,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\32QP.cif.gz
+32QR,1,1,A,213,180,30,1492,180,X-RAY DIFFRACTION,2.1,Human TRIM21 PRYSPRY domain in complex with BMS-214662,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\32QR.cif.gz
+32QT,1,1,A,300,153,140,1382,155,X-RAY DIFFRACTION,1.47,Human NUP98 APD (SG P21),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\32QT.cif.gz
+32QU,1,1,A,310,152,153,1374,154,X-RAY DIFFRACTION,1.5,Human NUP98 APD (SG P41212),P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\32QU.cif.gz
+32RM,1,1,A,364,208,155,1778,210,X-RAY DIFFRACTION,1.55,Crystal structure of the human SPRY domain-containing SOCS box protein SPSB4 - Apo,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\32RM.cif.gz
+32RX,1,1,A,299,127,171,1263,129,X-RAY DIFFRACTION,1.81,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH compound 11,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32RX.cif.gz
+32RY,1,1,A,271,125,145,1248,129,X-RAY DIFFRACTION,1.92,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH COMPOUND 14,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32RY.cif.gz
+32RZ,1,1,A,311,127,183,1291,128,X-RAY DIFFRACTION,1.85,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH COMPOUND 15,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32RZ.cif.gz
+32SB,1,1,A,276,127,148,1242,128,X-RAY DIFFRACTION,1.81,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH COMPOUND 16,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32SB.cif.gz
+32SC,1,1,A,290,127,162,1248,127,X-RAY DIFFRACTION,1.25,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH COMPOUND 8,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32SC.cif.gz
+32SN,1,1,A,189,127,61,1142,127,X-RAY DIFFRACTION,2.1,CRYSTAL STRUCTURE OF BRD4-BD1 IN COMPLEX WITH COMPOUND 13,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\32SN.cif.gz
+32TC,1,1,A,349,203,140,1785,207,X-RAY DIFFRACTION,1.56,Crystal structure of the human SPRY domain-containing SOCS box protein SPSB4 bound to fragment Z104474228,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\32TC.cif.gz
+35TM,1,2,A;B,636,276,358,2686,276,X-RAY DIFFRACTION,1.65,Structure of RyDEP-3'cADPR complex in post-reaction state,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\35TM.cif.gz
+35WF,1,1,A,483,277,181,2800,302,X-RAY DIFFRACTION,1.68,Crystal structure of CHK1 in complex with prexasertib,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\35WF.cif.gz
+35WG,1,1,A,486,264,214,2435,265,X-RAY DIFFRACTION,1.97,Crystal structure of CHK1 in complex with BBI-355,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\35WG.cif.gz
+36IQ,1,2,A;B,244,180,62,3071,182,X-RAY DIFFRACTION,1.56,Structure of de novo designed doxorubicin binding protein with doxorubicin bound,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\36IQ.cif.gz
+36IW,1,1,A,167,107,57,915,108,X-RAY DIFFRACTION,1.65,Crystal structure of a large ribosomal subunit protein bL17 from Bordetella pertussis,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\36IW.cif.gz
+36JC,1,1,A,503,306,193,2690,306,X-RAY DIFFRACTION,2.2,"Crystal structure of Yck2 from Candida albicans in complex with kinase inhibitor YK-1-55: 3-(2-aminopyridin-4-yl)-2-(4-fluorophenyl)pyrazolo[1,5-a]pyridine-6-carbonitrile",H 3,E:\dataset penelitian\RCSB-PDB\raw\36JC.cif.gz
+36JD,1,1,A,344,306,36,2534,306,X-RAY DIFFRACTION,2.0,"Crystal structure of Yck2 from Candida albicans in complex with kinase inhibitor MN-III-28: N-(4-(6-cyano-2-(4-fluorophenyl)pyrazolo[1,5-a]pyridin-3-yl)pyridin-2-yl)acetamide",H 3,E:\dataset penelitian\RCSB-PDB\raw\36JD.cif.gz
+36JE,1,1,A,439,306,132,2628,306,X-RAY DIFFRACTION,2.1,"Crystal structure of Yck2 from Candida albicans in complex with kinase inhibitor MN-II-70: N-(4-(2-(4-fluorophenyl)-6-methylpyrazolo[1,5-a]pyridin-3-yl)pyridin-2-yl)acetamide",H 3,E:\dataset penelitian\RCSB-PDB\raw\36JE.cif.gz
+36JF,1,1,A,491,306,183,2677,306,X-RAY DIFFRACTION,2.3,"Crystal structure of Yck2 from Candida albicans in complex with kinase inhibitor MN-II-74: 4-(2-(4-fluorophenyl)-6-methylpyrazolo[1,5-a]pyridin-3-yl)pyridin-2-amine",H 3,E:\dataset penelitian\RCSB-PDB\raw\36JF.cif.gz
+36JG,1,1,A,393,306,84,2575,306,X-RAY DIFFRACTION,2.5,"Crystal structure of Yck2 from Candida albicans in complex with kinase inhibitor ALM-DAI-23: 3-(benzo[d][1,3]dioxol-5-yl)-2-(pyridin-2-yl)-5,6,7,8-tetrahydroimidazo[1,2-a]pyridine",H 3,E:\dataset penelitian\RCSB-PDB\raw\36JG.cif.gz
+36LX,1,4,A;B;C;D,276,233,43,1922,236,X-RAY DIFFRACTION,2.1,Crystal Structure of mini-binder MB03-ds,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\36LX.cif.gz
+36MB,1,4,A;B;C;D,389,313,74,2677,315,X-RAY DIFFRACTION,2.0,Crystal Structure of mini-binder MB07-ds,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\36MB.cif.gz
+36OL,1,2,A;B,587,338,244,3044,342,X-RAY DIFFRACTION,2.05,Crystal Structure of KRAS WT complexed with GMPPNP,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\36OL.cif.gz
+36OM,1,1,A,310,168,136,1546,173,X-RAY DIFFRACTION,1.25,Crystal structure of KRAS G13C complexed with GMPPNP,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\36OM.cif.gz
+37AP,1,1,A,463,209,249,2018,214,X-RAY DIFFRACTION,1.82,"Crystal structure of an adenylate kinase from Leishmania major (P61 form, ADP and AMP bound)",P 61,E:\dataset penelitian\RCSB-PDB\raw\37AP.cif.gz
+37BV,1,1,A,686,263,384,5420,276,X-RAY DIFFRACTION,1.3,"Crystal Structure of Thermomyces lanuginosa Lipase With Bound 1,3 Diacylglycerol and Fatty Acid Acyl Intermediates: Space Group H32",H 3 2,E:\dataset penelitian\RCSB-PDB\raw\37BV.cif.gz
+37CB,1,1,A,505,272,215,4707,280,X-RAY DIFFRACTION,1.45,Crystal Structure of Thermomyces lanuginosa Lipase with acyl intermediate: space group I222,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\37CB.cif.gz
+37EL,1,1,A,489,255,231,2324,261,X-RAY DIFFRACTION,1.51,Crystal Structure of Histone-lysine N-methyltransferase from Leishmania major in complex with S-ADENOSYL-L-HOMOCYSTEINE,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\37EL.cif.gz
+37EO,1,1,A,385,247,134,2130,252,X-RAY DIFFRACTION,1.8,Crystal Structure of Histone-lysine N-methyltransferase from Leishmania major in complex with AMP,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\37EO.cif.gz
+37EP,1,1,A,308,245,58,2075,249,X-RAY DIFFRACTION,1.96,Crystal Structure of Histone-lysine N-methyltransferase from Leishmania major in complex with ATP,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\37EP.cif.gz
+37EQ,1,1,A,251,246,3,1984,249,X-RAY DIFFRACTION,2.07,Crystal Structure of Histone-lysine N-methyltransferase from Leishmania major in complex with 5'-O-(glycylsulfamoyl)adenosine,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\37EQ.cif.gz
+37ET,1,1,A,292,247,42,2078,253,X-RAY DIFFRACTION,2.09,Crystal Structure of Histone-lysine N-methyltransferase from Leishmania major in complex with O5'-(L-GLUTAMYL-SULFAMOYL)-ADENOSINE,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\37ET.cif.gz
+44ID,1,2,A;B,434,226,206,2015,227,X-RAY DIFFRACTION,1.51,Drosophila AHR PAS-B M284C/Y336L mutant in complex with alpha-naphthoflavone,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\44ID.cif.gz
 4HHB,1,4,A;B;C;D,801,574,221,4779,574,X-RAY DIFFRACTION,1.74,THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\4HHB.cif.gz
+7ILM,1,1,A,235,116,115,1063,116,X-RAY DIFFRACTION,1.6,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2472938267 (Nprot-x0072),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILM.cif.gz
+7ILN,1,1,A,254,116,135,1081,116,X-RAY DIFFRACTION,1.73,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2856434879 (Nprot-x0083),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILN.cif.gz
+7ILO,1,1,A,268,116,150,1098,116,X-RAY DIFFRACTION,1.8,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1416571195 (Nprot-x0084),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILO.cif.gz
+7ILP,1,1,A,242,116,123,1067,116,X-RAY DIFFRACTION,1.64,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z275151340 (Nprot-x0098),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILP.cif.gz
+7ILQ,1,1,A,224,116,106,1044,116,X-RAY DIFFRACTION,1.75,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z44592329 (Nprot-x0125),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILQ.cif.gz
+7ILR,1,1,A,236,116,117,1061,116,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z321318226 (Nprot-x0138),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILR.cif.gz
+7ILS,1,1,A,254,116,136,1084,116,X-RAY DIFFRACTION,1.67,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2443429438 (Nprot-x0180),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILS.cif.gz
+7ILT,1,1,A,227,116,110,1045,116,X-RAY DIFFRACTION,1.72,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1545313172 (Nprot-x0190),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILT.cif.gz
+7ILU,1,1,A,242,116,124,1074,117,X-RAY DIFFRACTION,1.62,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2234920345 (Nprot-x0220),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILU.cif.gz
+7ILV,1,1,A,284,116,165,1110,116,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z31385861 (Nprot-x0230),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILV.cif.gz
+7ILW,1,1,A,264,116,145,1089,116,X-RAY DIFFRACTION,1.56,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z907784200 (Nprot-x0249),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILW.cif.gz
+7ILX,1,1,A,259,116,141,1076,116,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1259341037 (Nprot-x0263),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILX.cif.gz
+7ILY,1,1,A,256,116,137,1079,116,X-RAY DIFFRACTION,1.62,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z56837087 (Nprot-x0275),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILY.cif.gz
+7ILZ,1,1,A,240,116,121,1062,116,X-RAY DIFFRACTION,1.75,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1673618163 (Nprot-x0300),I 41,E:\dataset penelitian\RCSB-PDB\raw\7ILZ.cif.gz
+7IM0,1,1,A,262,116,142,1090,116,X-RAY DIFFRACTION,1.59,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z56791867 (Nprot-x0303),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM0.cif.gz
+7IM1,1,1,A,247,116,128,1070,116,X-RAY DIFFRACTION,1.68,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z57472297 (Nprot-x0318),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM1.cif.gz
+7IM2,1,1,A,249,116,128,1077,116,X-RAY DIFFRACTION,1.62,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z319545618 (Nprot-x0329),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM2.cif.gz
+7IM3,1,1,A,252,116,132,1086,116,X-RAY DIFFRACTION,1.65,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1273312153 (Nprot-x0334),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM3.cif.gz
+7IM4,1,1,A,252,116,132,1075,116,X-RAY DIFFRACTION,1.61,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z969560582 (Nprot-x0340),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM4.cif.gz
+7IM5,1,1,A,208,116,90,1024,116,X-RAY DIFFRACTION,1.76,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z45527714 (Nprot-x0343),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM5.cif.gz
+7IM6,1,1,A,257,116,138,1082,116,X-RAY DIFFRACTION,1.57,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z26781964 (Nprot-x0345),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM6.cif.gz
+7IM7,1,1,A,249,116,130,1076,116,X-RAY DIFFRACTION,1.6,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z29077827 (Nprot-x0358),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM7.cif.gz
+7IM8,1,1,A,270,116,151,1102,117,X-RAY DIFFRACTION,1.65,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z31478538 (Nprot-x0359),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM8.cif.gz
+7IM9,1,1,A,228,116,109,1075,117,X-RAY DIFFRACTION,1.79,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z19733482 (Nprot-x0361),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IM9.cif.gz
+7IMA,1,1,A,245,116,127,1066,116,X-RAY DIFFRACTION,1.64,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1563512128 (Nprot-x0369),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMA.cif.gz
+7IMB,1,1,A,238,116,120,1068,117,X-RAY DIFFRACTION,1.66,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z235341991 (Nprot-x0372),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMB.cif.gz
+7IMC,1,1,A,253,117,135,1081,118,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2856434779 (Nprot-x0374),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMC.cif.gz
+7IMD,1,1,A,261,116,142,1090,116,X-RAY DIFFRACTION,1.63,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z453319206 (Nprot-x0385),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMD.cif.gz
+7IME,1,1,A,284,116,162,1121,116,X-RAY DIFFRACTION,1.63,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1407672867 (Nprot-x0389),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IME.cif.gz
+7IMF,1,1,A,284,116,163,1122,116,X-RAY DIFFRACTION,1.56,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2697514548 (Nprot-x0390),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMF.cif.gz
+7IMG,1,1,A,243,116,125,1073,116,X-RAY DIFFRACTION,1.68,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1267882044 (Nprot-x0392),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMG.cif.gz
+7IMH,1,1,A,246,116,128,1072,117,X-RAY DIFFRACTION,1.69,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z45617795 (Nprot-x0395),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMH.cif.gz
+7IMI,1,1,A,274,116,154,1100,116,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1407673036 (Nprot-x0401),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMI.cif.gz
+7IMJ,1,1,A,263,116,144,1087,116,X-RAY DIFFRACTION,1.64,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2527301677 (Nprot-x0403),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMJ.cif.gz
+7IMK,1,1,A,277,116,157,1104,116,X-RAY DIFFRACTION,1.54,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1270312110 (Nprot-x0412),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMK.cif.gz
+7IML,1,1,A,284,116,164,1113,116,X-RAY DIFFRACTION,1.55,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1220452176 (Nprot-x0423),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IML.cif.gz
+7IMM,1,1,A,258,116,139,1079,116,X-RAY DIFFRACTION,1.77,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z166605480 (Nprot-x0438),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMM.cif.gz
+7IMN,1,1,A,261,116,140,1087,116,X-RAY DIFFRACTION,1.66,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z744754722 (Nprot-x0467),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMN.cif.gz
+7IMO,1,1,A,233,116,116,1051,116,X-RAY DIFFRACTION,1.72,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z68404778 (Nprot-x0477),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMO.cif.gz
+7IMP,1,1,A,272,116,153,1093,116,X-RAY DIFFRACTION,1.52,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z805551440 (Nprot-x0483),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMP.cif.gz
+7IMQ,1,1,A,302,116,182,1131,117,X-RAY DIFFRACTION,1.53,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2027049478 (Nprot-x0488),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMQ.cif.gz
+7IMR,1,1,A,285,116,165,1115,116,X-RAY DIFFRACTION,1.53,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1954800564 (Nprot-x0525),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMR.cif.gz
+7IMS,1,1,A,255,116,136,1079,116,X-RAY DIFFRACTION,1.66,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z165170770 (Nprot-x0540),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMS.cif.gz
+7IMT,1,1,A,239,116,121,1065,117,X-RAY DIFFRACTION,1.86,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1639162606 (Nprot-x0543),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMT.cif.gz
+7IMU,1,1,A,246,116,128,1066,116,X-RAY DIFFRACTION,1.71,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z198195774 (Nprot-x0552),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMU.cif.gz
+7IMV,1,1,A,258,116,140,1077,116,X-RAY DIFFRACTION,1.6,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z33546965 (Nprot-x0556),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMV.cif.gz
+7IMW,1,1,A,259,116,139,1088,116,X-RAY DIFFRACTION,1.69,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z28870646 (Nprot-x0615),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMW.cif.gz
+7IMX,1,1,A,285,116,166,1108,116,X-RAY DIFFRACTION,1.58,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1359419878 (Nprot-x0616),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMX.cif.gz
+7IMY,1,1,A,245,116,125,1072,116,X-RAY DIFFRACTION,1.77,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z2204875953 (Nprot-x0642),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMY.cif.gz
+7IMZ,1,1,A,258,116,137,1083,116,X-RAY DIFFRACTION,1.72,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z1530301542 (Nprot-x0648),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IMZ.cif.gz
+7IN0,1,1,A,246,116,127,1070,116,X-RAY DIFFRACTION,1.68,Group deposition for crystallographic fragment screening of SARS-CoV-2 nucleocapsid protein (CTD) -- Crystal Structure of SARS-CoV-2 nucleocapsid protein (CTD) in complex with Z102768020 (Nprot-x0656),I 41,E:\dataset penelitian\RCSB-PDB\raw\7IN0.cif.gz
+9E43,1,2,A;B,460,268,186,2330,268,X-RAY DIFFRACTION,1.41,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and Phosphonoacetate,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E43.cif.gz
+9E44,1,2,A;B,405,268,131,2283,270,X-RAY DIFFRACTION,1.8,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and 2-Phosphonopropionic acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E44.cif.gz
+9E45,1,2,A;B,449,268,175,2331,272,X-RAY DIFFRACTION,1.47,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and 1-Hydroxypropylphosphonic acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E45.cif.gz
+9E46,1,2,A;B,404,268,130,2288,270,X-RAY DIFFRACTION,1.77,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and (1-Hydroxy-2-methylpropyl)phosphonic acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E46.cif.gz
+9E47,1,2,A;B,393,268,119,2272,270,X-RAY DIFFRACTION,1.59,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and (1-Hydroxypropan-2-yl)phosphonic acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E47.cif.gz
+9E48,1,2,A;B,552,268,278,2428,270,X-RAY DIFFRACTION,1.8,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and Fosfomycin,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9E48.cif.gz
+9E9P,1,1,A,457,302,155,2531,305,X-RAY DIFFRACTION,1.76,Crystal structure of SARS-CoV-2 main protease (Mpro) in complex with covalent inhibitor A02,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9E9P.cif.gz
+9EAX,1,1,A,409,169,239,2951,175,X-RAY DIFFRACTION,1.35,CRYSTAL STRUCTURE OF THE FMN-BINDING DOMAIN OF HUMAN CYTOCHROME P450 REDUCTASE (MUTANT V164M),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9EAX.cif.gz
+9EAY,1,1,A,281,168,112,2733,168,X-RAY DIFFRACTION,1.5,CRYSTAL STRUCTURE OF THE FMN-BINDING DOMAIN OF HUMAN CYTOCHROME P450 REDUCTASE (MUTANT H183Y),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9EAY.cif.gz
+9EAZ,1,1,A,438,168,269,3011,178,X-RAY DIFFRACTION,1.17,CRYSTAL STRUCTURE OF THE FMN-BINDING DOMAIN OF HUMAN CYTOCHROME P450 REDUCTASE (MUTANT A229T),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9EAZ.cif.gz
+9EB0,1,1,A,414,169,244,3062,181,X-RAY DIFFRACTION,1.13,CRYSTAL STRUCTURE OF THE FMN-BINDING DOMAIN OF HUMAN CYTOCHROME P450 REDUCTASE (MUTANT D211N),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9EB0.cif.gz
+9EB1,1,1,A,484,171,312,3053,177,X-RAY DIFFRACTION,1.1,CRYSTAL STRUCTURE OF THE FMN-BINDING DOMAIN OF HUMAN CYTOCHROME P450 REDUCTASE (MUTANT T142A),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9EB1.cif.gz
+9EDF,1,1,A,274,122,147,1163,123,X-RAY DIFFRACTION,1.57,Streptavidin-S112C-L124F bound to Cu(II)dpea cofactor,I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9EDF.cif.gz
+9EF3,1,3,A;B;D,215,173,33,2782,173,X-RAY DIFFRACTION,2.25,Human Hsp27 alpha-crystallin domain (84-171) in complex with a peptide mimic of its C-terminus,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9EF3.cif.gz
+9HEF,1,2,A;B,292,240,48,1759,240,X-RAY DIFFRACTION,1.83,Crystal Structure of MfpD from Mycobacterium tuberculosis,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9HEF.cif.gz
+9HO9,1,1,A,422,251,170,4766,292,X-RAY DIFFRACTION,1.3,Variant D259N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HO9.cif.gz
+9HOA,1,1,A,567,258,308,5107,302,X-RAY DIFFRACTION,1.2,Variant D312A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the substrate OMP at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOA.cif.gz
+9HOB,1,1,A,534,257,276,4813,288,X-RAY DIFFRACTION,1.4,Variant D312A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOB.cif.gz
+9HOC,1,1,A,474,255,218,4517,278,X-RAY DIFFRACTION,1.25,Variant D312N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.25 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOC.cif.gz
+9HOD,1,1,A,529,257,271,5063,303,X-RAY DIFFRACTION,1.0,Variant D312N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.0 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOD.cif.gz
+9HOE,1,1,A,561,259,300,5215,310,X-RAY DIFFRACTION,1.1,Variant D317A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the substrate OMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOE.cif.gz
+9HOF,1,1,A,497,249,247,4692,284,X-RAY DIFFRACTION,1.2,Variant D317A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOF.cif.gz
+9HOG,1,1,A,564,258,305,5119,304,X-RAY DIFFRACTION,1.1,Variant D317A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOG.cif.gz
+9HOH,1,1,A,553,258,293,5012,297,X-RAY DIFFRACTION,1.1,Variant D317N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the substrate OMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOH.cif.gz
+9HOI,1,1,A,516,249,266,4540,273,X-RAY DIFFRACTION,1.3,Variant D317N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.3 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOI.cif.gz
+9HOK,1,1,A,526,251,273,4593,277,X-RAY DIFFRACTION,1.15,Variant H283A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.15 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOK.cif.gz
+9HOM,1,1,A,565,259,302,4768,285,X-RAY DIFFRACTION,1.1,Variant H283N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP and carbon dioxide at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOM.cif.gz
+9HOO,1,1,A,570,257,312,5398,320,X-RAY DIFFRACTION,0.83,Variant K281A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 0.83 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOO.cif.gz
+9HOP,1,1,A,453,257,195,4588,284,X-RAY DIFFRACTION,1.4,Variant K281A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOP.cif.gz
+9HOQ,1,1,A,575,258,315,5166,308,X-RAY DIFFRACTION,0.93,Variant K281A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 0.93 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOQ.cif.gz
+9HOR,1,1,A,516,257,258,4816,287,X-RAY DIFFRACTION,1.3,Variant K281R of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the substrate OMP at 1.3 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOR.cif.gz
+9HOS,1,1,A,518,251,266,4750,286,X-RAY DIFFRACTION,1.1,Variant K281R of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOS.cif.gz
+9HOT,1,1,A,538,253,284,4773,288,X-RAY DIFFRACTION,1.05,Variant K281R of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.05 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOT.cif.gz
+9HOU,1,1,A,573,258,313,5041,299,X-RAY DIFFRACTION,1.2,Variant K314A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOU.cif.gz
+9HOV,1,1,A,577,258,318,5102,303,X-RAY DIFFRACTION,0.92,Variant K314A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 0.92 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOV.cif.gz
+9HOY,1,1,A,518,250,267,5045,301,X-RAY DIFFRACTION,1.2,Variant P417G of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HOY.cif.gz
+9HP1,1,1,A,531,258,272,4878,292,X-RAY DIFFRACTION,1.7,Variant S257A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HP1.cif.gz
+9HP2,1,1,A,547,259,287,4886,292,X-RAY DIFFRACTION,1.0,Variant S372A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.0 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HP2.cif.gz
+9HP3,1,1,A,456,253,202,4734,288,X-RAY DIFFRACTION,1.2,Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HP3.cif.gz
+9HP4,1,1,A,561,258,302,4960,296,X-RAY DIFFRACTION,1.1,Variant E311A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HP4.cif.gz
+9HP5,1,1,A,535,257,277,4941,297,X-RAY DIFFRACTION,1.0,Variant D317N of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.0 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HP5.cif.gz
+9HPR,1,1,A,558,258,299,5067,302,X-RAY DIFFRACTION,1.1,Variant K314A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with 6-Methyl UMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HPR.cif.gz
+9HQQ,1,1,A,536,258,277,4973,297,X-RAY DIFFRACTION,1.15,Variant Y432F of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.15 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HQQ.cif.gz
+9HQR,1,1,A,569,259,309,5094,303,X-RAY DIFFRACTION,1.2,Variant G450A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.2 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HQR.cif.gz
+9HQS,1,1,A,532,258,272,4913,293,X-RAY DIFFRACTION,1.1,Variant R313K of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.1 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HQS.cif.gz
+9HVS,1,1,A,504,259,243,2470,287,X-RAY DIFFRACTION,1.3,Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with 6-Ethyl UMP,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HVS.cif.gz
+9HVT,1,1,A,587,258,327,2637,296,X-RAY DIFFRACTION,1.3,Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with 6-isopropyl-UMP,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HVT.cif.gz
+9HVV,1,1,A,567,259,306,2593,294,X-RAY DIFFRACTION,1.12,Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with 6-Methyl UMP,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HVV.cif.gz
+9HW0,1,1,A,442,248,193,4606,280,X-RAY DIFFRACTION,1.4,Variant G450A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HW0.cif.gz
+9HW1,1,1,A,526,257,268,4742,286,X-RAY DIFFRACTION,1.06,Variant Q430A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in complex with the product UMP at 1.06 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HW1.cif.gz
+9HW4,1,1,A,491,252,238,4638,282,X-RAY DIFFRACTION,1.5,Variant R313K of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HW4.cif.gz
+9HW5,1,1,A,482,257,224,4805,294,X-RAY DIFFRACTION,1.5,Variant S257A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HW5.cif.gz
+9HW7,1,1,A,427,250,176,4661,284,X-RAY DIFFRACTION,1.3,Variant Y432F of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state at 1.3 Angstrom resolution,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HW7.cif.gz
+9HWE,1,1,A,318,196,117,3271,199,X-RAY DIFFRACTION,1.7,"SMAD4 MH2, residues 314-552",F 41 3 2,E:\dataset penelitian\RCSB-PDB\raw\9HWE.cif.gz
+9HXY,1,1,A,435,254,180,4480,277,X-RAY DIFFRACTION,1.6,Variant T321A of Orotidine 5'-monophosphate decarboxylase-domain of human UMPS in resting state,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9HXY.cif.gz
+9HZ9,1,1,AAA,434,258,173,2454,282,X-RAY DIFFRACTION,1.8,Crystal structure of human carbonic anhydrase XII mimic in complex with sonepiprazole,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9HZ9.cif.gz
+9I3A,1,1,A,531,329,194,3147,365,X-RAY DIFFRACTION,1.5,Isopenicillin N synthase co-crystallised with Fe and ACdV after 6s O2 exposure,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9I3A.cif.gz
+9I3B,1,1,A,529,329,194,3044,357,X-RAY DIFFRACTION,1.6,Isopenicillin N synthase co-crystallised with Fe and ACdV after 8s O2 exposure,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9I3B.cif.gz
+9I3C,1,1,A,531,329,196,3105,362,X-RAY DIFFRACTION,1.7,Isopenicillin N synthase co-crystallised with Fe and ACdV after 10s O2 exposure,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9I3C.cif.gz
+9I3D,1,1,A,544,329,207,2904,334,X-RAY DIFFRACTION,1.68,Isopenicillin N synthase co-crystallised with Fe and ACdV after 10s O2 exposure,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9I3D.cif.gz
+9I49,1,1,A,395,273,119,2097,273,X-RAY DIFFRACTION,1.82,Cobalamin-binding chimera 10 (Cob10) (crystallization condition 1),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9I49.cif.gz
+9I4A,1,1,A,315,269,45,1943,269,X-RAY DIFFRACTION,2.02,Cobalamin-binding chimera 10 (Cob10) (crystallization condition 2),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9I4A.cif.gz
+9I84,1,1,A,202,151,50,1265,151,X-RAY DIFFRACTION,2.01,Structure of Mcl-1 complex with small molecule inhibitor,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9I84.cif.gz
+9I85,1,1,A,197,144,51,1257,145,X-RAY DIFFRACTION,1.9,Structure of Mcl-1 complex with small molecule inhibitor,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9I85.cif.gz
+9IGD,1,2,A;B,348,293,51,2484,293,X-RAY DIFFRACTION,2.4,Structure of human Bcl-xL in complex with small molecule inhibitor,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9IGD.cif.gz
+9IGE,1,2,A;B,552,291,257,2681,291,X-RAY DIFFRACTION,1.8,Structure of human Bcl-xL in complex with small molecule inhibitor,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9IGE.cif.gz
+9IGG,1,2,A;B,443,291,150,2532,294,X-RAY DIFFRACTION,1.5,Structure of human Bcl-xL in complex with small molecule inhibitor,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9IGG.cif.gz
+9IGH,1,2,A;B,349,285,61,2441,285,X-RAY DIFFRACTION,1.95,Structure of human Bcl-xL in complex with small molecule inhibitor,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9IGH.cif.gz
+9KI2,1,1,A,658,257,400,2568,271,X-RAY DIFFRACTION,1.2,apo- Carbonic Anhydrase II pH 7.8 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI2.cif.gz
+9KI3,1,1,A,665,257,407,2575,271,X-RAY DIFFRACTION,1.2,apo- Carbonic Anhydrase II pH 7.8 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI3.cif.gz
+9KI4,1,1,A,647,257,388,2559,271,X-RAY DIFFRACTION,1.2,apo- Carbonic Anhydrase II pH 7.8 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI4.cif.gz
+9KI5,1,1,A,643,257,383,2557,271,X-RAY DIFFRACTION,1.2,apo- Carbonic Anhydrase II pH 7.8 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI5.cif.gz
+9KI6,1,1,A,641,257,381,2535,269,X-RAY DIFFRACTION,1.2,apo- Carbonic Anhydrase II pH 7.8 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI6.cif.gz
+9KI7,1,1,A,531,257,272,2384,266,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 7.8 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI7.cif.gz
+9KI8,1,1,A,651,257,391,2563,275,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 7.8 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI8.cif.gz
+9KI9,1,1,A,655,257,395,2567,275,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 7.8 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KI9.cif.gz
+9KIA,1,1,A,644,257,383,2513,268,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 7.8 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIA.cif.gz
+9KIB,1,1,A,644,257,383,2502,267,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 7.8 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIB.cif.gz
+9KIC,1,1,A,513,257,254,2399,269,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 11.0 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIC.cif.gz
+9KID,1,1,A,513,257,254,2399,269,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 11.0 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KID.cif.gz
+9KIE,1,1,A,517,257,256,2408,269,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 11.0 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIE.cif.gz
+9KIF,1,1,A,543,257,282,2455,273,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 11.0 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIF.cif.gz
+9KIG,1,1,A,546,257,285,2439,271,X-RAY DIFFRACTION,1.2,Zn- Carbonic Anhydrase II pH 11.0 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIG.cif.gz
+9KIH,1,1,A,543,257,283,2444,272,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 7.8 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIH.cif.gz
+9KII,1,1,A,543,257,283,2444,272,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 7.8 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KII.cif.gz
+9KIJ,1,1,A,544,257,284,2445,272,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 7.8 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIJ.cif.gz
+9KIK,1,1,A,594,257,333,2485,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 7.8 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIK.cif.gz
+9KIL,1,1,A,594,257,333,2485,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 7.8 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIL.cif.gz
+9KIM,1,1,A,524,257,265,2419,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 11.0 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIM.cif.gz
+9KIN,1,1,A,526,257,266,2424,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 11.0 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIN.cif.gz
+9KIO,1,1,A,526,257,266,2424,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 11.0 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIO.cif.gz
+9KIP,1,1,A,594,257,333,2485,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 11.0 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIP.cif.gz
+9KIQ,1,1,A,595,257,333,2488,271,X-RAY DIFFRACTION,1.2,Co- Carbonic Anhydrase II pH 11.0 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIQ.cif.gz
+9KIR,1,1,A,539,257,279,2437,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 7.8 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIR.cif.gz
+9KIS,1,1,A,540,257,279,2441,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 7.8 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIS.cif.gz
+9KIT,1,1,A,538,257,277,2439,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 7.8 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIT.cif.gz
+9KIU,1,1,A,609,257,347,2500,271,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 7.8 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIU.cif.gz
+9KIV,1,1,A,609,257,347,2500,271,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 7.8 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIV.cif.gz
+9KIW,1,1,A,539,257,279,2437,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 11.0 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIW.cif.gz
+9KIX,1,1,A,539,257,279,2437,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 11.0 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIX.cif.gz
+9KIY,1,1,A,538,257,277,2439,272,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 11.0 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIY.cif.gz
+9KIZ,1,1,A,608,257,346,2499,271,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 11.0 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KIZ.cif.gz
+9KJ0,1,1,A,608,257,346,2499,271,X-RAY DIFFRACTION,1.2,Ni- Carbonic Anhydrase II pH 11.0 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ0.cif.gz
+9KJ1,1,1,A,546,257,286,2444,272,X-RAY DIFFRACTION,1.2,Cu- Carbonic Anhydrase II pH 7.8 1.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ1.cif.gz
+9KJ2,1,1,A,547,257,287,2445,272,X-RAY DIFFRACTION,1.2,Cu- Carbonic Anhydrase II pH 7.8 2.5 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ2.cif.gz
+9KJ3,1,1,A,549,257,289,2447,272,X-RAY DIFFRACTION,1.2,Cu- Carbonic Anhydrase II pH 7.8 5.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ3.cif.gz
+9KJ4,1,1,A,619,257,358,2507,271,X-RAY DIFFRACTION,1.2,Cu- Carbonic Anhydrase II pH 7.8 7.0 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ4.cif.gz
+9KJ5,1,1,A,619,257,358,2507,271,X-RAY DIFFRACTION,1.2,Cu- Carbonic Anhydrase II pH 7.8 15 atm CO2,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9KJ5.cif.gz
+9LDN,1,1,A,183,122,61,993,122,X-RAY DIFFRACTION,1.35,Verticillium effector PevD1,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9LDN.cif.gz
+9LLN,1,6,F;D;A;B;C;E,369,216,153,1547,216,X-RAY DIFFRACTION,1.72,a collagen heterotrimer combining natural and synthetic fragments,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9LLN.cif.gz
+9LLO,1,3,A;B;C,339,114,225,1000,114,X-RAY DIFFRACTION,1.8,a designed heterotrimer combining natural and synthetic fragments,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9LLO.cif.gz
+9LLP,1,3,C;A;B,206,113,93,845,113,X-RAY DIFFRACTION,1.82,A designed collagen heterotrimer with varous stabilizing side chain pairs,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9LLP.cif.gz
+9LLR,1,6,B;C;A;F;E;D,552,209,343,1700,209,X-RAY DIFFRACTION,1.454,The designed collagen heterotrimer peptides with various stabilizing side chain pairs,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9LLR.cif.gz
+9LUA,1,4,A;B;C;D,244,196,47,1650,196,X-RAY DIFFRACTION,1.97,Crystal structure of FIP200 Claw domain and SMCR8 FIR motif complex,H 3,E:\dataset penelitian\RCSB-PDB\raw\9LUA.cif.gz
+9MLE,1,2,A;B,285,233,51,1870,235,X-RAY DIFFRACTION,2.36,Crystal structure of Asp49 Phospholipase A2 isolated from Lachesis muta,P 62 2 2,E:\dataset penelitian\RCSB-PDB\raw\9MLE.cif.gz
+9N2P,1,1,B,170,145,22,1172,145,X-RAY DIFFRACTION,2.26,Structure of MoaC-covalent intermediate complex obtained in the presence of Mg.,P 63 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N2P.cif.gz
+9N2X,1,2,A;B,378,286,92,2320,286,X-RAY DIFFRACTION,1.81,Crystal Structure of LM1841,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9N2X.cif.gz
+9N2Y,1,1,A,178,134,42,1116,134,X-RAY DIFFRACTION,1.84,Crystal Structure of LM1843,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9N2Y.cif.gz
+9N2Z,1,1,A,149,115,33,953,115,X-RAY DIFFRACTION,1.95,Crystal Structure of LM2363,P 63 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N2Z.cif.gz
+9N57,1,1,A,452,282,168,2479,283,X-RAY DIFFRACTION,1.64,Glutarate L-2-hydroxylase K270C mutant-5'-Mal-C2-AAATTT DNA conjugate in I422 space group,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N57.cif.gz
+9N7N,1,1,A,453,284,166,2505,286,X-RAY DIFFRACTION,1.82,Glutarate L-2-hydroxylase Q184C mutant-5'-Mal-C6-AGCT DNA conjugate at 1.82 Angstrom resolution,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N7N.cif.gz
+9N7P,1,1,A,432,289,141,2518,290,X-RAY DIFFRACTION,1.891,Glutarate L-2-hydroxylase Q184C mutant-5'-Mal-C2-AGCT DNA conjugate at 1.89 Angstrom resolution,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N7P.cif.gz
+9N8O,1,1,A,356,282,71,2377,282,X-RAY DIFFRACTION,2.05,Glutarate L-2-hydroxylase Q184C mutant-5'-Mal-C2-AGGCCT DNA conjugate,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N8O.cif.gz
+9N8S,1,1,A,484,291,191,2571,291,X-RAY DIFFRACTION,2.03,Glutarate L-2-hydroxylase Q184C mutant-5'-Mal-C2-AGCT DNA conjugate at 2.03 Angstrom resolution,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9N8S.cif.gz
+9NQ2,1,1,A,155,115,39,970,115,X-RAY DIFFRACTION,2.4,Crystal Structure of Side-IV IG1 Domain,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9NQ2.cif.gz
+9NTP,1,1,A,503,304,194,2738,310,X-RAY DIFFRACTION,1.55,EGFR kinase domain (T790MV948R) in complex with a strain-release covalent inhibitor,P 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9NTP.cif.gz
+9NYJ,1,1,B,157,145,10,1147,145,X-RAY DIFFRACTION,2.49,MoaC-pyranopterin [(alpha-beta-methyleno]triphosphate covalent complex in the absence of Mg2+,P 63 2 2,E:\dataset penelitian\RCSB-PDB\raw\9NYJ.cif.gz
+9NZG,1,2,A;C,343,296,45,4906,298,X-RAY DIFFRACTION,2.21,"De novo designed exatecan-binding protein, EPIC Q51N",I 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9NZG.cif.gz
+9O37,1,1,A,488,336,150,2906,338,X-RAY DIFFRACTION,2.11,The structure of PRMT4 in complex with YD1305,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9O37.cif.gz
+9OEL,1,2,A;B,466,338,124,2882,338,X-RAY DIFFRACTION,1.5,KRAS Wild Type 1-169 at 293 K,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9OEL.cif.gz
+9OEX,1,2,A;B,458,338,116,2880,338,X-RAY DIFFRACTION,1.5,K-Ras G12V at 293 K,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9OEX.cif.gz
+9ONL,1,2,A;B,419,273,139,4646,273,X-RAY DIFFRACTION,2.5,FosB from Enterococcus faecium in complex with phosphonoacetate,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9ONL.cif.gz
+9ONV,1,2,A;B,474,278,186,2562,278,X-RAY DIFFRACTION,2.2,FosB from Enterococcus faecium in complex with phosphonoformate,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9ONV.cif.gz
+9ONY,1,2,A;B,332,272,55,2353,272,X-RAY DIFFRACTION,2.5,N-terminal Six-His-Tagged FosB from Enterococcus faecium in complex with (1-Hydroxypropan-2-yl)phosphonic acid,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9ONY.cif.gz
+9OO2,1,2,A;B,322,271,46,2325,271,X-RAY DIFFRACTION,2.2,N-terminal Six-His-Tagged FosB from Enterococcus faecium in complex with fosfomycin,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9OO2.cif.gz
+9OO3,1,2,A;B,316,272,40,2332,272,X-RAY DIFFRACTION,2.5,N-terminal Six-His-Tagged FosB from Enterococcus faecium in complex with phosphonoacetate,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9OO3.cif.gz
+9OO4,1,2,A;B,314,267,43,4448,267,X-RAY DIFFRACTION,2.5,N-terminal Six-His-Tagged FosB from Enterococcus faecium in complex with vinylphosphonic acid,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9OO4.cif.gz
+9ORI,1,2,A;B,556,272,284,2516,276,X-RAY DIFFRACTION,1.74,Crystal structure of clinically relevant H117Y mutant of AGR2,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9ORI.cif.gz
+9OSL,1,1,A,339,324,12,2500,324,X-RAY DIFFRACTION,2.4,Crystal structure of the transpeptidase domain of a Y422A mutant of PBP2 from Neisseria gonorrhoeae strain H041 acylated by ceftriaxone,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9OSL.cif.gz
+9OT9,1,1,A,284,226,58,1869,226,X-RAY DIFFRACTION,1.923,"Crystal structure of the Galectin-3 complex with FN3con-7, an mRNA display-derived binding protein",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9OT9.cif.gz
+9OU0,1,2,A;B,470,338,126,2992,340,X-RAY DIFFRACTION,1.81,K-Ras G12D 1-169 bound to MRTX-1133 at 277 K,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9OU0.cif.gz
+9OU2,1,1,A,296,169,124,1544,170,X-RAY DIFFRACTION,1.55,K-Ras Wild Type 1-169 Bound to BI-2865 at 100 K,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9OU2.cif.gz
+9OU3,1,1,A,292,169,120,1547,171,X-RAY DIFFRACTION,1.5,K-Ras Wild Type 1-169 bound to BI-2865 at 293K,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9OU3.cif.gz
+9OU4,1,1,A,209,169,37,1449,169,X-RAY DIFFRACTION,1.89,K-Ras Wild Type 1-169 bound to BI-2865 at 313 K,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9OU4.cif.gz
+9OUH,1,1,A,334,169,163,1553,170,X-RAY DIFFRACTION,1.4,K-Ras G12D Cysteine Light at 293 K,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9OUH.cif.gz
+9OUI,1,2,A;B,443,338,99,2965,340,X-RAY DIFFRACTION,1.86,K-Ras G12D 1-169 bound to MRTX-1133 at 313 K,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9OUI.cif.gz
+9OUJ,1,2,A;B,410,338,66,2932,340,X-RAY DIFFRACTION,1.89,K-Ras G12D 1-169 bound to MRTX-1133 at 310 K,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9OUJ.cif.gz
+9OZA,1,2,A;B,404,268,130,2282,270,X-RAY DIFFRACTION,1.48,Crystal Structure of FosA from Pseudomonas aeruginosa with Manganese and Chloromethylphosphonic acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9OZA.cif.gz
+9OZB,1,2,A;B,348,268,74,2226,270,X-RAY DIFFRACTION,1.99,Crystal Structure of FosA from Pseudomonas aeruginosa and Bromomethyl Phosphonic Acid,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9OZB.cif.gz
+9OZX,1,2,A;B,233,231,0,1846,231,X-RAY DIFFRACTION,2.4,Crystal structure of ZNRF3 RING in complex with UbcH5b,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9OZX.cif.gz
+9P0Y,1,1,A,259,129,121,1136,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon N,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P0Y.cif.gz
+9P0Z,1,1,A,223,129,86,1095,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon N (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P0Z.cif.gz
+9P10,1,1,A,227,129,90,1099,129,X-RAY DIFFRACTION,1.496,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon N (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P10.cif.gz
+9P1Q,1,2,A;B,500,296,204,4912,307,X-RAY DIFFRACTION,2.15,Crystal structure of Ube2E3,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9P1Q.cif.gz
+9P1W,1,1,A,229,129,92,1101,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 100 Kelvin with Lard (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P1W.cif.gz
+9P2P,1,1,A,289,149,140,2383,149,X-RAY DIFFRACTION,1.41,Streptomyces thermoviolaceus ClpC2 C-terminal domain dimer,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9P2P.cif.gz
+9P33,1,1,A,300,126,170,2539,130,X-RAY DIFFRACTION,1.01,Crystal structure of the Bromo domain 1 in human Bromodomain Containing Protein 4 with a compound,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9P33.cif.gz
+9P34,1,1,A,304,124,178,2322,125,X-RAY DIFFRACTION,0.99,Crystal structure of the Bromo domain 1 in human Bromodomain Containing Protein 4 with a compound,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9P34.cif.gz
+9P39,1,1,A,279,158,118,2536,158,X-RAY DIFFRACTION,1.3,Streptomyces thermoviolaceus ClpC2 C-terminal domain with bound phosphoarginine,P 61,E:\dataset penelitian\RCSB-PDB\raw\9P39.cif.gz
+9P3E,1,1,A,201,135,65,2303,136,X-RAY DIFFRACTION,2.0,LC3B bound to BLM peptide,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9P3E.cif.gz
+9P41,1,1,A,594,322,269,2799,324,X-RAY DIFFRACTION,1.56,Crystal structure of endoglucanase Cel5A from Rhizobium sp. C1,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9P41.cif.gz
+9P4H,1,2,A;B,334,164,169,2711,166,X-RAY DIFFRACTION,1.55,Streptomyces thermoviolaceus ClpC2 C-terminal domain with bound Cyclomarin A,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9P4H.cif.gz
+9P4U,1,1,A,339,223,109,1916,223,X-RAY DIFFRACTION,2.0,Nucleotide Binding Domain (residues 475-720) of ABC3 transporter permease from Clostridioides difficile strain 630,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9P4U.cif.gz
+9P56,1,1,A,224,129,87,1096,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon T,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P56.cif.gz
+9P57,1,1,A,227,129,90,1099,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon T (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P57.cif.gz
+9P58,1,1,A,227,129,90,1099,129,X-RAY DIFFRACTION,1.492,Crystal structure of hen egg white lysozyme at 100 Kelvin with Apiezon T (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P58.cif.gz
+9P59,1,1,A,234,129,95,1116,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Glycerol 30%,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P59.cif.gz
+9P5A,1,1,A,268,129,129,1150,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Glycerol 30% (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5A.cif.gz
+9P5B,1,1,A,226,129,89,1098,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Lard,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5B.cif.gz
+9P5D,1,1,A,233,129,96,1105,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Lard (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5D.cif.gz
+9P5E,1,1,A,238,129,99,1120,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Glycerol 30% (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5E.cif.gz
+9P5F,1,1,A,271,129,132,1153,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Mineral Oil,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5F.cif.gz
+9P5G,1,1,A,229,129,92,1101,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Mineral Oil (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5G.cif.gz
+9P5Q,1,1,A,242,129,105,1114,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with PEG 400 (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5Q.cif.gz
+9P5R,1,1,A,224,129,87,1096,129,X-RAY DIFFRACTION,1.5,Crystal structure of hen egg white lysozyme at 100 Kelvin with PEG 400 (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5R.cif.gz
+9P5S,1,1,A,301,129,162,1183,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with PEG 6000,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5S.cif.gz
+9P5T,1,1,A,308,129,169,1190,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with PEG 6000 (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5T.cif.gz
+9P5U,1,1,A,297,129,158,1179,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with PEG 6000 (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5U.cif.gz
+9P5V,1,1,A,308,129,169,1190,129,X-RAY DIFFRACTION,1.5,Crystal structure of hen egg white lysozyme at 100 Kelvin with Silicone Oil,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5V.cif.gz
+9P5W,1,1,A,317,129,178,1199,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Silicone Oil (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5W.cif.gz
+9P5X,1,1,A,297,129,158,1179,129,X-RAY DIFFRACTION,1.498,Crystal structure of hen egg white lysozyme at 100 Kelvin with Silicone Oil (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5X.cif.gz
+9P5Y,1,1,A,313,129,174,1195,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 100 Kelvin with Vaseline,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5Y.cif.gz
+9P5Z,1,1,A,307,129,168,1189,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 100 Kelvin with Vaseline (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P5Z.cif.gz
+9P60,1,1,A,317,129,178,1199,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 100 Kelvin with Vaseline (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P60.cif.gz
+9P61,1,1,A,178,129,41,1050,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon N,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P61.cif.gz
+9P62,1,1,A,332,129,193,1214,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon N (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P62.cif.gz
+9P63,1,1,A,187,129,50,1059,129,X-RAY DIFFRACTION,1.479,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon N (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P63.cif.gz
+9P64,1,1,A,371,129,232,1253,129,X-RAY DIFFRACTION,1.468,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon T,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P64.cif.gz
+9P65,1,1,A,211,129,74,1083,129,X-RAY DIFFRACTION,1.472,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon T (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P65.cif.gz
+9P66,1,1,A,183,129,46,1055,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 300 Kelvin with Apiezon T (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P66.cif.gz
+9P67,1,1,A,355,129,216,1237,129,X-RAY DIFFRACTION,1.5,Crystal structure of hen egg white lysozyme at 300 Kelvin with Vaseline,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P67.cif.gz
+9P68,1,1,A,193,129,56,1065,129,X-RAY DIFFRACTION,1.499,Crystal structure of hen egg white lysozyme at 300 Kelvin with Vaseline (Duplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P68.cif.gz
+9P69,1,1,A,188,129,51,1060,129,X-RAY DIFFRACTION,1.497,Crystal structure of hen egg white lysozyme at 300 Kelvin with Vaseline (Triplicate),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9P69.cif.gz
+9P77,1,1,B,427,224,197,3572,225,X-RAY DIFFRACTION,1.3,Structure of Bovine Trypsin Complexed with Mellitic Acid at Room Temperature,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9P77.cif.gz
+9P7B,1,1,A,554,225,319,3868,232,X-RAY DIFFRACTION,1.5,The Structure of Bovine Trypsin Complexed With Mellitic Acid at 173 Degrees,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9P7B.cif.gz
+9PD9,1,1,A,502,224,236,4779,232,X-RAY DIFFRACTION,1.28,The Structure of Porcine Trypsin in Complex with Crystallization Additives I,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9PD9.cif.gz
+9PDC,1,1,A,456,224,188,4717,226,X-RAY DIFFRACTION,1.27,Porcine Trypsin grown from PEG and Complexed with Crystallization Additives II,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9PDC.cif.gz
+9PDZ,1,1,A,537,291,234,5091,308,X-RAY DIFFRACTION,1.8,Crystal structure of a Spermidine binding protein isolated from Synechococcus CC9311,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9PDZ.cif.gz
+9PG4,1,2,A;C,130,77,49,660,77,X-RAY DIFFRACTION,1.18,Structure of UBR2-AF23 complex,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9PG4.cif.gz
+9PG9,1,4,A;B;C;D,398,152,238,1441,152,X-RAY DIFFRACTION,1.22,Structure of UBR2-AF27 complex,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9PG9.cif.gz
+9PI2,1,2,A;B,669,224,438,2189,226,X-RAY DIFFRACTION,0.99,X-ray crystal structure of Ancylobacter lacus LanM bound to Nd(III) and Ca(II),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9PI2.cif.gz
+9PIC,1,1,A,550,252,292,2360,260,X-RAY DIFFRACTION,1.16,"Crystal structure of an engineered thermostable MHETase, MHT077",C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9PIC.cif.gz
+9PJ4,1,1,A,294,236,53,1901,236,X-RAY DIFFRACTION,2.07,"Crystal structure of u-1,2 Peroxo Intermediate from pABA synthase Nitrosomonas urea CADD (NuCADD)",C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9PJ4.cif.gz
+9PN1,1,2,B;C,503,266,232,2484,266,X-RAY DIFFRACTION,1.26,Crystal structure of Q108K:K40L:T51V:T53C:R58W:T29L:Y19W:Q4A mutant of cellular retinol binding protein II complex with 15-cis-retinal,P 1,E:\dataset penelitian\RCSB-PDB\raw\9PN1.cif.gz
+9PNX,1,1,H,199,119,80,966,120,X-RAY DIFFRACTION,1.35,Crystal structure of anti-IL2Rgamma VH3-20 domain,P 43,E:\dataset penelitian\RCSB-PDB\raw\9PNX.cif.gz
+9PPL,1,1,A,258,179,78,1570,180,X-RAY DIFFRACTION,2.01,Structure of STING in complex with MK-2118,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9PPL.cif.gz
+9PQC,1,1,A,472,229,241,4470,265,X-RAY DIFFRACTION,1.4,Room temperature crystal structure of enhanced Green Fluorescent Protein,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9PQC.cif.gz
+9PQU,1,3,A;B;C,749,342,400,5580,350,X-RAY DIFFRACTION,1.7,MIF Y98C homotrimeric mutant,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9PQU.cif.gz
+9PR0,1,1,A,455,328,125,2668,333,X-RAY DIFFRACTION,2.31,Thermostable variant of phosphite dehydrogenase from Pseudomonas stutzeri,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PR0.cif.gz
+9PR2,1,1,A,534,329,199,2843,339,X-RAY DIFFRACTION,2.08,Crystal structure of thermostable variant of phosphite dehydrogenase from Pseudomonas stutzeri in complex with NAD,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PR2.cif.gz
+9PRV,1,1,A,715,328,384,2986,342,X-RAY DIFFRACTION,1.82,Crystal structure of thermostable variant of phosphite dehydrogenase from Pseudomonas stutzeri,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PRV.cif.gz
+9PSJ,1,1,A,373,252,120,2161,255,X-RAY DIFFRACTION,2.09,Crystal structure of BAF60A (SMARCD1) apo containing partial coiled coil and the YEATS-like domain with topologically-linked SWIB,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9PSJ.cif.gz
+9PSQ,1,1,A,303,245,57,2075,247,X-RAY DIFFRACTION,2.31,Co-crystal structure of BAF60A (SMARCD1) bound to PPSC-001,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9PSQ.cif.gz
+9PSR,1,1,A,301,253,47,2130,255,X-RAY DIFFRACTION,2.21,Co-crystal structure of BAF60A (SMARCD1) bound to PPSC-002,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9PSR.cif.gz
+9PTE,1,2,A;B,231,102,128,1679,102,X-RAY DIFFRACTION,1.15,Stabilized Y188N variant of the internal UBA Domain of HHR23A in the P1 21 1 space group,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9PTE.cif.gz
+9PTF,1,1,A,81,51,30,803,51,X-RAY DIFFRACTION,1.2,Stabilized Y188N variant of the internal UBA Domain of HHR23A in the P43 space group,P 43,E:\dataset penelitian\RCSB-PDB\raw\9PTF.cif.gz
+9PU6,1,1,A,565,330,232,2842,336,X-RAY DIFFRACTION,2.03,Crystal structure of thermostable variant of phosphite dehydrogenase from Pseudomonas stutzeri in complex with NAD,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PU6.cif.gz
+9PUC,1,1,A,608,329,276,2898,345,X-RAY DIFFRACTION,1.93,Crystal structure of thermostable variant of phosphite dehydrogenase from Pseudomonas stutzeri,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PUC.cif.gz
+9PVQ,1,1,A,517,251,264,2319,278,X-RAY DIFFRACTION,1.08,"Crystal structure of HpsO from Cupriavidus pinatubonensis, crystal form 1",I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9PVQ.cif.gz
+9PW2,1,2,A;B,410,220,186,1984,222,X-RAY DIFFRACTION,1.61,Taylorella equigenitalis BaDTF3 deaminase toxin DddB bound to the immunity protein,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9PW2.cif.gz
+9PXD,1,1,A,389,160,223,1639,165,X-RAY DIFFRACTION,1.07,M20A Mutant of E. coli Dihydrofolate Reductase Complexed with Folate and Nicotinamide Adenine Dinucleotide Phosphate (oxidized form),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9PXD.cif.gz
+9Q3Z,1,1,A,297,153,144,2559,153,X-RAY DIFFRACTION,1.53,Structure of the ClpC1-N-terminal Domain of M. tuberculosis complexed with P-Arginine bound to site no. 1,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9Q3Z.cif.gz
+9Q5P,1,1,A,304,146,158,2506,151,X-RAY DIFFRACTION,1.33,Structure of the ClpC1-N-terminal domain of M. tuberculosis complexed with P-Arginine bound to site no.2,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9Q5P.cif.gz
+9Q8B,1,1,A,209,145,58,1319,153,X-RAY DIFFRACTION,1.4,Ligand binding domain of the PacG chemoreceptor from Pectobacterium atrosepticum,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Q8B.cif.gz
+9Q8P,1,2,A;B,240,228,12,1844,228,X-RAY DIFFRACTION,2.13,Structure characterization and anticancer potential of the fungal immunomodulatory protein FIP-ach,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9Q8P.cif.gz
+9QKX,1,1,A,280,221,52,1734,222,X-RAY DIFFRACTION,2.3,De novo TIM barrel with Kemp eliminase activity - KempTIM4,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9QKX.cif.gz
+9QRO,1,2,A;B,436,226,208,4269,257,X-RAY DIFFRACTION,1.58,HINT1 complexed with GS-441524-MP,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9QRO.cif.gz
+9QTC,1,2,A;B,547,227,318,2358,260,X-RAY DIFFRACTION,1.3,HINT1 complexed with GS-441524,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9QTC.cif.gz
+9QYA,1,1,A,533,258,273,4195,264,X-RAY DIFFRACTION,1.53,Polyester Hydrolase Leipzig 7 (PHL7) variant R4M6,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\9QYA.cif.gz
+9QYB,1,1,A,554,258,294,4341,271,X-RAY DIFFRACTION,1.1,Polyester Hydrolase Leipzig 7 (PHL7) variant R4M10,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\9QYB.cif.gz
+9QYC,1,1,A,651,261,389,4600,279,X-RAY DIFFRACTION,1.16,Polyester Hydrolase Leipzig 7 (PHL7) variant R4M12,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9QYC.cif.gz
+9R3P,1,2,A;B,478,302,171,2664,302,X-RAY DIFFRACTION,1.6,Hemoglobin Glb2-1 of Lotus japonicus (cyano-ferric form),C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9R3P.cif.gz
+9R3T,1,1,A,384,319,61,5314,320,X-RAY DIFFRACTION,1.98,C-terminal domain of SdeA Legionella effector,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9R3T.cif.gz
+9R4D,1,3,A;B;C,462,202,257,2065,220,X-RAY DIFFRACTION,1.7,NF-YB/C Heterodimer in Complex with NF-YA-derived Stitched Peptide,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9R4D.cif.gz
+9R5L,1,1,A,490,311,179,2778,320,X-RAY DIFFRACTION,1.7,Crystal structure of class Ie ribonucleotide reductase R2 subunit from Mesoplasma florum with a D212N mutation,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9R5L.cif.gz
+9RA5,1,2,A;D,106,65,36,1128,69,X-RAY DIFFRACTION,1.625,Respiratory syncytial virus fusion protein N-terminal heptad repeat domain in complex with Double stapled peptide 3/4i,I 21 3,E:\dataset penelitian\RCSB-PDB\raw\9RA5.cif.gz
+9RAA,1,1,A,261,208,53,1643,212,X-RAY DIFFRACTION,2.1,Apo crystal structure of a computationally designed protein (TRP),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RAA.cif.gz
+9RAL,1,1,A,347,279,60,2367,280,X-RAY DIFFRACTION,2.4,E-selectin complexed with glycomimetic ligand MZ2139,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RAL.cif.gz
+9RAQ,1,1,A,255,208,47,1608,209,X-RAY DIFFRACTION,2.104,Apo crystal structure of a mutant of a computationally designed protein (TRP_F43W/E39L),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RAQ.cif.gz
+9RAR,1,1,A,368,208,160,1787,217,X-RAY DIFFRACTION,1.75,Apo crystal structure of a mutant of a computationally designed protein (TRP_F43W),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RAR.cif.gz
+9RB0,1,1,A,276,208,67,1686,208,X-RAY DIFFRACTION,2.213,Crystal structure of a computationally designed protein bound to a gold cofactor (TRP_F43W/E39L.[sulfaNHC)Au]),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RB0.cif.gz
+9RBE,1,1,A,274,208,65,1725,212,X-RAY DIFFRACTION,2.1,Crystal structure of a computationally designed protein bound to a gold cofactor (TRP_F43W.[sulfaNHC)Au]),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RBE.cif.gz
+9RC9,1,2,A;B,397,250,146,4322,252,X-RAY DIFFRACTION,2.09,Vitamin D receptor complex,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9RC9.cif.gz
+9RD2,1,1,A,375,257,113,4061,263,X-RAY DIFFRACTION,1.64,Crystal structure of a leaf-branch compost cutinase variant (LCC_ICCG),P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RD2.cif.gz
+9RDL,1,1,A,305,244,60,1930,250,X-RAY DIFFRACTION,1.75,SUDV VP40 in complex with 4-fluorosalicylic acid,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RDL.cif.gz
+9RDM,1,1,A,353,246,106,1985,250,X-RAY DIFFRACTION,1.65,SUDV VP40 in complex with 3-aminosalicylic acid,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RDM.cif.gz
+9RDO,1,1,A,332,236,95,1887,238,X-RAY DIFFRACTION,1.65,SUDV VP40 in complex with 4-Fluoro-2-hydroxybenzamide,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RDO.cif.gz
+9RDP,1,1,A,345,245,99,1995,249,X-RAY DIFFRACTION,1.55,SUDV VP40 in complex with 5-aminosalicylic acid,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RDP.cif.gz
+9RDQ,1,1,A,323,242,80,1941,248,X-RAY DIFFRACTION,1.96,SUDV VP40 in complex with LL060,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RDQ.cif.gz
+9REV,1,1,A,334,242,89,2002,247,X-RAY DIFFRACTION,1.54,SUDV VP40 in complex with LL105,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9REV.cif.gz
+9RF4,1,1,A,319,234,84,1888,242,X-RAY DIFFRACTION,1.81,SUDV VP40 in complex with LL076_1,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RF4.cif.gz
+9RF6,1,1,A,329,234,92,1870,238,X-RAY DIFFRACTION,1.9,SUDV VP40 in complex with LL093,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RF6.cif.gz
+9RFG,1,1,A,537,234,299,2329,266,X-RAY DIFFRACTION,1.15,Crystal structure of the metallo-beta-lactamase VIM-1 with 1476,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFG.cif.gz
+9RFH,1,1,A,562,233,325,4377,272,X-RAY DIFFRACTION,1.15,Crystal structure of the metallo-beta-lactamase VIM-1 with 2495,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFH.cif.gz
+9RFI,1,1,A,549,233,313,4282,267,X-RAY DIFFRACTION,1.1,Crystal structure of the metallo-beta-lactamase VIM-1 with 2493,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFI.cif.gz
+9RFJ,1,1,A,508,233,271,4320,269,X-RAY DIFFRACTION,1.15,Crystal structure of the metallo-beta-lactamase VIM-1 with 2492,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFJ.cif.gz
+9RFK,1,1,A,573,233,337,2414,276,X-RAY DIFFRACTION,1.15,Crystal structure of the metallo-beta-lactamase VIM-1 with 1649,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFK.cif.gz
+9RFL,1,1,AAA,513,258,252,2374,267,X-RAY DIFFRACTION,1.3,Human carbonic anhydrase II complexed with 2-(4-isobutylphenyl)-N-(2-sulfamoylethyl)propanamide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFL.cif.gz
+9RFM,1,1,A,502,232,266,4365,272,X-RAY DIFFRACTION,1.05,Crystal structure of the metallo-beta-lactamase VIM-1 with 1760,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFM.cif.gz
+9RFO,1,1,AAA,497,258,236,2379,268,X-RAY DIFFRACTION,1.75,Human carbonic anhydrase II complexed with 2-(1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl)-N-(2-sulfam oylethyl)acetamide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFO.cif.gz
+9RFP,1,2,A;B,444,322,109,2705,322,X-RAY DIFFRACTION,1.65,Peptidedeformylase XisD in complex with formiate,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RFP.cif.gz
+9RHN,1,2,A;B,674,338,334,2973,341,X-RAY DIFFRACTION,1.95,Structure of SARS-coV-2 NSP3 macrodomain in complex with ligand,P 31,E:\dataset penelitian\RCSB-PDB\raw\9RHN.cif.gz
+9RHO,1,2,A;B,706,338,366,3005,341,X-RAY DIFFRACTION,1.6,Structure of SARS-coV-2 NSP3 macrodomain in complex with ligand,P 31,E:\dataset penelitian\RCSB-PDB\raw\9RHO.cif.gz
+9RHP,1,1,A,269,171,98,1316,171,X-RAY DIFFRACTION,1.49,Self-complemented Archaeal bundling protein X (AbpX),P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9RHP.cif.gz
+9RHY,1,1,A,317,194,122,3145,196,X-RAY DIFFRACTION,2.3,Integrin alpha(2) I-domain mutant,P 42 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RHY.cif.gz
+9RI7,1,1,A,366,196,155,3365,200,X-RAY DIFFRACTION,1.6,Integrin alpha(2) I-domain mutant,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RI7.cif.gz
+9RIE,1,1,A,450,191,257,3267,194,X-RAY DIFFRACTION,1.305,Integrin alpha(2) I-domain mutant,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RIE.cif.gz
+9RJE,1,1,A,881,319,552,3257,340,X-RAY DIFFRACTION,1.06,X-ray structure of Chlamydomonas reinhardtii Histone Deacetylase 11 (HDAC11) in complex with hexanoic acid,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\9RJE.cif.gz
+9RK5,1,1,A,388,195,188,3241,195,X-RAY DIFFRACTION,1.9,Integrin alpha(2) I-domain mutant,P 42 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RK5.cif.gz
+9RK6,1,2,B;A,244,169,74,2897,173,X-RAY DIFFRACTION,1.99,Paraplegin N-terminal domain,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9RK6.cif.gz
+9RK7,1,1,A,420,194,222,3267,196,X-RAY DIFFRACTION,1.6,Integrin alpha(2) I-domain mutant,P 42 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RK7.cif.gz
+9RKA,1,1,A,364,194,166,3222,196,X-RAY DIFFRACTION,1.9,Integrin alpha(2) I-domain mutant,P 42 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RKA.cif.gz
+9RMQ,1,1,A,323,173,148,1467,177,X-RAY DIFFRACTION,1.45,Crystal structure of gamma Carbonic Anhydrase from Pseudomonas aeruginosa (PA3753),H 3,E:\dataset penelitian\RCSB-PDB\raw\9RMQ.cif.gz
+9RMV,1,4,A;B;C;D,322,247,68,4322,253,X-RAY DIFFRACTION,1.7,Crystal Structure of the ERH SAFB2 complex,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RMV.cif.gz
+9RPC,1,1,A,295,221,65,1841,225,X-RAY DIFFRACTION,1.969,HIV-1 capsid (M-group) - native,P 6,E:\dataset penelitian\RCSB-PDB\raw\9RPC.cif.gz
+9RQP,1,1,A,356,246,103,4081,247,X-RAY DIFFRACTION,1.899,Human SMUG1 in complex with 5-fluorouracil,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RQP.cif.gz
+9RQV,1,1,A,199,138,58,1210,140,X-RAY DIFFRACTION,1.542,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RQV.cif.gz
+9RQW,1,1,A,232,138,90,1248,140,X-RAY DIFFRACTION,1.344,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RQW.cif.gz
+9RQX,1,1,A,285,138,143,1308,140,X-RAY DIFFRACTION,1.398,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RQX.cif.gz
+9RQY,1,1,A,247,138,107,1303,145,X-RAY DIFFRACTION,1.3,Galectin-3 with a bound inhibitor,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RQY.cif.gz
+9RQZ,1,1,A,288,138,148,1320,142,X-RAY DIFFRACTION,1.3,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RQZ.cif.gz
+9RR0,1,1,A,276,138,131,1299,140,X-RAY DIFFRACTION,1.399,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR0.cif.gz
+9RR1,1,1,A,241,138,101,1274,141,X-RAY DIFFRACTION,1.5,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR1.cif.gz
+9RR2,1,1,A,228,138,88,1246,140,X-RAY DIFFRACTION,1.399,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR2.cif.gz
+9RR3,1,1,A,261,138,120,1300,142,X-RAY DIFFRACTION,1.351,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR3.cif.gz
+9RR4,1,1,A,283,138,141,1314,141,X-RAY DIFFRACTION,1.248,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR4.cif.gz
+9RR5,1,1,A,255,138,114,1304,142,X-RAY DIFFRACTION,1.461,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR5.cif.gz
+9RR6,1,1,A,348,138,207,1449,148,X-RAY DIFFRACTION,0.933,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR6.cif.gz
+9RR7,1,1,A,293,138,151,1373,146,X-RAY DIFFRACTION,1.383,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR7.cif.gz
+9RR8,1,1,A,257,138,116,1261,139,X-RAY DIFFRACTION,1.3,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RR8.cif.gz
+9RR9,1,2,A;B,487,276,203,2530,279,X-RAY DIFFRACTION,1.8,Galectin-3 with a bound inhibitor,P 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9RR9.cif.gz
+9RRA,1,1,A,289,138,147,1394,150,X-RAY DIFFRACTION,1.599,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RRA.cif.gz
+9RRB,1,1,A,247,138,104,1291,142,X-RAY DIFFRACTION,1.4,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RRB.cif.gz
+9RRC,1,1,A,271,138,130,1342,145,X-RAY DIFFRACTION,1.4,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RRC.cif.gz
+9RRD,1,1,A,241,138,100,1292,142,X-RAY DIFFRACTION,1.4,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RRD.cif.gz
+9RRE,1,1,A,252,138,111,1269,140,X-RAY DIFFRACTION,1.25,Galectin-3 with a bound inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RRE.cif.gz
+9RRK,1,1,A,225,129,90,2270,139,X-RAY DIFFRACTION,1.85,"Hen egg-white lysozyme (HEWL) collected at the European XFEL, SPB/SFX at the Interaction Region Downstream with 9.6 keV photon energy",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RRK.cif.gz
+9RRL,1,1,A,173,129,40,2193,138,X-RAY DIFFRACTION,1.7,"Hen egg-white lysozyme (HEWL) collected at the European XFEL, SPB/SFX at the Interaction Region Downstream with 12.25 keV photon energy",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RRL.cif.gz
+9RSY,1,1,A,477,308,167,5188,314,X-RAY DIFFRACTION,1.42,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RSY.cif.gz
+9RSZ,1,1,A,503,308,193,5199,312,X-RAY DIFFRACTION,1.6,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RSZ.cif.gz
+9RT0,1,1,A,445,305,139,5044,307,X-RAY DIFFRACTION,1.8,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RT0.cif.gz
+9RT1,1,1,A,431,304,125,5029,305,X-RAY DIFFRACTION,1.79,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RT1.cif.gz
+9RT5,1,1,A,450,305,143,5076,309,X-RAY DIFFRACTION,1.4,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RT5.cif.gz
+9RTP,1,1,A,372,186,175,1713,191,X-RAY DIFFRACTION,1.47,Crystal structure of NUDT7 in complex with a novel inhibitor,P 3 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RTP.cif.gz
+9RUD,1,2,B;D,308,241,56,2106,242,X-RAY DIFFRACTION,2.32,Crystal structure of UBE2J2 in complex with ubiquitin,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RUD.cif.gz
+9RUE,1,1,A,373,215,156,1974,222,X-RAY DIFFRACTION,2.088,Crystal Structure of the VS1-bound StARD3 Lipid-Binding Domain,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RUE.cif.gz
+9RUZ,1,1,A,359,257,99,2185,259,X-RAY DIFFRACTION,1.65,Crystal structure of human carbonic anhydrase II in complex with the inhibitor Aprocitentan,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RUZ.cif.gz
+9RVK,1,2,A;B,564,324,232,2906,328,X-RAY DIFFRACTION,1.789,Crystal structure of Aurora-A bound to DBL5,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RVK.cif.gz
+9RVW,1,1,A,311,137,174,1262,137,X-RAY DIFFRACTION,1.2,Crystal structure of nucleoside diphosphate kinase (NDK) from Streptococcus pneumoniae,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9RVW.cif.gz
+9RWE,1,1,A,272,192,80,1586,194,X-RAY DIFFRACTION,1.99,Crystal structure of the Yqi-like lectin domain,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RWE.cif.gz
+9RWO,1,1,A,530,309,220,2747,314,X-RAY DIFFRACTION,1.65,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RWO.cif.gz
+9RWW,1,1,A,382,193,189,1770,200,X-RAY DIFFRACTION,1.56,Crystal structure of the YbgO lectin domain,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9RWW.cif.gz
+9RXJ,1,1,A,269,166,102,1435,174,X-RAY DIFFRACTION,1.88,Crystal structure of SARS-CoV-2 NSP3 Macrodomain in complex with SRI1.45 at room temperature,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RXJ.cif.gz
+9RXK,1,2,A;B,141,122,19,998,122,X-RAY DIFFRACTION,2.35,Crystal structure of the Ustilago maydis virulence factor Pit2,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\9RXK.cif.gz
+9RY5,1,2,B;A,402,228,173,2153,250,X-RAY DIFFRACTION,1.24,Transthyretin bivalent stabiliser complex,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RY5.cif.gz
+9RY6,1,1,A,269,166,102,1412,174,X-RAY DIFFRACTION,1.74,Crystal structure of SARS-CoV-2 NSP3 Macrodomain in complex with SRI1.65 at room temperature,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RY6.cif.gz
+9RYD,1,1,A,455,259,191,2181,264,X-RAY DIFFRACTION,1.83,Room temperature serial structure of CTX-M-15 collected on tape drive at Diamond Light Source VMXi,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RYD.cif.gz
+9RYH,1,1,A,268,166,101,1438,177,X-RAY DIFFRACTION,1.82,Crystal structure of SARS-CoV-2 NSP3 Macrodomain in complex with SRI1.66 at room temperature,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RYH.cif.gz
+9RYL,1,1,A,513,214,291,2137,222,X-RAY DIFFRACTION,1.437,METTL1 bound to the SAM competitive small molecule inhibitor STM9005,P 61,E:\dataset penelitian\RCSB-PDB\raw\9RYL.cif.gz
+9RYT,1,1,A,260,166,93,1441,178,X-RAY DIFFRACTION,2.03,Crystal structure of SARS-CoV-2 NSP3 Macrodomain in complex with SRI1.97 at room temperature,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RYT.cif.gz
+9RZB,1,1,A,266,166,99,1432,177,X-RAY DIFFRACTION,1.53,Crystal structure of SARS-CoV-2 NSP3 Macrodomain in complex with SRI1.112 at room temperature,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9RZB.cif.gz
+9RZH,1,1,A,545,305,237,5179,308,X-RAY DIFFRACTION,1.38,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RZH.cif.gz
+9RZI,1,1,A,522,307,212,5213,311,X-RAY DIFFRACTION,1.45,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RZI.cif.gz
+9RZJ,1,1,A,458,307,138,5160,310,X-RAY DIFFRACTION,1.75,Crystal structure of Amborella trichopoda ACCO2 in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9RZJ.cif.gz
+9RZL,1,1,A,332,129,197,3030,182,X-RAY DIFFRACTION,0.9,Hen egg-white lysozyme (HEWL),P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9RZL.cif.gz
+9RZQ,1,2,A;B,559,310,249,2481,310,X-RAY DIFFRACTION,1.65,Crystal structure of Anaplasma phagocytophilum p44-23 outer membrane protein,P 1,E:\dataset penelitian\RCSB-PDB\raw\9RZQ.cif.gz
+9S0K,1,2,A;B,393,325,66,2671,325,X-RAY DIFFRACTION,2.362,Crystal structure of Aurora-A bound to DBL1,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S0K.cif.gz
+9S0W,1,2,A;B,379,330,48,2739,330,X-RAY DIFFRACTION,2.07,Crystal structure of Aurora-A bound to DBL3,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S0W.cif.gz
+9S1G,1,2,A;B,403,316,85,2638,316,X-RAY DIFFRACTION,2.355,Crystal structure of Aurora-A bound to DBL6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S1G.cif.gz
+9S1J,1,1,A,603,321,276,2893,325,X-RAY DIFFRACTION,1.68,Isopenicillin N synthase Q280A and L282A variant in complex with Fe and ACV under anaerobic conditions.,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S1J.cif.gz
+9S1K,1,1,A,729,322,400,3078,332,X-RAY DIFFRACTION,1.38,Isopenicillin N synthase S281A variant in complex with Fe and ACV under anaerobic conditions.,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S1K.cif.gz
+9S2Q,1,2,A;B,97,53,44,486,56,X-RAY DIFFRACTION,1.371,NH-triazol-modified insulin,I 21 3,E:\dataset penelitian\RCSB-PDB\raw\9S2Q.cif.gz
+9S3I,1,2,A;B,537,266,264,4292,268,X-RAY DIFFRACTION,1.64,Crystal structure of the human tumor necrosis factor receptor 1 extracellular domain at 1.64A resolution,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S3I.cif.gz
+9S3J,1,2,A;B,373,266,96,4207,271,X-RAY DIFFRACTION,1.77,Crystal structure of the human tumor necrosis factor receptor 1 extracellular domain in complex with a picolinic acid based ligand at 1.77A resolution,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S3J.cif.gz
+9S3W,1,2,A;B,646,282,357,2647,292,X-RAY DIFFRACTION,1.44,diFe-Sulerythin_E126D reduced,P 63,E:\dataset penelitian\RCSB-PDB\raw\9S3W.cif.gz
+9S40,1,1,A,346,236,107,2001,244,X-RAY DIFFRACTION,1.47,SUDV VP40 in complex with LL106,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9S40.cif.gz
+9S49,1,1,A,292,184,108,2990,192,X-RAY DIFFRACTION,1.65,Drosophila Viking NC1 domain,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9S49.cif.gz
+9S4C,1,2,A;B,562,286,268,2580,297,X-RAY DIFFRACTION,1.46,diFe-Sulerythin_E126A reduced,P 63,E:\dataset penelitian\RCSB-PDB\raw\9S4C.cif.gz
+9S56,1,2,A;B,563,310,249,2883,323,X-RAY DIFFRACTION,1.668,The b1 and b2 domains of neuropilin-1 with a bound VGF TLQP-21 peptide,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S56.cif.gz
+9S57,1,2,A;B,624,317,307,2916,330,X-RAY DIFFRACTION,1.569,The b1 and b2 domains of neuropilin-1 with a bound VGF TLQP-21 peptide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9S57.cif.gz
+9S59,1,2,A;B,496,286,202,4758,292,X-RAY DIFFRACTION,1.76,diFe-Sulerythin_E53D O2-reacted,P 63,E:\dataset penelitian\RCSB-PDB\raw\9S59.cif.gz
+9S5V,1,2,A;B,691,286,396,5106,304,X-RAY DIFFRACTION,1.18,diFe-Sulerythin_E53D:E126D reduced,P 63,E:\dataset penelitian\RCSB-PDB\raw\9S5V.cif.gz
+9S61,1,2,A;B,367,313,53,2551,313,X-RAY DIFFRACTION,2.369,Crystal structure of Aurora-A bound to DBL8,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9S61.cif.gz
+9S6J,1,2,A;B,275,233,34,1877,235,X-RAY DIFFRACTION,2.4,HIV-1 capsid (M-group) - CPSF6,P 6,E:\dataset penelitian\RCSB-PDB\raw\9S6J.cif.gz
+9S6O,1,1,A,277,221,48,1822,222,X-RAY DIFFRACTION,2.089,HIV-1 capsid (M-group) - native in complex with JW3-076,P 6,E:\dataset penelitian\RCSB-PDB\raw\9S6O.cif.gz
+9S6V,1,1,A,281,221,51,1823,221,X-RAY DIFFRACTION,2.363,HIV-1 capsid (M-group) - native in complex with JW3-094,P 6,E:\dataset penelitian\RCSB-PDB\raw\9S6V.cif.gz
+9S6X,1,1,A,264,221,34,1844,223,X-RAY DIFFRACTION,2.496,HIV-1 capsid (M-group) - native in complex with JW3-134,P 6,E:\dataset penelitian\RCSB-PDB\raw\9S6X.cif.gz
+9S74,1,1,A,450,200,247,3354,206,X-RAY DIFFRACTION,0.98,Extracellular serine protease Jep from mouse-adapted S. aureus strain JSNZ,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9S74.cif.gz
+9S7L,1,2,A;B,190,164,20,1333,164,X-RAY DIFFRACTION,2.0,Structure of Centrosomin (Cnn) partial PReM domain 490-579aa of Drosophila melanogaster- S567A S571A mutant,P 61,E:\dataset penelitian\RCSB-PDB\raw\9S7L.cif.gz
+9S81,1,3,B;A;C,392,248,141,2167,248,X-RAY DIFFRACTION,1.63,Crystal structure of the LEDGF PWWP domain,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9S81.cif.gz
+9S83,1,2,A;B,292,163,128,1408,163,X-RAY DIFFRACTION,2.1,Crystal structure of de novo designed binder JUBO4 and the LEDGF PWWP domain,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9S83.cif.gz
+9S84,1,1,A,432,170,258,1667,173,X-RAY DIFFRACTION,1.64,Crystal structure of KRAS G12D D38C (GDP-bound),P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S84.cif.gz
+9S91,1,2,A;B,318,230,88,1866,230,X-RAY DIFFRACTION,1.7,Crystal structure of human TTR mutant L111M,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S91.cif.gz
+9S93,1,2,A;B,286,231,55,1837,231,X-RAY DIFFRACTION,1.94,Strucutre of human transthyretin mutant I68L,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S93.cif.gz
+9S94,1,2,A;B,337,231,104,1934,232,X-RAY DIFFRACTION,1.7,Crystal structure of human TTR mutant L111M bound to tafamidis,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S94.cif.gz
+9S95,1,2,A;B,335,230,103,1921,230,X-RAY DIFFRACTION,1.55,Strucutre of human transthyretin mutant I68L bound to tafamidis,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9S95.cif.gz
+9S9F,1,3,A;B;C,439,180,243,3120,183,X-RAY DIFFRACTION,1.07,Crystal of cardiotoxin (P01468) Naja pallida,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9S9F.cif.gz
+9SA3,1,1,A,190,143,47,1219,143,X-RAY DIFFRACTION,2.194,Human Apolipoprotein E4 (ApoE4) N-terminal domain (space group P212121),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SA3.cif.gz
+9SA6,1,1,A,239,143,93,1322,147,X-RAY DIFFRACTION,1.893,Human Apolipoprotein E4 (ApoE4) N-terminal domain (space group P212121),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SA6.cif.gz
+9SBE,1,1,A,456,306,149,2626,308,X-RAY DIFFRACTION,1.75001,Crystal structure of Amborella trichopoda ACCO2 mutant - Y163F in complex with Fe and ACC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SBE.cif.gz
+9SBG,1,2,A;B,283,181,98,1452,181,X-RAY DIFFRACTION,2.2,"Drosophila Elav, eSH3 fragment (RRM3) - trigonal crystal form",P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SBG.cif.gz
+9SCZ,1,1,A,270,239,31,3721,239,X-RAY DIFFRACTION,2.34,Crystal structure of MpTACO1,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SCZ.cif.gz
+9SI2,1,1,A,471,291,177,2587,293,X-RAY DIFFRACTION,2.12,Human DDR1 in complex with a pyrrolidine inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SI2.cif.gz
+9SJQ,1,1,A,339,193,143,3386,195,X-RAY DIFFRACTION,1.5,Single-chain chimeric protein mimicking the interaction between HR1 and HR2 in HIV gp41 (pH 6.5),C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SJQ.cif.gz
+9SN7,1,1,A,344,213,129,1939,222,X-RAY DIFFRACTION,1.4,Crystal structure of anthocyanin-related glutathione transferase from poplar in complex with quercetin,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SN7.cif.gz
+9SNB,1,1,AAA,419,258,157,2271,263,X-RAY DIFFRACTION,1.75,human carbonic anhydrase II in complex with 4-(2-fluoro-4-sulfamoylphenyl)-N-(4-fluorophenyl)piperazine-1-carboxamide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9SNB.cif.gz
+9SNC,1,1,AAA,492,258,230,2370,267,X-RAY DIFFRACTION,1.4,human carbonic anhydrase II in complex with N-(4-fluorophenyl)-4-(4-sulfamoylphenyl)piperazine-1-carboxamide,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9SNC.cif.gz
+9SQ2,1,1,A,357,246,109,4720,254,X-RAY DIFFRACTION; NEUTRON DIFFRACTION,,H/D exchanged human SMUG1 in complex with deuterated uracil,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SQ2.cif.gz
+9SR0,1,2,A;B,507,277,230,2484,298,X-RAY DIFFRACTION,1.49,"Mouse vinculin head domain 1 (VD1) (residues 2-258) with A50I mutation in complex with mouse talin 1 helix 50 (H50, residues 2072-2103)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SR0.cif.gz
+9SSN,1,1,A,554,301,252,2618,302,X-RAY DIFFRACTION,1.5,Crystal structure of SARS-CoV-2 Mpro in complex with RK-240,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SSN.cif.gz
+9SUV,1,1,A,579,287,290,2757,306,X-RAY DIFFRACTION,1.5,Structure of an inhibitor of Human TGF-beta Type I Receptor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9SUV.cif.gz
+9SVM,1,1,A,300,164,130,1489,164,X-RAY DIFFRACTION,1.84,Structure of dihydrofolate reductase from Burkholderia thailandensis complexed with trimethoprim and dihydrofolate,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9SVM.cif.gz
+9T1R,1,2,B;A,243,198,45,1596,199,X-RAY DIFFRACTION,2.5,Structure of the PDZ domain of human Inturned,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9T1R.cif.gz
+9T1U,1,1,A,463,300,159,5186,308,X-RAY DIFFRACTION,1.65,JAK2-ruxolitinib complex with a phosphorylated activation loop,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T1U.cif.gz
+9T1Z,1,1,A,374,290,82,4850,290,X-RAY DIFFRACTION,2.2,JAK2-ruxolitinib complex with an unphosphorylated activation loop,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T1Z.cif.gz
+9T20,1,1,A,360,290,66,4833,290,X-RAY DIFFRACTION,2.2,JAK2-ruxolitinib complex with Y1007F and Y1008F mutations in the activation loop,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T20.cif.gz
+9T48,1,1,A,334,141,187,1499,150,X-RAY DIFFRACTION,1.5,"Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) R89S mutant in complex with 1,5-(PCP)-IP5 (PCP-IP8)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T48.cif.gz
+9T49,1,1,A,356,144,205,1490,151,X-RAY DIFFRACTION,1.5,"Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) in complex with 1,5-(PCP)-IP5 (PCP-IP8)",P 61,E:\dataset penelitian\RCSB-PDB\raw\9T49.cif.gz
+9T4A,1,1,A,325,148,168,1491,155,X-RAY DIFFRACTION,1.697,"Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) in complex with 1,5-(PCP)-IP5 (PCP-IP8)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4A.cif.gz
+9T4B,1,1,A,257,141,109,1354,147,X-RAY DIFFRACTION,1.63,"Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) R89S mutant in complex with 1,5-(PCP)-IP5 (PCP-IP8)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4B.cif.gz
+9T4C,1,1,A,348,146,193,1669,168,X-RAY DIFFRACTION,1.213,"Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) H91E mutant in complex with 1,5-(PCP)-IP5 (PCP-IP8)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4C.cif.gz
+9T4D,1,1,A,370,148,212,1519,154,X-RAY DIFFRACTION,1.5,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) R41A mutant in complex with 5-(PP)-IP5 (5-IP7),P 61,E:\dataset penelitian\RCSB-PDB\raw\9T4D.cif.gz
+9T4E,1,1,A,292,126,161,1249,131,X-RAY DIFFRACTION,1.541,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1/NUDT3),P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T4E.cif.gz
+9T4F,1,1,A,279,143,133,1387,151,X-RAY DIFFRACTION,1.426,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1/NUDT3) E108N mutant,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9T4F.cif.gz
+9T4G,1,1,A,418,148,262,1662,165,X-RAY DIFFRACTION,1.28,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4G.cif.gz
+9T4H,1,1,A,382,148,228,1677,166,X-RAY DIFFRACTION,1.24,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) R41A mutant in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4H.cif.gz
+9T4I,1,1,A,366,145,215,1569,156,X-RAY DIFFRACTION,1.408,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) R89S mutant in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4I.cif.gz
+9T4J,1,1,A,337,146,183,1664,169,X-RAY DIFFRACTION,1.324,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) H91E mutant in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4J.cif.gz
+9T4K,1,1,A,342,148,187,1528,159,X-RAY DIFFRACTION,1.394,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) H91M mutant in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4K.cif.gz
+9T4L,1,1,A,395,149,239,1620,159,X-RAY DIFFRACTION,1.13,HumanDiphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) E108N mutant in complex with IP6,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9T4L.cif.gz
+9T4M,1,1,A,348,148,193,1569,159,X-RAY DIFFRACTION,1.78,Human Diphosphoinositol Polyphosphate Phosphohydrolase 1 (DIPP1) N112S mutant in complex with IP6,P 61,E:\dataset penelitian\RCSB-PDB\raw\9T4M.cif.gz
+9T55,1,1,A,464,305,158,2557,305,X-RAY DIFFRACTION,1.75,Crystal structure of SARS-CoV-2 Mpro in complex with RK-384,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T55.cif.gz
+9T72,1,1,A,399,306,92,2509,307,X-RAY DIFFRACTION,1.7,Crystal structure of SARS-CoV-2 Mpro in complex with RK-411,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9T72.cif.gz
+9T8B,1,2,A;B,401,315,78,5348,315,X-RAY DIFFRACTION,1.81,Crystal structure de novo CO2 reductase A4H73A,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9T8B.cif.gz
+9T9E,1,1,A,323,172,149,1617,174,X-RAY DIFFRACTION,1.7,Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinoline-based inhibitor 2b,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9T9E.cif.gz
+9T9F,1,1,A,426,174,246,1792,183,X-RAY DIFFRACTION,1.35,Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinoline-based inhibitor 2l,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9T9F.cif.gz
+9T9G,1,1,A,313,174,135,1629,175,X-RAY DIFFRACTION,1.7,Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinazoline-based inhibitor 1q,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9T9G.cif.gz
+9T9H,1,1,A,390,174,212,1722,177,X-RAY DIFFRACTION,1.45,Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinoline-based inhibitor 2n,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9T9H.cif.gz
+9T9I,1,1,A,373,174,195,1720,178,X-RAY DIFFRACTION,1.55,Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinoline-based inhibitor 2s,P 21 2 21,E:\dataset penelitian\RCSB-PDB\raw\9T9I.cif.gz
+9TCV,1,1,AAA,554,235,311,2153,240,X-RAY DIFFRACTION,1.85,Structure of an LPMO expressed in E.coli (LsAA9A) at 5.37x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TCV.cif.gz
+9TCX,1,1,AAA,641,235,393,2303,246,X-RAY DIFFRACTION,1.624,Structure of an LPMO expressed in E.coli (LsAA9A) at 7.00x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TCX.cif.gz
+9TCY,1,1,AAA,566,235,319,2185,240,X-RAY DIFFRACTION,1.85,Structure of an LPMO expressed in E.coli (LsAA9A) at 4.89x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TCY.cif.gz
+9TD6,1,1,AAA,393,235,128,2081,240,X-RAY DIFFRACTION,2.22,Structure of an LPMO expressed in E.coli (LsAA9A) at 4.60x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TD6.cif.gz
+9TD8,1,1,AAA,600,235,348,2297,245,X-RAY DIFFRACTION,1.7,Structure of an LPMO expressed in E.coli (LsAA9A) at 4.60x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TD8.cif.gz
+9TD9,1,1,AAA,612,235,356,2316,246,X-RAY DIFFRACTION,1.493,Structure of an LPMO expressed in E.coli (LsAA9A) at 1.07x10^4 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TD9.cif.gz
+9TDE,1,1,AAA,438,235,197,2046,244,X-RAY DIFFRACTION,1.75,Structure of an LPMO expressed in E.coli (LsAA9A) merged from multiple crystals with an average dose of 1.5 kGy at room temperature,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TDE.cif.gz
+9TDF,1,1,AAA,391,235,150,1981,242,X-RAY DIFFRACTION,1.85,Structure of an LPMO expressed in E.coli (LsAA9A) merged from multiple crystals with an average dose of 88.5kGy at room temperature,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TDF.cif.gz
+9TDH,1,1,AAA,556,235,302,2256,244,X-RAY DIFFRACTION,1.34,Structure of an LPMO expressed in E.coli (LsAA9A) at 2.78x10^6 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TDH.cif.gz
+9TDI,1,1,AAA,692,235,423,2478,248,X-RAY DIFFRACTION,1.06,Structure of an LPMO expressed in E.coli (LsAA9A) at 2.80x10^6 Gy,P 41,E:\dataset penelitian\RCSB-PDB\raw\9TDI.cif.gz
+9TFO,1,4,A;B;C;D,342,275,65,2186,275,X-RAY DIFFRACTION,2.2,Complex of blast (Magnaporthe oryzae) effector PBY2 with the integrated HMA domain of Rmo2 from barley,P 31 1 2,E:\dataset penelitian\RCSB-PDB\raw\9TFO.cif.gz
+9TFP,1,4,C;A;B;D,609,307,287,2764,307,X-RAY DIFFRACTION,1.6,Complex of blast (Magnaporthe oryzae) effector PWT7 with the integrated HMA domain of Rwt7 from wheat,P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TFP.cif.gz
+9TFQ,1,3,B;C;A,419,218,194,1947,223,X-RAY DIFFRACTION,1.4,Complex of blast (Magnaporthe oryzae) effectors PWT7 and PBY2 with the engineered integrated HMA domain of Rmo2 from barley,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9TFQ.cif.gz
+9TFS,1,4,C;A;B;D,598,276,305,2526,279,X-RAY DIFFRACTION,1.8,Complex of blast (Magnaporthe oryzae) effector PBY2 with the engineered integrated HMA domain of Rwt7 from wheat,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TFS.cif.gz
+9TFT,1,4,C;A;D;B,787,310,477,2980,322,X-RAY DIFFRACTION,0.99,Complex of blast (Magnaporthe oryzae) effector PWT7 with the engineered integrated HMA domain of Rwt7 from wheat,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9TFT.cif.gz
+9THX,1,1,A,334,138,193,1346,146,X-RAY DIFFRACTION,1.364,G14 variant of 57aBi scaffold crystallized in I212121,I 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9THX.cif.gz
+9TIA,1,1,A,174,133,40,1103,135,X-RAY DIFFRACTION,2.07,G14 variant of 57aBi scaffold crystallized in P6422,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9TIA.cif.gz
+9TJQ,1,1,A,160,129,30,1048,129,X-RAY DIFFRACTION,2.19,G14 variant of 57aBi scaffold crystallized in P6422,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9TJQ.cif.gz
+9TJY,1,1,A,281,201,76,1639,202,X-RAY DIFFRACTION,1.774,Crystal Structure of the Human Oncogenic Splice Variant Rac1b Fused with the Scaffold Protein POSH (residues 319-348),P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TJY.cif.gz
+9TL4,1,2,A;B,448,255,190,2257,259,X-RAY DIFFRACTION,2.0,Crystal structure of Haemonchus contortus DAF-12 ligand binding domain in complex with a coactivator peptide,P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TL4.cif.gz
+9TLL,1,1,A,124,67,48,629,70,X-RAY DIFFRACTION,1.5,"De novo designed single-chain antiparallel coiled-coil hairpin, Sc-apCC-2",I 41,E:\dataset penelitian\RCSB-PDB\raw\9TLL.cif.gz
+9TLM,1,1,A,126,71,54,642,73,X-RAY DIFFRACTION,1.8,"De Novo designed single-chain antiparallel coiled-coil hairpin with binding site for MCL-1, Sc-apCC-2-MCL-1-1",P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9TLM.cif.gz
+9TLN,1,1,A,137,73,64,666,78,X-RAY DIFFRACTION,1.15,"De novo designed single-chain antiparallel coiled-coil hairpin with binding site for BCL-xL, Sc-apCC-2-BCL-xL-2",P 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9TLN.cif.gz
+9TLO,1,3,A;B;C,270,216,51,1746,217,X-RAY DIFFRACTION,2.2,"De novo designed single-chain antiparallel coiled-coil hairpin with binding site for BCL-xL, Sc-apCC-2-BCL-xL-5",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TLO.cif.gz
+9TLP,1,4,A;B;C;D,624,292,332,2686,297,X-RAY DIFFRACTION,1.75,"De novo designed single-chain antiparallel coiled-coil hairpin with binding site for BCL-xL, Sc-apCC-2-BCL-xL-6",P 1,E:\dataset penelitian\RCSB-PDB\raw\9TLP.cif.gz
+9TLR,1,1,A,110,72,38,584,72,X-RAY DIFFRACTION,1.95,"De novo designed single-chain antiparallel coiled-coil hairpin with binding site for BCL-xL, Sc-apCC-2-BCL-xL-11",I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9TLR.cif.gz
+9TLS,1,3,A;B;C,531,229,297,2096,237,X-RAY DIFFRACTION,1.45,"De novo designed single-chain antiparallel coiled-coil hairpin with binding site for KLHL20, Sc-apCC-2-KLHL20-3",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9TLS.cif.gz
+9TM5,1,1,A,468,298,168,5164,304,X-RAY DIFFRACTION,1.45,Crystal structure of JAK2 JH1 in complex with AT9283,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9TM5.cif.gz
+9TMQ,1,1,A,281,257,23,3739,260,X-RAY DIFFRACTION,2.13,Crystal structure of M. tuberculosis PknA in complex with Lestaurtinib,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9TMQ.cif.gz
+9TMR,1,1,A,273,250,21,3867,251,X-RAY DIFFRACTION,1.9,Crystal structure of M. tuberculosis PknA in complex with Staurosporine,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9TMR.cif.gz
+9TMX,1,1,A,343,257,84,3968,260,X-RAY DIFFRACTION,1.7,Crystal structure of M. tuberculosis PknA in complex with AZD-5438,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9TMX.cif.gz
+9TN5,1,1,A,324,257,65,3965,259,X-RAY DIFFRACTION,1.66,Crystal structure of M. tuberculosis PknA in complex with AT9283,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9TN5.cif.gz
+9TNF,1,2,A;B,496,197,299,3363,203,X-RAY DIFFRACTION,1.45,Crystal Structure of the third PDZ domain of PSD-95 protein Y397E mutant,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TNF.cif.gz
+9TNG,1,1,A,225,103,120,1804,109,X-RAY DIFFRACTION,0.95,Crystal Structure of the third PDZ domain of PSD-95 protein E401R mutant,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TNG.cif.gz
+9TO1,1,1,A,471,259,208,4265,268,X-RAY DIFFRACTION,1.6,Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase uncomplexed resting state from PAL-XFEL,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TO1.cif.gz
+9TO5,1,1,A,449,259,186,4168,264,X-RAY DIFFRACTION,1.73,Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase uncomplexed resting state from Diamond Light Source,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TO5.cif.gz
+9TOK,1,1,A,461,260,197,4269,269,X-RAY DIFFRACTION,1.5,"Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target from PAL-XFEL, 80 ms mixed with avibactam",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TOK.cif.gz
+9TOL,1,1,A,460,259,197,2206,267,X-RAY DIFFRACTION,1.55,"Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target at PAL-XFEL, 80 ms checkerboard control (avibactam)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TOL.cif.gz
+9TOM,1,1,A,462,262,196,2294,274,X-RAY DIFFRACTION,1.65,"Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target at DLS, 2.6 s mixed with 200 mM avibactam",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TOM.cif.gz
+9TON,1,1,A,457,259,194,2195,266,X-RAY DIFFRACTION,1.65,"Room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target at DLS, 2.6 s checkerboard control (avibactam)",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TON.cif.gz
+9TOO,1,1,A,480,262,214,2299,273,X-RAY DIFFRACTION,1.8,"Contaminated room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target at DLS, 2.6 s mixed with 200 mM avibactam",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TOO.cif.gz
+9TOP,1,1,A,466,262,200,2298,274,X-RAY DIFFRACTION,1.8,"Contaminated room temperature serial crystal structure of CTX-M-15 class A beta-lactamase, drop on fixed target at DLS, 2.6 s 'control' contaminated with avibactam",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TOP.cif.gz
+9TOQ,1,1,A,214,129,80,1138,136,X-RAY DIFFRACTION,1.65,Room temperature serial crystal structure of hen egg white lysozyme uncomplexed resting state at DLS I24 on silicon chips,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TOQ.cif.gz
+9TOR,1,1,A,220,129,85,1158,136,X-RAY DIFFRACTION,1.69,"Drop on fixed target room temperature serial crystal structure of hen egg white lysozyme, drop on fixed target at DLS, 1.9 s mix with N-acetyl glucosamine.",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TOR.cif.gz
+9TOS,1,1,A,224,129,90,1145,136,X-RAY DIFFRACTION,1.67,"Drop on fixed target room temperature serial crystal structure of hen egg white lysozyme, drop on fixed target at DLS, 1.9 s checkerboard control (N-acetyl glucosamine).",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TOS.cif.gz
+9TOT,1,1,A,225,129,90,1189,139,X-RAY DIFFRACTION,1.64,"Fixed target room temperature serial crystal structure of hen egg white lysozyme at DLS I24, 600 s mix with N-acetyl glucosamine.",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9TOT.cif.gz
+9TPZ,1,2,B;A,751,290,457,5319,305,X-RAY DIFFRACTION,1.1,Crystal structure of herring (Clupea harengus) hemoglobin at 1.1 angstrom resolution,P 32 1 2,E:\dataset penelitian\RCSB-PDB\raw\9TPZ.cif.gz
+9TSM,1,1,A,441,117,321,2476,122,X-RAY DIFFRACTION,1.25,"ProteinMPNN mutated PF3D7_1475600 (PfBDP4-BRD, 77.8% sequence identity) in complex with GSK9311",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9TSM.cif.gz
+9TUF,1,3,A;C;B,390,293,97,4689,296,X-RAY DIFFRACTION,1.8,Crystal Structure of isolated Death Domain of human p53-induced protein PIDD (778-873) with Thr788Asp phosphomimetic mutation.,P 32,E:\dataset penelitian\RCSB-PDB\raw\9TUF.cif.gz
+9TXE,1,1,A,191,100,90,871,105,X-RAY DIFFRACTION,0.95,"Spinach Ferredoxin I, Oxidised",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TXE.cif.gz
+9TXO,1,1,A,153,100,52,833,105,X-RAY DIFFRACTION,1.2,"Spinach Ferredoxin I, Re-Oxidised",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TXO.cif.gz
+9TXQ,1,1,A,172,100,71,860,106,X-RAY DIFFRACTION,1.1,"Spinach Ferredoxin I, Reduced with Methyl Viologen at -450mV",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TXQ.cif.gz
+9TYE,1,1,A,356,256,97,2185,260,X-RAY DIFFRACTION,1.65,Crystal structure of a phosphocoumarin derivative in complex with human carbonic anhydrase II,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9TYE.cif.gz
+9TZ4,1,1,A,58,57,1,434,57,X-RAY DIFFRACTION,2.101,Crystal structure of the outer membrane lipoprotein OprI from Pseudomonas aeruginosa,P 21 3,E:\dataset penelitian\RCSB-PDB\raw\9TZ4.cif.gz
+9TZD,1,1,A,417,220,191,3812,234,X-RAY DIFFRACTION,1.2,De novo TIM barrel with Kemp eliminase activity - KempTIM1 with bound transition state analogue,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9TZD.cif.gz
+9U00,1,2,A;B,232,231,1,1708,231,X-RAY DIFFRACTION,2.32,"Crystal structure of NbH10, a nanobody against the PWWP domains of LEDGF and HRP-2",P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9U00.cif.gz
+9U01,1,1,A,409,220,185,3801,237,X-RAY DIFFRACTION,1.25,De novo TIM barrel with Kemp eliminase activity - KempTIM1 (apo),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9U01.cif.gz
+9U8J,1,1,A,320,169,147,1577,170,X-RAY DIFFRACTION,1.34,Crystal structure of KRAS-G12D/Y96D mutant in complex with MRTX-1133,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9U8J.cif.gz
+9UE5,1,1,A,477,208,269,1871,208,X-RAY DIFFRACTION,1.34,Rhizobium tRNA methyltransferase,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9UE5.cif.gz
+9US7,1,1,A,536,243,290,3793,257,X-RAY DIFFRACTION,1.41,Crystal Structure of Hemophore HphA from A. baumannii with Cobalt Phthalocyanine,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9US7.cif.gz
+9UV0,1,1,A,520,195,325,1904,196,X-RAY DIFFRACTION,1.58,Crystal structure of Thoeris protein ThsB,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9UV0.cif.gz
+9UWC,1,1,A,425,292,133,2528,294,X-RAY DIFFRACTION,1.7,Crystal structure of Pictet-Spenglerase AsKslB and the compound AsKslB with iminium ion intermediate,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9UWC.cif.gz
+9V3A,1,1,A,317,121,194,1157,121,X-RAY DIFFRACTION,2.0,Crystal structure of de novo designed serotonin binder SROb2_26_L7F,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9V3A.cif.gz
+9V4E,1,1,A,344,248,94,2055,249,X-RAY DIFFRACTION,1.78,"Crystal Structure of Gallus gallus c-Src Kinase Domain with Point mutation Y416D and Deletion of Residues N414, T417, and R419 Bound to AMP-PNP",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V4E.cif.gz
+9V4L,1,1,A,233,68,164,748,70,X-RAY DIFFRACTION,1.3,Crustal structure of de novo designed zinc binding protein ZK2,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V4L.cif.gz
+9V56,1,1,A,260,220,39,1766,220,X-RAY DIFFRACTION,1.94,Light driven bicarbonate reduction by fluorescent protein mRuby,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V56.cif.gz
+9V58,1,1,A,311,217,92,1889,226,X-RAY DIFFRACTION,1.55,Light driven bicarbonate reduction by fluorescent protein mRuby-Carb2M1,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V58.cif.gz
+9V5A,1,1,A,302,217,83,1880,226,X-RAY DIFFRACTION,1.67,Light driven bicarbonate reduction by fluorescent protein mRuby-Carb2M2,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5A.cif.gz
+9V5B,1,1,A,298,217,79,1863,225,X-RAY DIFFRACTION,1.75,Light driven bicarbonate reduction by fluorescent protein mRuby-Carb2M3,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5B.cif.gz
+9V5C,1,1,A,276,219,56,1832,226,X-RAY DIFFRACTION,1.68,Light driven bicarbonate reduction by fluorescent protein mRuby-Metha1,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5C.cif.gz
+9V5D,1,1,A,263,217,44,1826,224,X-RAY DIFFRACTION,1.91,Light driven CO2 reduction by fluorescent protein mRuby-CO2M2,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5D.cif.gz
+9V5E,1,1,A,268,217,49,1830,224,X-RAY DIFFRACTION,1.92,Light driven CO2 reduction by fluorescent protein mRuby-CO2M4,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5E.cif.gz
+9V5J,1,1,A,270,217,51,1833,224,X-RAY DIFFRACTION,1.74,Light driven CO2 reduction by fluorescent protein mRuby-CO2M1,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5J.cif.gz
+9V5L,1,1,A,262,217,43,1825,224,X-RAY DIFFRACTION,1.93,Light driven CO2 reduction by fluorescent protein mRuby-CO2M3,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9V5L.cif.gz
+9V5O,1,1,A,300,220,68,1758,220,X-RAY DIFFRACTION,2.42,Crystal Structure of anti-HIV scFv against MPER region of the envelope protein,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9V5O.cif.gz
+9V6G,1,2,A;B,478,226,248,2092,226,X-RAY DIFFRACTION,2.0,Human Pin1 (Peptidyl-prolyl cis-trans isomerase) catalytic domain in complex with a covalent inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9V6G.cif.gz
+9V6I,1,2,A;B,283,226,54,1891,226,X-RAY DIFFRACTION,2.46,Human Pin1 (Peptidyl-prolyl cis-trans isomerase) catalytic domain in complex with a covalent inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9V6I.cif.gz
+9V6P,1,2,A;B,442,226,212,2058,226,X-RAY DIFFRACTION,1.99,Human Pin1 (Peptidyl-prolyl cis-trans isomerase) catalytic domain in complex with a covalent inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9V6P.cif.gz
+9V6W,1,2,A;B,392,226,163,2000,226,X-RAY DIFFRACTION,2.1,Human Pin1 (Peptidyl-prolyl cis-trans isomerase) catalytic domain in complex with a covalent inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9V6W.cif.gz
+9VAE,1,1,A,405,338,66,2610,338,X-RAY DIFFRACTION,2.5,Crystal structure of alanine dehydrogenase-like protein from Thermus thermophilus,P 63 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VAE.cif.gz
+9VBQ,1,2,A;B,276,240,32,2034,242,X-RAY DIFFRACTION,2.303,Crystal structure of FXR in complex with agonist XJ02862-S2,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9VBQ.cif.gz
+9VCH,1,1,A,488,173,295,1915,192,X-RAY DIFFRACTION,1.7,Tacrine loaded HFn,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VCH.cif.gz
+9VCZ,1,1,A,278,126,146,2335,127,X-RAY DIFFRACTION,1.5,The crystal structure of BRD4-BD1 in complex with inhibitor 39b,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VCZ.cif.gz
+9VDH,1,1,A,351,269,74,2325,269,X-RAY DIFFRACTION,1.98,BTK in apo form adpoting a new conformation,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VDH.cif.gz
+9VE2,1,2,A;B,822,337,484,3151,337,X-RAY DIFFRACTION,1.8,Crystal Structure of Human Peroxiredoxin I in Complex with Fluvastatin,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VE2.cif.gz
+9VF2,1,1,AAA,392,304,87,2476,305,X-RAY DIFFRACTION,1.97,Spirooxindole inhibitor CG-1059 complexed with SARS-Cov-2 3CL protease,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VF2.cif.gz
+9VF3,1,1,AAA,399,300,98,2463,301,X-RAY DIFFRACTION,1.964,Spirooxindole inhibitor CG-1062 complexed with SARS-Cov-2 3CL protease,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VF3.cif.gz
+9VGJ,1,1,A,217,116,101,962,117,X-RAY DIFFRACTION,1.3,An Artificially Designed Monomeric All-beta-Sheet Protein with 86.13% beta-Content,P 65,E:\dataset penelitian\RCSB-PDB\raw\9VGJ.cif.gz
+9VGT,1,2,A;B,801,343,457,3179,343,X-RAY DIFFRACTION,1.79,Crystal structure of Peroxiredoxin I in complex with compound 19-150,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VGT.cif.gz
+9VHT,1,1,A,714,314,397,2916,317,X-RAY DIFFRACTION,1.82,The crystal structure of PLPro,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VHT.cif.gz
+9VKD,1,1,A,209,122,80,1075,122,X-RAY DIFFRACTION,2.3,DE NOVO designed zinc hydrolase,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VKD.cif.gz
+9VKJ,1,2,A;B,282,242,37,1971,242,X-RAY DIFFRACTION,2.09,Salmonella typhimurium effector protein SteA,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VKJ.cif.gz
+9VLR,1,1,A,590,308,282,2687,308,X-RAY DIFFRACTION,1.79,Acinetobacter baumannii membrane-bound lytic transglycosylase B,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VLR.cif.gz
+9VME,1,3,A;B;C,198,81,114,627,81,X-RAY DIFFRACTION,1.94,Structure of a triple-helix region of human collagen type VIII,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VME.cif.gz
+9VMR,1,1,A,627,294,333,2507,294,X-RAY DIFFRACTION,1.76,Crystal structure of Phthalate Hydrolase EstJ6,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9VMR.cif.gz
+9VMU,1,1,A,349,298,50,2258,298,X-RAY DIFFRACTION,2.3,The crystal structure of the Phthalate Hydrolase EstJ6 in complex with monobutyl phthalate,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VMU.cif.gz
+9VMW,1,1,A,541,294,246,2432,294,X-RAY DIFFRACTION,1.9,The crystal structure of the Phthalate Hydrolase EstJ6 in complex with phthalic acid,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9VMW.cif.gz
+9VOB,1,1,C,287,264,22,2147,264,X-RAY DIFFRACTION,2.12,Co-crystal structure of MAP4K6 in complex with compound 22,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VOB.cif.gz
+9VOC,1,1,A,337,172,159,1510,173,X-RAY DIFFRACTION,2.2,"Crystal strucrue of HuHF-C2, a variant of HuHF",F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VOC.cif.gz
+9VOD,1,1,A,446,173,269,1671,175,X-RAY DIFFRACTION,1.92,Crystal strucrue of HuHF-C2-Cur complex 1,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VOD.cif.gz
+9VOE,1,1,A,340,173,160,1565,175,X-RAY DIFFRACTION,2.0,Crystal strucrue of HuHF-C2-Cur complex 2,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VOE.cif.gz
+9VOF,1,1,A,417,173,238,1638,173,X-RAY DIFFRACTION,1.9,Crystal strucrue of HuHF-C2-ALY complex,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VOF.cif.gz
+9VOM,1,1,A,387,172,210,1602,172,X-RAY DIFFRACTION,2.0,Crystal strucrue of HuHF-C2-AZB complex,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VOM.cif.gz
+9VOO,1,1,A,339,237,101,1966,239,X-RAY DIFFRACTION,1.76,"Engineered endo-1,3-beta-glucanase from Cellulosimicrobium cellulans crystallized at pH 6.2, CcGluECDMH1-E120Q",P 63,E:\dataset penelitian\RCSB-PDB\raw\9VOO.cif.gz
+9VOQ,1,1,A,394,237,156,2036,243,X-RAY DIFFRACTION,1.28,"Engineered endo-1,3-beta-glucanase from Cellulosimicrobium cellulans crystallized at pH6.2,CcGluECDMH1",P 63,E:\dataset penelitian\RCSB-PDB\raw\9VOQ.cif.gz
+9VPH,1,1,B,615,304,310,2708,305,X-RAY DIFFRACTION,1.5,compound 3RB98 and SARS-CoV-2 Mpro,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VPH.cif.gz
+9VQ5,1,2,A;B,814,331,482,3136,331,X-RAY DIFFRACTION,1.5,Crystal structure of Peroxiredoxin I in complex with SAC,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VQ5.cif.gz
+9VRF,1,1,A,261,123,137,1075,124,X-RAY DIFFRACTION,1.45,Fundamental structural studies of metanaphthene and introduction of disulfide bonds,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9VRF.cif.gz
+9VRV,1,1,A,324,133,185,2444,137,X-RAY DIFFRACTION,1.41,HosA transcriptional regulator from enteropathogenic Escherichia coli O127:H6 (strain E2348/69) bound with 4-hydroxy benzoic acid - L2' Conformation at 1.41 angstrom resolution,P 43 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VRV.cif.gz
+9VRZ,1,1,A,275,252,22,1913,257,X-RAY DIFFRACTION,1.86,Carbonyl reductase SxPR WT,C 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VRZ.cif.gz
+9VS8,1,1,A,305,273,30,2211,276,X-RAY DIFFRACTION,2.08,Intermediate state structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix at high temperature (363K) after 10 minutes reaction with substrate,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VS8.cif.gz
+9VSH,1,1,A,421,310,107,2632,312,X-RAY DIFFRACTION,2.38,Crystal structure of the germacrene A synthase FpGAS-T169G mutant in complex with substrate FPP,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VSH.cif.gz
+9VSI,1,1,A,439,306,128,2634,310,X-RAY DIFFRACTION,2.43,The crystal structure of the germacrene A synthase FpGAS-T169F mutant in complex with beta-farnesene,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VSI.cif.gz
+9VSS,1,1,A,316,273,40,2311,289,X-RAY DIFFRACTION,1.79,High temperature (363K) crystal structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix after 30 minutes reaction with substrate,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VSS.cif.gz
+9VTD,1,1,A,388,282,104,4929,293,X-RAY DIFFRACTION,1.57,Crystal structure of MaeF bound with DMASPP,I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VTD.cif.gz
+9VTL,1,2,A;B,680,302,376,5223,314,X-RAY DIFFRACTION,1.97,Crystal Structure of the SARS-CoV-2 (COVID-19) main protease with inhibitor AD06cn,I 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VTL.cif.gz
+9VV8,1,1,A,272,181,91,1560,182,X-RAY DIFFRACTION,1.704,Crystal structure of the second StART-like domain from Arabidopsis C2 and GRAM domain-containing (C2GR) protein,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9VV8.cif.gz
+9VVB,1,1,A,313,273,38,2213,274,X-RAY DIFFRACTION,1.83,High temperature (353K) crystal structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix with substrate,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9VVB.cif.gz
+9VVC,1,1,A,488,303,185,2524,307,X-RAY DIFFRACTION,1.75,Crystal structure of the apo form of main protease (Mpro) from HKU5-CoV-1,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VVC.cif.gz
+9VVF,1,1,A,527,304,220,2611,309,X-RAY DIFFRACTION,1.55,Crystal structure of HKU5-CoV-1 main protease(Mpro) in complex with Ensitrelvir,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VVF.cif.gz
+9VWO,1,2,A;B,389,276,113,2269,276,X-RAY DIFFRACTION,2.45,human OSM in complex with Nb3.30,I 4 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VWO.cif.gz
+9VWQ,1,2,A;B,494,248,246,2137,248,X-RAY DIFFRACTION,1.3,Crystal structure of Nanobody Nb3.30,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9VWQ.cif.gz
+9VXK,1,1,A,550,322,228,2576,322,X-RAY DIFFRACTION,2.061,Crystal structure of ketone reductase from Streptomyces bottropensis,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VXK.cif.gz
+9VXQ,1,1,A,319,187,132,1579,187,X-RAY DIFFRACTION,1.95,"Crystal structure of endo-1,4-beta-xylanase from Hypocrea virens",P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VXQ.cif.gz
+9VY4,1,2,A;B,800,300,487,5086,300,X-RAY DIFFRACTION,1.21,Structure of MIF binding with Ytterbium ions,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VY4.cif.gz
+9VY5,1,2,A;B,844,300,531,5131,300,X-RAY DIFFRACTION,1.58,Structure of MIF binding with Terbium ions,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VY5.cif.gz
+9VY7,1,1,A,393,151,237,2552,151,X-RAY DIFFRACTION,1.25,Structure of MIF binding with Lanthanum ions,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VY7.cif.gz
+9VY8,1,1,A,173,150,17,2316,150,X-RAY DIFFRACTION,2.16,Structure of MIF binding with Samarium ions,I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9VY8.cif.gz
+9VYA,1,1,A,341,150,186,2484,150,X-RAY DIFFRACTION,1.41,Structure of MIF binding with Neodymium ions,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9VYA.cif.gz
+9VYB,1,2,A;B,122,103,19,837,103,X-RAY DIFFRACTION,2.12,Antitoxin Phd,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9VYB.cif.gz
+9VYD,1,2,A;B,406,350,56,2914,350,X-RAY DIFFRACTION,2.5,Crystal structure of toxin-antitoxin complex VP14460-VP14465peptide from Vibrio parahaemolyticus,P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VYD.cif.gz
+9VZG,1,1,A,205,178,26,2895,179,X-RAY DIFFRACTION,1.74,Harnessing Noncovalent Dimerization Enables an Orally Active STING Agonist for Respiratory Syncytial Virus Therapy,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VZG.cif.gz
+9VZQ,1,2,A;B,355,253,101,2198,253,X-RAY DIFFRACTION,2.18,Crystal structure of RORgamma in complex with novel inverse agonist,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9VZQ.cif.gz
+9VZS,1,1,A,405,265,139,2423,279,X-RAY DIFFRACTION,1.455,X-ray structure of human PPARalpha ligand binding domain-10-hydroxystearic acid (10-HSA) co-crystals obtained by cross-seeding,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9VZS.cif.gz
+9VZT,1,1,A,400,265,133,2418,278,X-RAY DIFFRACTION,1.475,X-ray structure of human PPARalpha ligand binding domain-10-oxostearic acid (10-oxoSA) co-crystals obtained by cross-seeding,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9VZT.cif.gz
+9W18,1,1,A,202,98,95,1608,99,X-RAY DIFFRACTION,1.44,Crystal Structure of FN3(6847): A Thermally Enhanced FN3 Variant Designed Using AI and Screened via ThermalFold,P 61,E:\dataset penelitian\RCSB-PDB\raw\9W18.cif.gz
+9W1D,1,1,A,227,123,104,1035,123,X-RAY DIFFRACTION,1.73,Structure of nanobody sm8 against fenitrothion,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9W1D.cif.gz
+9W1U,1,1,A,269,119,145,1193,128,X-RAY DIFFRACTION,1.6,Crystal structure of mutant apo LC3B,P 65,E:\dataset penelitian\RCSB-PDB\raw\9W1U.cif.gz
+9W1V,1,1,A,73,51,21,778,51,X-RAY DIFFRACTION,1.7,"Crystal structure of RD3796, a de novo designed rubredoxin from the template rubredoxin c. p.",P 65,E:\dataset penelitian\RCSB-PDB\raw\9W1V.cif.gz
+9W27,1,1,A,353,172,169,1654,182,X-RAY DIFFRACTION,1.85,Structure of a human heavy chain ferritin nanocage,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W27.cif.gz
+9W28,1,1,A,296,172,117,1542,173,X-RAY DIFFRACTION,1.52,Structure of Au3+ bound to human heavy chain ferritin nanocage.,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W28.cif.gz
+9W29,1,1,A,272,172,95,1518,173,X-RAY DIFFRACTION,1.99,Structure of Au bound to human heavy chain ferritin nanocage.,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W29.cif.gz
+9W2A,1,1,A,363,172,188,1601,173,X-RAY DIFFRACTION,1.55,Structure of a human heavy chain ferritin nanocage mutant form,F 4 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W2A.cif.gz
+9W2E,1,1,A,436,257,179,2198,258,X-RAY DIFFRACTION,1.93,Crystal structure of PenP E166R,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9W2E.cif.gz
+9W2N,1,2,A;C,218,126,87,1191,138,X-RAY DIFFRACTION,1.67,Crystal structure of the mutant LC3B in complex with p62,P 65,E:\dataset penelitian\RCSB-PDB\raw\9W2N.cif.gz
+9W2O,1,1,A,286,164,121,2658,164,X-RAY DIFFRACTION,1.76,Crystal Structure of Norovirus 3C-like Protease in Complex with a Broad-spectrum Inhibitor,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9W2O.cif.gz
+9W3B,1,1,A,272,176,95,2861,176,X-RAY DIFFRACTION,1.59,Crystal Structure of Enterovirus A71 3C Protease in Complex with a Broad-spectrum Inhibitor,P 43 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W3B.cif.gz
+9W3S,1,1,C,291,177,113,1583,177,X-RAY DIFFRACTION,1.95,Crystal Structure of Coxsackievirus B5 3C Protease in Complex with a Broad-spectrum Inhibitor,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9W3S.cif.gz
+9W3X,1,1,A,253,237,16,1870,237,X-RAY DIFFRACTION,2.39,Crystal structure of INF2 DID,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9W3X.cif.gz
+9W48,1,2,A;B,743,341,400,3010,341,X-RAY DIFFRACTION,1.64,Crystal structure of MacroD from Deinococcus radiodurans in complex with ADP-ribose,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9W48.cif.gz
+9W4P,1,1,A,338,304,33,2374,304,X-RAY DIFFRACTION,2.05,Crystal Structure of SARS-CoV-2 Main Protease in Complex with a Broad-spectrum Inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9W4P.cif.gz
+9W68,1,1,A,454,250,204,2052,250,X-RAY DIFFRACTION,1.93,Crystal structural of dsPETase05,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9W68.cif.gz
+9W6X,1,1,A,240,200,40,1569,200,X-RAY DIFFRACTION,2.38,Crystal Structure of YtkW in Complex with SAM,I 41 2 2,E:\dataset penelitian\RCSB-PDB\raw\9W6X.cif.gz
+9WCC,1,1,A,469,300,166,2553,300,X-RAY DIFFRACTION,1.52,CRYSTALS STRUCTURE OF A NOVEL CELLULOSE VARIANT FROM ACETIVIBRIO ALKALICELLULOSI,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9WCC.cif.gz
+9WCG,1,1,B,301,300,0,2198,300,X-RAY DIFFRACTION,2.39,Crystal Structure of SARS Coronavirus Main Proteinase in Complex with a Broad-spectrum Inhibitor,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WCG.cif.gz
+9WDG,1,1,A,335,222,113,1826,222,X-RAY DIFFRACTION,1.67,TenA family transcriptional regulator-LysR2,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\9WDG.cif.gz
+9WDL,1,2,A;B,261,141,120,1177,141,X-RAY DIFFRACTION,1.73,Crystal Structure of Anti-CRISPR protein,P 1,E:\dataset penelitian\RCSB-PDB\raw\9WDL.cif.gz
+9WEN,1,2,B;A,322,282,40,2314,282,X-RAY DIFFRACTION,2.3,Crystal structure of the homodimeric porcine interleukin-10 (IL-10),P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\9WEN.cif.gz
+9WES,1,1,A,315,187,126,1626,187,X-RAY DIFFRACTION,1.91,Crystal Structure of AflRab7 from Aspergillus flavus,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WES.cif.gz
+9WEX,1,1,A,228,118,107,1097,122,X-RAY DIFFRACTION,1.52,Crystal structure of PAS domain in NreB protein,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9WEX.cif.gz
+9WGD,1,1,A,440,231,208,1991,231,X-RAY DIFFRACTION,1.96,Crystal structure of Roseiflexus castenholzii ModA bound to molybdate.,P 41 3 2,E:\dataset penelitian\RCSB-PDB\raw\9WGD.cif.gz
+9WGE,1,1,A,444,232,211,2000,232,X-RAY DIFFRACTION,2.07,Crystal structure of Roseiflexus castenholzii ModA bound to tungstate,P 41 3 2,E:\dataset penelitian\RCSB-PDB\raw\9WGE.cif.gz
+9WGK,1,1,A,282,273,6,2131,273,X-RAY DIFFRACTION,2.45,Crystal structure of OcuKAI2d2 from Orobanche cumana bound to Dehydrocostus Lactone,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9WGK.cif.gz
+9WGM,1,1,A,297,269,28,2101,269,X-RAY DIFFRACTION,2.19,Crystal structure of the OcuKAI2d2 protein from Orobanche cumana,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9WGM.cif.gz
+9WGN,1,1,A,486,267,218,2309,270,X-RAY DIFFRACTION,1.4,Crystal structure of Orobanche cumana OcKAI2d2 covalently bound to KOK1007,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WGN.cif.gz
+9WGO,1,1,A,269,268,0,2076,268,X-RAY DIFFRACTION,2.35,Crystal structure of OcKAI2d2 from Orobanche cumana covalently bound to KOK1094,P 64 2 2,E:\dataset penelitian\RCSB-PDB\raw\9WGO.cif.gz
+9WNV,1,1,A,215,159,49,1414,167,X-RAY DIFFRACTION,2.0,beta-lactoglobulin in complex with perfluorooctanoic acid (PFOA),P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WNV.cif.gz
+9WNW,1,1,A,192,158,26,1408,170,X-RAY DIFFRACTION,2.0,beta-lactoglobulin in complex with Perfluorodecanoic acid (PFDA),P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WNW.cif.gz
+9WNX,1,1,A,170,159,9,1321,162,X-RAY DIFFRACTION,2.5,beta-lactoglobulin in complex with Perfluorooctanesulfonic acid (PFOS),P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9WNX.cif.gz
+9WNY,1,1,A,392,295,95,2453,303,X-RAY DIFFRACTION,2.0,EstS1 esterase active site mutant S154A in complex with Bis(2-hydroxyethyl) terephthalate (BHET),P 63,E:\dataset penelitian\RCSB-PDB\raw\9WNY.cif.gz
+9WNZ,1,1,A,363,297,62,2508,309,X-RAY DIFFRACTION,2.2,EstS1 esterase in complex with mono(2-hydroxyethyl) terephthalate (MHET) and Bis(2-hydroxyethyl) terephthalate (BHET),P 63,E:\dataset penelitian\RCSB-PDB\raw\9WNZ.cif.gz
+9WVV,1,1,O,542,240,302,2093,243,X-RAY DIFFRACTION,1.27,The crystal structure of OspA mutant,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9WVV.cif.gz
+9WX2,1,2,A;B,619,291,327,5068,294,X-RAY DIFFRACTION,1.548,Crystal structure of the HEPN domain of Dandelion,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9WX2.cif.gz
+9WY0,1,1,A,326,216,108,1836,216,X-RAY DIFFRACTION,1.8,Crystal Structure of HIF-PHD2 in complex with compound 3-1,P 41,E:\dataset penelitian\RCSB-PDB\raw\9WY0.cif.gz
+9WY2,1,1,A,313,222,89,1875,222,X-RAY DIFFRACTION,1.9,Crystal Structure of HIF-PHD2 in complex with compound 3-2,P 41,E:\dataset penelitian\RCSB-PDB\raw\9WY2.cif.gz
+9WY5,1,1,A,298,222,74,1867,222,X-RAY DIFFRACTION,2.0,Crystal Structure of HIF-PHD2 in complex with compound 3-13 (DS79540454),P 41,E:\dataset penelitian\RCSB-PDB\raw\9WY5.cif.gz
+9X64,1,2,A;B,192,110,79,974,115,X-RAY DIFFRACTION,1.83,Crystal structure of DKK4 CRD1 domain,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9X64.cif.gz
+9X8Z,1,4,B;A;D;C,307,213,94,1814,214,X-RAY DIFFRACTION,2.1,LppB in Complex with LppA leader peptide,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9X8Z.cif.gz
+9X90,1,4,B;A;D;C,490,216,274,1959,216,X-RAY DIFFRACTION,2.0,PbaB1 in Complex with PbaA leader peptide,P 43,E:\dataset penelitian\RCSB-PDB\raw\9X90.cif.gz
+9XAM,1,1,A,375,169,203,1628,170,X-RAY DIFFRACTION,1.23,The crystal structure of KRAS G12D (GDP bound) in complex with RP03514,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XAM.cif.gz
+9XB3,1,1,A,293,169,121,1543,169,X-RAY DIFFRACTION,1.32,The crystal structure of KRAS G12D (GDP bound) in complex with RP03519,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XB3.cif.gz
+9XB7,1,1,A,301,169,129,1535,169,X-RAY DIFFRACTION,1.36,The crystal structure of KRAS G12R (GDP bound) in complex with RP03514,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XB7.cif.gz
+9XBZ,1,1,A,225,169,53,1475,169,X-RAY DIFFRACTION,1.34,The crystal structure of KRAS G12R (GDP bound) in complex with RP03519,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XBZ.cif.gz
+9XEG,1,1,A,680,286,392,5067,295,X-RAY DIFFRACTION,1.45,Structure of the Mid-Cap-627 linker domains of the H5N1 influenza A PB2 subunit in complex with onradivir,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9XEG.cif.gz
+9XF7,1,1,A,285,169,113,1523,170,X-RAY DIFFRACTION,1.34,The crystal structure of KRAS G12V (GDP bound) in complex with RP03514,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XF7.cif.gz
+9XF8,1,1,A,278,169,106,1519,169,X-RAY DIFFRACTION,1.26,The crystal structure of KRAS G12V (GDP bound) in complex with RP03519,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9XF8.cif.gz
+9XFR,1,1,A,354,305,48,2412,305,X-RAY DIFFRACTION,2.154,The crystal structure of SARS-CoV-2 Main protease in complex with inhibitor FD2-12,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9XFR.cif.gz
+9XG2,1,1,A,386,305,80,2427,305,X-RAY DIFFRACTION,2.039,The crystal structure of SARS-CoV-2 Main protease in complex with inhibitor FD2-21,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9XG2.cif.gz
+9XG4,1,1,A,504,306,197,4937,307,X-RAY DIFFRACTION,1.726,The crystal structure of SARS-CoV-1 Main protease in complex with inhibitor FD2-21,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9XG4.cif.gz
+9XNL,1,2,A;B,454,287,167,2615,293,X-RAY DIFFRACTION,1.91,Grass carp IFNd,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9XNL.cif.gz
+9XOE,1,4,A;B;C;D,240,184,56,1584,185,X-RAY DIFFRACTION,1.65,Crystal structure of WTAP 1-50,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9XOE.cif.gz
+9XS4,1,1,A,390,343,40,2854,343,X-RAY DIFFRACTION,2.43,Factor inhibiting HIF-1 alpha in complex with Mn(II) and luteolin,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9XS4.cif.gz
+9XS5,1,1,A,412,342,63,2861,342,X-RAY DIFFRACTION,2.33,Factor inhibiting HIF-1 alpha in complex with Mn(II) and morin,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9XS5.cif.gz
+9XS6,1,1,A,418,343,68,2888,343,X-RAY DIFFRACTION,2.46,Factor inhibiting HIF-1 alpha in complex with Mn(II) and isofraxidin,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9XS6.cif.gz
+9XV5,1,1,A,539,257,280,2294,268,X-RAY DIFFRACTION,1.4,Catalytic domain of N1484,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9XV5.cif.gz
+9XV6,1,1,A,517,258,255,2294,270,X-RAY DIFFRACTION,1.4,Catalytic domain of N1363,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9XV6.cif.gz
+9XV7,1,1,A,566,258,303,2324,267,X-RAY DIFFRACTION,1.2,Catalytic domain of N1356,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9XV7.cif.gz
+9XXW,1,2,A;B,499,320,179,2949,320,X-RAY DIFFRACTION,1.98,"Structure of a putative anti-CRISPR from Streptobacillus moniliformis, ACZ01644",H 3,E:\dataset penelitian\RCSB-PDB\raw\9XXW.cif.gz
+9Y56,1,1,A,703,273,428,2708,273,X-RAY DIFFRACTION,1.601,Co-crystal structure of BTK kinase domain with non-covalent inhibitor,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y56.cif.gz
+9Y57,1,1,A,726,273,451,2731,273,X-RAY DIFFRACTION,1.4,Co-crystal structure of BTK kinase domain with non-covalent inhibitor,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y57.cif.gz
+9Y58,1,2,A;B,167,163,4,1359,163,X-RAY DIFFRACTION,2.25,Nef SF2 dimerization mutant bound to Hck SH3,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y58.cif.gz
+9Y5A,1,1,A,581,273,303,2797,299,X-RAY DIFFRACTION,1.7,Co-crystal structure of BTK kinase domain with non-covalent inhibitor,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y5A.cif.gz
+9Y5B,1,1,A,354,270,83,2333,270,X-RAY DIFFRACTION,1.904,Co-crystal structure of BTK kinase domain with non-covalent inhibitor,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y5B.cif.gz
+9Y5D,1,1,A,468,271,191,2738,304,X-RAY DIFFRACTION,1.655,Co-crystal structure of BTK kinase domain with non-covalent inhibitor,P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y5D.cif.gz
+9Y60,1,1,A,245,169,75,2594,169,X-RAY DIFFRACTION,2.023,"Crystal structure of NSD2 PWWP1 domain in complex with (6R)-6-(3,5-dichlorophenyl)morpholin-3-one (ligand 2)",P 43 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y60.cif.gz
+9Y9K,1,2,A;B,202,167,31,1438,168,X-RAY DIFFRACTION,2.34,HIV-1 Nef SF2 Core Domain Bound To The Human Hck SH3 Domain,P 41 21 2,E:\dataset penelitian\RCSB-PDB\raw\9Y9K.cif.gz
+9Y9O,1,6,A;B;C;D;E;F,456,248,194,4213,255,X-RAY DIFFRACTION,1.44,Measles Virus Fusion Glycoprotein Postfusion Core (G464W Variant),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9Y9O.cif.gz
+9YAC,1,6,C;D;A;B;E;F,472,249,213,4109,257,X-RAY DIFFRACTION,1.63,Measles Virus Fusion Glycoprotein Postfusion Core (T461I/N462S/N465S Variant),P 3,E:\dataset penelitian\RCSB-PDB\raw\9YAC.cif.gz
+9YBR,1,1,A,212,112,99,1874,112,X-RAY DIFFRACTION,1.45,Binding Sites in the ARID1B DNA Binding Domain,P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBR.cif.gz
+9YBS,1,1,A,222,111,110,1063,112,X-RAY DIFFRACTION,1.49,ARID1B ARID bound to compound A-1 (5-(hex-1-yn-1-yl)pyridine-3-carboxylic acid),P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBS.cif.gz
+9YBT,1,1,A,178,109,68,1863,109,X-RAY DIFFRACTION,1.44,ARID1B ARID bound to compound A-2 (5-(hex-1-yn-1-yl)-3-methylpyridin-2(1H)-one),P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBT.cif.gz
+9YBU,1,1,A,207,112,93,1035,112,X-RAY DIFFRACTION,1.61,ARID1B ARID bound to compound A-3 (5-(phenylethynyl)pyridine-3-carboxylic acid),P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBU.cif.gz
+9YBV,1,1,A,232,110,121,1032,110,X-RAY DIFFRACTION,1.2,"ARID1B ARID bound to compound A-4 (N-[(5-methylthiophen-2-yl)methyl]-7,8-dihydro-5H-pyrano[4,3-b]pyridin-3-amine)",P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBV.cif.gz
+9YBW,1,1,A,166,100,56,1738,100,X-RAY DIFFRACTION,1.88,"ARID1B ARID bound to compound B-2 ((2M)-2'-(morpholin-4-yl)-6-oxo-4-(trifluoromethyl)-1,6-dihydro[2,3'-bipyridine]-5-carbonitrile)",P 4 21 2,E:\dataset penelitian\RCSB-PDB\raw\9YBW.cif.gz
+9YBX,1,1,A,184,108,75,1859,108,X-RAY DIFFRACTION,1.45,"ARID1B ARID bound to compound C-1 (5-fluoro-2-(1H-pyrrolo[2,3-b]pyridine-3-sulfonamido)benzoic acid)",P 65,E:\dataset penelitian\RCSB-PDB\raw\9YBX.cif.gz
+9YCQ,1,2,A;B,398,218,173,2173,226,X-RAY DIFFRACTION,1.4,First Bromodomain of BRDT liganded with inhibitor GXH-IV-076 (compound 33),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YCQ.cif.gz
+9YD9,1,6,A;B;C;D;E;F,439,246,185,3979,250,X-RAY DIFFRACTION,1.2,Measles Virus Fusion Glycoprotein Postfusion Core (T461I Variant),P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9YD9.cif.gz
+9YFP,1,2,A;B,112,77,34,1206,77,X-RAY DIFFRACTION,1.86,Measles Virus Fusion Glycoprotein Postfusion Core (N462K Variant),P 3 2 1,E:\dataset penelitian\RCSB-PDB\raw\9YFP.cif.gz
+9YG6,1,6,A;B;C;D;E;F,398,241,150,3804,242,X-RAY DIFFRACTION,1.39,Measles Virus Fusion Glycoprotein Postfusion Core (T461A Variant),C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9YG6.cif.gz
+9YGS,1,2,A;B,418,245,171,2127,246,X-RAY DIFFRACTION,1.68,Crystal structure of GMPPNP bound KRAS-Y71H in complex with RBD domain of CRAF(RAF1),P 21 21 2,E:\dataset penelitian\RCSB-PDB\raw\9YGS.cif.gz
+9YMN,1,1,A,358,168,187,1611,169,X-RAY DIFFRACTION,1.25,Crystal Structure of human KRAS G12D in complex with GDP and compound 7,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YMN.cif.gz
+9YMO,1,1,A,424,169,250,1689,170,X-RAY DIFFRACTION,1.25,Crystal Structure of human KRAS G12D in complex with GDP and AM-2383,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YMO.cif.gz
+9YMP,1,1,A,371,169,196,1648,173,X-RAY DIFFRACTION,1.12,Crystal Structure of human KRAS G12D in complex with GMPPCP and AM-2383,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YMP.cif.gz
+9YMQ,1,1,A,449,169,274,1721,171,X-RAY DIFFRACTION,1.2,Crystal Structure of human KRAS G12V in complex with GDP and AM-2383,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YMQ.cif.gz
+9YMR,1,1,A,390,170,214,1677,174,X-RAY DIFFRACTION,1.2,Crystal Structure of human KRAS G12V in complex with GMPPCP and AM-2383,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YMR.cif.gz
+9YNM,1,1,A,393,186,207,1719,194,X-RAY DIFFRACTION,1.56,Crystal structure of de novo cysteine protease (Dokki_15 WT apo),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YNM.cif.gz
+9YT9,1,1,A,356,241,113,2070,244,X-RAY DIFFRACTION,1.8,A428D mutant of Bruton's tyrosine kinase,P 2 21 21,E:\dataset penelitian\RCSB-PDB\raw\9YT9.cif.gz
+9YUT,1,1,A,758,326,430,3070,342,X-RAY DIFFRACTION,1.422,Crystal structure of malonate-bound sulfoquinovose dioxygenase from Marinobacterium aestuarii,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9YUT.cif.gz
+9YUU,1,1,A,757,326,427,3175,354,X-RAY DIFFRACTION,1.45,Crystal structure of sulfoquinovose dioxygenase from Marinobacterium aestuarii in complex with sulfoquinovose,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9YUU.cif.gz
+9YUV,1,1,A,412,325,83,2633,325,X-RAY DIFFRACTION,2.035,Crystal structure of sulfoquinovose dioxygenase from Marinobacterium aestuarii in complex with Mn(II) and alpha-ketoglutarate,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9YUV.cif.gz
+9YUW,1,1,A,435,325,106,2660,325,X-RAY DIFFRACTION,2.1,"Crystal structure of sulfoquinovose dioxygenase from Marinobacterium aestuarii in complex with Mn(II), alpha-ketoglutarate, and sulfoquinovose",C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9YUW.cif.gz
+9YUX,1,1,A,779,326,448,3071,339,X-RAY DIFFRACTION,1.573,Crystal structure of sulfoquinovose dioxygenase from Marinobacterium aestuarii in complex with Mn(II) and succinate,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9YUX.cif.gz
+9YVX,1,1,A,423,220,200,4288,255,X-RAY DIFFRACTION,1.38,"Crystal structure of red fluorescent protein mRouge, 277 K",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9YVX.cif.gz
+9YVY,1,1,A,365,221,142,3923,236,X-RAY DIFFRACTION,1.66,"Crystal structure of red fluorescent protein mCherry, 277 K",P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9YVY.cif.gz
+9YVZ,1,1,A,409,220,186,4693,279,X-RAY DIFFRACTION,1.35,"Crystal structure of red fluorescent protein mScarlet, 277 K",C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9YVZ.cif.gz
+9YZ7,1,2,A;B,400,321,64,2667,323,X-RAY DIFFRACTION,2.35,Crystal Structure of VHH MOD225 in complex with SARS-CoV-2 KP.3 RBD,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9YZ7.cif.gz
+9YZ8,1,2,A;B,526,315,190,2819,322,X-RAY DIFFRACTION,1.9,Crystal Structure of VHH MOD203 in complex with SARS-CoV-2 KP.3 RBD,P 32 2 1,E:\dataset penelitian\RCSB-PDB\raw\9YZ8.cif.gz
+9Z3V,1,4,A;C;B;D,585,318,263,2860,318,X-RAY DIFFRACTION,1.6,Histidine-covalent 165G1 targeting hMcl-1,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9Z3V.cif.gz
+9Z5W,1,2,A;B,295,206,87,3391,207,X-RAY DIFFRACTION,1.8,Crystal structure of HRAS in complex with N-LHY affibody,P 61 2 2,E:\dataset penelitian\RCSB-PDB\raw\9Z5W.cif.gz
+9Z71,1,1,A,386,182,203,3017,185,X-RAY DIFFRACTION,1.55,Structure of E. roggenkampii CapS,P 65 2 2,E:\dataset penelitian\RCSB-PDB\raw\9Z71.cif.gz
+9ZEM,1,2,A;B,385,234,151,3647,234,X-RAY DIFFRACTION,2.2,HeliScrew4,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9ZEM.cif.gz
+9ZHM,1,1,A,408,160,244,1592,161,X-RAY DIFFRACTION,1.07,M20E Mutant of E. coli Dihydrofolate Reductase Complexed with Nicotinamide Adenine Dinucleotide Phosphate (oxidized form),P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9ZHM.cif.gz
+9ZJ4,1,1,A,319,304,13,2351,304,X-RAY DIFFRACTION,2.44,Crystal structure of SARS-CoV-2 3CL protease in complex with inhibitor IKR-I-45,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZJ4.cif.gz
+9ZJ5,1,1,A,428,306,121,2497,310,X-RAY DIFFRACTION,1.76,Crystal structure of SARS-CoV-2 3CL protease in complex with inhibitor IKR-I-52,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZJ5.cif.gz
+9ZJ8,1,1,A,355,306,48,2388,308,X-RAY DIFFRACTION,2.1,Crystal structure of MERS 3CL protease in complex with inhibitor AMJ-II-72,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZJ8.cif.gz
+9ZJB,1,1,A,401,306,94,2461,308,X-RAY DIFFRACTION,1.88,Crystal structure of MERS 3CL protease in complex with inhibitor IKR-I-46,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZJB.cif.gz
+9ZJC,1,1,A,446,308,137,2538,315,X-RAY DIFFRACTION,1.9,Crystal structure of MERS 3CL protease in complex with inhibitor IKR-I-52,C 1 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZJC.cif.gz
+9ZME,1,1,A,550,301,248,2733,301,X-RAY DIFFRACTION,1.73,Structure of PTP1b complexed with difluoromethylphosphonate inhibitor Compound 2,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZME.cif.gz
+9ZMG,1,1,A,548,303,243,2753,303,X-RAY DIFFRACTION,2.15,Structure of PTP1b complexed with difluoromethylphosphonate inhibitor Compound 15,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZMG.cif.gz
+9ZMH,1,1,A,492,288,203,2595,288,X-RAY DIFFRACTION,1.939,Structure of PTP1b complexed with difluoromethylphosphonate inhibitor Compound 30,P 31 2 1,E:\dataset penelitian\RCSB-PDB\raw\9ZMH.cif.gz
+9ZO9,1,1,A,331,166,160,1612,171,X-RAY DIFFRACTION,1.7,KRAS G13D Mutant in Complex with GDP and Compound 6.,C 2 2 21,E:\dataset penelitian\RCSB-PDB\raw\9ZO9.cif.gz
+9ZPA,1,2,A;B,708,337,363,3250,340,X-RAY DIFFRACTION,1.68,KRAS G12V Mutant in Complex with GDP and Compound 12.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9ZPA.cif.gz
+9ZPE,1,2,A;B,420,332,82,2910,334,X-RAY DIFFRACTION,1.91,KRAS G12V Mutant in Complex with GDP and Compound 8.,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9ZPE.cif.gz
+9ZPQ,1,1,A,272,193,76,1563,196,X-RAY DIFFRACTION,2.1,Crystal structure of B. burgdorferi HtrA protease domain Ser226Ala mutant,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9ZPQ.cif.gz
+9ZQG,1,1,A,271,198,71,1562,200,X-RAY DIFFRACTION,2.0,Crystal structure of B. burgdorferi HtrA protease domain,H 3 2,E:\dataset penelitian\RCSB-PDB\raw\9ZQG.cif.gz
+9ZQV,1,1,A,559,270,281,2503,275,X-RAY DIFFRACTION,1.5,Crystal structure of wild-type Bruton's Tyrosine Kinase (BTK) in the apo form,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9ZQV.cif.gz
+9ZRA,1,1,A,390,162,225,1549,170,X-RAY DIFFRACTION,1.3,Crystal structure of macrodomain from Chikungunya virus,P 41,E:\dataset penelitian\RCSB-PDB\raw\9ZRA.cif.gz
+9ZRC,1,1,A,327,156,169,1530,173,X-RAY DIFFRACTION,1.25,Crystal structure of macrodomain from Eastern Equine Encephalitis Virus i,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9ZRC.cif.gz
+9ZRD,1,1,A,262,156,103,1400,158,X-RAY DIFFRACTION,1.69,Crystal structure of macrodomain from Eastern Equine Encephalitis Virus in complex with Adenosine diphosphate ribose,P 21 21 21,E:\dataset penelitian\RCSB-PDB\raw\9ZRD.cif.gz
+9ZRE,1,2,A;B,716,322,392,2945,335,X-RAY DIFFRACTION,1.3,Crystal structure of macrodomain from Venezuelan equine encephalitis virus,P 1 21 1,E:\dataset penelitian\RCSB-PDB\raw\9ZRE.cif.gz
+9ZRF,1,2,A;B,661,324,333,3007,334,X-RAY DIFFRACTION,1.49,Crystal structure of macrodomain from Venezuelan equine encephalitis virus in complex with Adenosine diphosphate ribose,P 1,E:\dataset penelitian\RCSB-PDB\raw\9ZRF.cif.gz
+9ZSC,1,1,A,538,295,240,2482,295,X-RAY DIFFRACTION,1.72,Flavophos biosynthetic enzyme BsfD,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\9ZSC.cif.gz
+9ZSH,1,1,A,531,295,234,2526,297,X-RAY DIFFRACTION,1.5,Flavophos biosynthetic protein BsfD with CoA,I 2 2 2,E:\dataset penelitian\RCSB-PDB\raw\9ZSH.cif.gz
+9ZTB,1,2,A;B,543,313,229,2732,314,X-RAY DIFFRACTION,1.67,Crystal Structure of the macrodomain in the complex with suramin analog from Venezuelan equine encephalitis virus,P 1,E:\dataset penelitian\RCSB-PDB\raw\9ZTB.cif.gz

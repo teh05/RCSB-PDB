@@ -25,18 +25,20 @@ def main() -> int:
     structures, csv_path = summarize_raw_dir()
     notes = []
     for structure in structures:
-        all_atom = extract_all_atom(structure)
-        ca = extract_ca(structure)
+        try:
+            all_atom = extract_all_atom(structure)
+            ca = extract_ca(structure)
+        except Exception as exc:
+            print(f"skip {structure.pdb_id}: {exc}")
+            continue
         save_coordinate_set(all_atom, STRUCTURES_DIR / f"{structure.pdb_id}_allatom.npz")
         save_coordinate_set(ca, STRUCTURES_DIR / f"{structure.pdb_id}_ca.npz")
         note = representation_cost_note(all_atom, ca)
         notes.append(note)
-        print(json.dumps(structure.summary(), indent=2))
         print(note)
-        print()
     print(f"wrote {csv_path}")
     print(f"coordinate files in {STRUCTURES_DIR}")
-    print("These 3 structures are a development/debug set, not a generalization benchmark.")
+    print(f"processed {len(notes)} structures (skipped files logged above).")
     return 0
 
 
