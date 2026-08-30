@@ -52,7 +52,9 @@ Graphs are residue/C-alpha. Sequential edges stay inside a chain; radius cutoff 
 
 Raw mmCIF files stay in `raw/` and must not be re-downloaded.
 
-If PyMOL or ChimeraX is installed:
+`scripts/visualize.py` writes matplotlib diagnostics and, if PyMOL is on PATH,
+headless cartoons (`results/plots/<PDB>_cartoon.png`) from `raw/*.cif.gz`.
+Cartoons are skipped when PyMOL is missing — it is not a required dependency.
 
 ```text
 pymol raw/1UBQ.cif.gz
