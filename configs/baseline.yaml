@@ -1,6 +1,7 @@
 seed: 0
 batch_size: 8
-val_fraction: 0.2
+val_fraction: 0.1
+test_fraction: 0.1
 learning_rate: 0.001
 hidden_dim: 64
 num_layers: 3
@@ -10,9 +11,11 @@ epochs: 20
 device: cuda
 task: edge_ca_distance_regression
 model: gcn
-n_structures: 1000
+n_structures: 5000
 resolution_max: 2.5
-min_polymer_residues: 50
-max_polymer_residues: 350
+min_polymer_residues: 1
+max_polymer_residues: 2000
+search_min_polymer_residues: 50
+search_max_polymer_residues: 400
 plot_max: 8
 cartoon_max: 8

@@ -20,6 +20,7 @@ def protein_xray_query(
     resolution_max: float,
     min_polymer_residues: int,
     max_polymer_residues: int,
+    start: int = 0,
 ) -> dict[str, Any]:
     return {
         "query": {
@@ -75,7 +76,7 @@ def protein_xray_query(
         },
         "return_type": "entry",
         "request_options": {
-            "paginate": {"start": 0, "rows": int(n)},
+            "paginate": {"start": int(start), "rows": int(n)},
             "sort": [
                 {
                     "sort_by": "rcsb_accession_info.initial_release_date",
@@ -105,6 +106,44 @@ def search_pdb_ids(query: dict[str, Any], *, timeout_s: float = 120.0) -> list[s
         ident = row.get("identifier") if isinstance(row, dict) else row
         if ident:
             ids.append(str(ident).upper())
+    return ids
+
+
+def search_pdb_ids_paginated(
+    *,
+    n_wanted: int,
+    resolution_max: float,
+    min_polymer_residues: int,
+    max_polymer_residues: int,
+    page_size: int = 1000,
+    timeout_s: float = 120.0,
+) -> list[str]:
+    """Fetch up to n_wanted IDs using RCSB pagination (max ~1000 rows/page)."""
+    wanted = int(n_wanted)
+    page = max(1, min(int(page_size), 1000))
+    ids: list[str] = []
+    seen: set[str] = set()
+    start = 0
+    while len(ids) < wanted:
+        query = protein_xray_query(
+            n=page,
+            start=start,
+            resolution_max=resolution_max,
+            min_polymer_residues=min_polymer_residues,
+            max_polymer_residues=max_polymer_residues,
+        )
+        batch = search_pdb_ids(query, timeout_s=timeout_s)
+        if not batch:
+            break
+        for pdb_id in batch:
+            if pdb_id not in seen:
+                seen.add(pdb_id)
+                ids.append(pdb_id)
+                if len(ids) >= wanted:
+                    break
+        if len(batch) < page:
+            break
+        start += page
     return ids
 
 

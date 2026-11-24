@@ -1,0 +1,11 @@
+# PDB IDs published as demo samples on GitHub (full local set may be larger).
+10AF
+10CW
+10CX
+10DC
+10DT
+10EE
+10EF
+10FS
+10FV
+10GA

@@ -1,11 +1,12 @@
-"""Train a PyTorch GNN on protein graphs.
+"""Train a PyTorch model on protein graphs.
 
 Task: edge-wise C-alpha distance regression (diagnostic).
-Mini-batch + train/val split when the set is large enough.
+Supports PairMLP, BaselineGCN, GAT, SchNet, EGNN.
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import sys
@@ -21,31 +22,18 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src.config import load_config
-from src.graph.build import load_ca_graphs
-from src.models.pytorch.baseline import BaselineGCN
-from src.models.pytorch.egnn import EGNN
-from src.paths import CHECKPOINTS_DIR, CONFIGS_DIR, GRAPHS_DIR, METRICS_DIR, ensure_dirs
+from src.models.pytorch.factory import build_pytorch_model, slug_for
+from src.paths import CHECKPOINTS_DIR, CONFIGS_DIR, METRICS_DIR, ensure_dirs
 from src.training.batching import BatchedGraph, graphs_to_batch
+from src.training.dataset import load_filtered_graphs, split_graph_lists
 from src.training.device import gpu_memory_stats, require_cuda
-from src.training.split import batched_slices, split_indices
+from src.training.split import batched_slices
 
 
-def _model_name(cfg: dict) -> str:
-    return str(cfg.get("model", "gcn")).lower()
-
-
-def build_model(cfg: dict, in_dim: int, n_proteins: int) -> tuple[nn.Module, str, str]:
-    hidden = int(cfg["hidden_dim"])
-    layers = int(cfg["num_layers"])
-    name = _model_name(cfg)
-    large = n_proteins >= 50
-    if name in {"gcn", "baselinegcn", "baseline"}:
-        exp = "phase9_gcn_pytorch" if large else "phase7_baseline_debug"
-        return BaselineGCN(in_dim, hidden, layers), "BaselineGCN", exp
-    if name in {"egnn"}:
-        exp = "phase9_egnn_pytorch" if large else "phase8_egnn_pytorch"
-        return EGNN(in_dim, hidden, layers), "EGNN", exp
-    raise ValueError(f"Unknown model {name!r}. Use gcn or egnn.")
+def _finite_or_none(value: float) -> float | None:
+    if value != value:
+        return None
+    return float(value)
 
 
 def predict(model: nn.Module, batch: BatchedGraph) -> torch.Tensor:
@@ -54,8 +42,12 @@ def predict(model: nn.Module, batch: BatchedGraph) -> torch.Tensor:
     return model(batch.x, batch.edge_index)
 
 
+def count_params(model: nn.Module) -> int:
+    return int(sum(p.numel() for p in model.parameters()))
+
+
 @torch.no_grad()
-def _eval_loss(model: nn.Module, graphs: list, device: torch.device, batch_size: int) -> float:
+def eval_loss(model: nn.Module, graphs: list, device: torch.device, batch_size: int) -> float:
     if not graphs:
         return float("nan")
     model.eval()
@@ -71,10 +63,38 @@ def _eval_loss(model: nn.Module, graphs: list, device: torch.device, batch_size:
     return total / max(n_edges, 1)
 
 
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument("config", nargs="?", default=str(CONFIGS_DIR / "egnn.yaml"))
+    p.add_argument("--model", default=None)
+    p.add_argument("--experiment-id", default=None)
+    p.add_argument("--epochs", type=int, default=None)
+    p.add_argument("--hidden-dim", type=int, default=None)
+    p.add_argument("--num-layers", type=int, default=None)
+    p.add_argument("--learning-rate", type=float, default=None)
+    p.add_argument("--batch-size", type=int, default=None)
+    p.add_argument("--ckpt", default=None)
+    p.add_argument("--metrics-json", default=None)
+    p.add_argument("--metrics-csv", default=None)
+    return p.parse_args()
+
+
 def main() -> int:
     ensure_dirs()
-    cfg_path = Path(sys.argv[1]) if len(sys.argv) > 1 else CONFIGS_DIR / "baseline.yaml"
-    cfg = load_config(cfg_path)
+    args = parse_args()
+    cfg = load_config(args.config)
+    if args.model:
+        cfg["model"] = args.model
+    if args.epochs is not None:
+        cfg["epochs"] = args.epochs
+    if args.hidden_dim is not None:
+        cfg["hidden_dim"] = args.hidden_dim
+    if args.num_layers is not None:
+        cfg["num_layers"] = args.num_layers
+    if args.learning_rate is not None:
+        cfg["learning_rate"] = args.learning_rate
+    if args.batch_size is not None:
+        cfg["batch_size"] = args.batch_size
 
     if str(cfg.get("device", "cuda")).lower() != "cuda":
         raise RuntimeError("Training requires device: cuda. No CPU fallback.")
@@ -86,29 +106,40 @@ def main() -> int:
     torch.cuda.reset_peak_memory_stats()
 
     cutoff = float(cfg["radius_cutoff"])
-    graphs = load_ca_graphs(GRAPHS_DIR, cutoff)
-    min_ca = int(cfg.get("min_polymer_residues", 50))
-    max_ca = int(cfg.get("max_polymer_residues", 350))
-    graphs = [g for g in graphs if min_ca <= g.n_nodes <= max_ca]
-    if not graphs:
-        raise RuntimeError("No graphs in residue-count filter. Run preprocess/build_graph.")
+    graphs = load_filtered_graphs(cfg)
+    train_graphs, val_graphs, test_graphs = split_graph_lists(graphs, cfg)
     batch_size = int(cfg.get("batch_size", 8))
     val_fraction = float(cfg.get("val_fraction", 0.2))
-    train_idx, val_idx = split_indices(len(graphs), val_fraction=val_fraction, seed=seed)
-    train_graphs = [graphs[int(i)] for i in train_idx]
-    val_graphs = [graphs[int(i)] for i in val_idx]
+    test_fraction = float(cfg.get("test_fraction", 0.0))
 
     in_dim = int(train_graphs[0].node_features.shape[-1])
-    model, model_label, experiment_id = build_model(cfg, in_dim, len(graphs))
+    model, model_label = build_pytorch_model(
+        str(cfg.get("model", "egnn")),
+        in_dim,
+        int(cfg["hidden_dim"]),
+        int(cfg["num_layers"]),
+        cutoff=cutoff,
+    )
+    slug = slug_for(model_label)
+    large = len(graphs) >= 50
+    experiment_id = args.experiment_id or (
+        f"phase10_{slug}_pytorch" if large else f"debug_{slug}_pytorch"
+    )
     model = model.to(device)
     opt = torch.optim.Adam(model.parameters(), lr=float(cfg["learning_rate"]))
     loss_fn = nn.MSELoss()
+    n_params = count_params(model)
 
     print(f"GPU: {torch.cuda.get_device_name(0)}")
     print(f"device: {device}")
-    print(f"model: {model_label}")
-    print(f"n_proteins: {len(graphs)}  train: {len(train_graphs)}  val: {len(val_graphs)}")
+    print(f"model: {model_label}  params: {n_params}")
+    print(
+        f"n_proteins: {len(graphs)}  train: {len(train_graphs)}  "
+        f"val: {len(val_graphs)}  test: {len(test_graphs)}"
+    )
     print(f"batch_size: {batch_size}")
+    if val_fraction <= 0 and test_fraction <= 0:
+        print("split: train-all")
     print("task: edge_ca_distance_regression (diagnostic, not biological labels)")
     print()
 
@@ -141,7 +172,7 @@ def main() -> int:
             n_steps += 1
         torch.cuda.synchronize()
         step_ms = (time.perf_counter() - step_t0) * 1000
-        val_loss = _eval_loss(model, val_graphs, device, batch_size)
+        val_loss = eval_loss(model, val_graphs, device, batch_size)
         mem = gpu_memory_stats()
         row = {
             "epoch": epoch,
@@ -159,18 +190,15 @@ def main() -> int:
         )
 
     elapsed = time.perf_counter() - t0
+    train_mse = eval_loss(model, train_graphs, device, batch_size)
+    test_mse = eval_loss(model, test_graphs, device, batch_size)
     mem = gpu_memory_stats()
-    large = len(graphs) >= 50
-    if model_label == "BaselineGCN":
-        ckpt = CHECKPOINTS_DIR / ("gcn_pytorch.pt" if large else "baseline_gcn_debug.pt")
-        json_path = METRICS_DIR / ("phase9_gcn_pytorch.json" if large else "phase7_baseline.json")
-        csv_path = METRICS_DIR / ("phase9_gcn_pytorch_epochs.csv" if large else "phase7_baseline_epochs.csv")
-    else:
-        ckpt = CHECKPOINTS_DIR / ("egnn_pytorch.pt" if large else "egnn_pytorch_debug.pt")
-        json_path = METRICS_DIR / ("phase9_egnn_pytorch.json" if large else "phase8_egnn_pytorch.json")
-        csv_path = METRICS_DIR / ("phase9_egnn_pytorch_epochs.csv" if large else "phase8_egnn_pytorch_epochs.csv")
 
-    torch.save({"model": model.state_dict(), "config": cfg}, ckpt)
+    ckpt = Path(args.ckpt) if args.ckpt else (CHECKPOINTS_DIR / f"{slug}_pytorch.pt")
+    json_path = Path(args.metrics_json) if args.metrics_json else (METRICS_DIR / f"{experiment_id}.json")
+    csv_path = Path(args.metrics_csv) if args.metrics_csv else (METRICS_DIR / f"{experiment_id}_epochs.csv")
+
+    torch.save({"model": model.state_dict(), "config": cfg, "experiment_id": experiment_id}, ckpt)
 
     metrics = {
         "experiment_id": experiment_id,
@@ -181,27 +209,42 @@ def main() -> int:
         "n_proteins": len(graphs),
         "n_train": len(train_graphs),
         "n_val": len(val_graphs),
+        "n_test": len(test_graphs),
+        "n_params": n_params,
+        "hidden_dim": int(cfg["hidden_dim"]),
+        "num_layers": int(cfg["num_layers"]),
+        "learning_rate": float(cfg["learning_rate"]),
+        "pdb_ids": [g.pdb_id for g in graphs],
         "batch_size": batch_size,
         "GPU": mem["gpu_name"],
         "task": "edge_ca_distance_regression",
         "note": "diagnostic edge-distance task; not biochemical function prediction",
         "final_loss": history[-1]["loss"],
-        "final_val_loss": history[-1]["val_loss"],
+        "final_train_mse": _finite_or_none(train_mse),
+        "final_val_loss": _finite_or_none(float(history[-1]["val_loss"])),
+        "final_test_mse": _finite_or_none(test_mse),
         "training_time_s": elapsed,
         "memory": mem,
         "epochs": cfg["epochs"],
         "radius_cutoff": cutoff,
     }
-    json_path.write_text(json.dumps(metrics, indent=2), encoding="utf-8")
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(metrics, indent=2, allow_nan=False), encoding="utf-8")
     with csv_path.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(
             fh, fieldnames=["epoch", "loss", "val_loss", "epoch_ms", "steps", "peak_allocated_mb"]
         )
         writer.writeheader()
-        writer.writerows(history)
+        for row in history:
+            csv_row = dict(row)
+            if csv_row["val_loss"] != csv_row["val_loss"]:
+                csv_row["val_loss"] = ""
+            writer.writerow(csv_row)
 
+    printable = {k: v for k, v in metrics.items() if k != "pdb_ids"}
     print()
-    print(json.dumps(metrics, indent=2))
+    print(json.dumps(printable, indent=2, allow_nan=False))
+    print(f"pdb_ids: {len(metrics['pdb_ids'])}")
     print(f"checkpoint: {ckpt}")
     return 0
 

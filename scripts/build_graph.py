@@ -26,21 +26,31 @@ def main() -> int:
         raise FileNotFoundError(
             f"No C-alpha npz in {STRUCTURES_DIR}. Run python scripts/preprocess.py first."
         )
-    for path in files:
+    n_new = 0
+    n_skip = 0
+    for i, path in enumerate(files, 1):
+        pdb_id = path.name.replace("_ca.npz", "")
+        out = GRAPHS_DIR / f"{pdb_id}_ca_r{cutoff:g}.npz"
+        if out.is_file():
+            n_skip += 1
+            continue
         try:
             coords = load_coordinate_set(path)
             graph = build_residue_graph(coords, radius_cutoff=cutoff)
         except Exception as exc:
             print(f"skip {path.name}: {exc}")
             continue
-        out = GRAPHS_DIR / f"{graph.pdb_id}_ca_r{cutoff:g}.npz"
         save_graph(graph, out)
+        n_new += 1
         n_seq = int((graph.edge_type == 0).sum())
         n_rad = int((graph.edge_type == 1).sum())
-        print(
-            f"{graph.pdb_id}  V={graph.n_nodes}  E={graph.n_edges}  "
-            f"seq={n_seq}  radius={n_rad}"
-        )
+        if n_new == 1 or n_new % 100 == 0 or i == len(files):
+            print(
+                f"{graph.pdb_id}  V={graph.n_nodes}  E={graph.n_edges}  "
+                f"seq={n_seq}  radius={n_rad}",
+                flush=True,
+            )
+    print(f"graphs new={n_new} reused={n_skip} total_ca={len(files)}")
     return 0
 
 

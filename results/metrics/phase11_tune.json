@@ -1,0 +1,62 @@
+{
+  "experiment_id": "phase11_tune",
+  "model": "EGNN",
+  "metric": "val MSE (select); test MSE reported",
+  "runs": [
+    {
+      "experiment_id": "phase11_egnn_h32_l2_lr0p001",
+      "hidden_dim": 32,
+      "num_layers": 2,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "final_val_loss": 1.3024924458400509,
+      "final_test_mse": 1.5667236599305234,
+      "training_time_s": 31.482300399999076,
+      "n_params": 17603
+    },
+    {
+      "experiment_id": "phase11_egnn_h32_l3_lr0p001",
+      "hidden_dim": 32,
+      "num_layers": 3,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "final_val_loss": 1.1708291829534727,
+      "final_test_mse": 1.3673335379077818,
+      "training_time_s": 44.56690559999697,
+      "n_params": 24996
+    },
+    {
+      "experiment_id": "phase11_egnn_h64_l2_lr0p001",
+      "hidden_dim": 64,
+      "num_layers": 2,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "final_val_loss": 1.1335470637206313,
+      "final_test_mse": 1.200425215345858,
+      "training_time_s": 30.1236382000061,
+      "n_params": 67971
+    },
+    {
+      "experiment_id": "phase11_egnn_h64_l3_lr0p001",
+      "hidden_dim": 64,
+      "num_layers": 3,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "final_val_loss": 1.0052887851429435,
+      "final_test_mse": 1.34811958716083,
+      "training_time_s": 40.38199529999838,
+      "n_params": 97092
+    }
+  ],
+  "best_val": {
+    "experiment_id": "phase11_egnn_h64_l3_lr0p001",
+    "hidden_dim": 64,
+    "num_layers": 3,
+    "learning_rate": 0.001,
+    "epochs": 8,
+    "final_val_loss": 1.0052887851429435,
+    "final_test_mse": 1.34811958716083,
+    "training_time_s": 40.38199529999838,
+    "n_params": 97092
+  }
+}

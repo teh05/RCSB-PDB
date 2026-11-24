@@ -43,9 +43,15 @@ def main() -> int:
         _run([py, str(ROOT / "scripts" / "train_pytorch.py"), str(CONFIGS_DIR / "egnn.yaml")])
         _run([py, str(ROOT / "scripts" / "train_jax.py"), str(CONFIGS_DIR / "egnn.yaml")])
 
+    pt10 = METRICS_DIR / "phase10_egnn_pytorch.json"
+    jx10 = METRICS_DIR / "phase10_egnn_jax.json"
     pt9 = METRICS_DIR / "phase9_egnn_pytorch.json"
     jx9 = METRICS_DIR / "phase9_egnn_jax.json"
-    if pt9.exists() and jx9.exists():
+    if pt10.exists() and jx10.exists():
+        pt_path, jx_path = pt10, jx10
+        out_name = "phase10_benchmark.json"
+        exp_id = "phase10_pytorch_vs_jax"
+    elif pt9.exists() and jx9.exists():
         pt_path, jx_path = pt9, jx9
         out_name = "phase9_benchmark.json"
         exp_id = "phase9_pytorch_vs_jax"
@@ -77,12 +83,15 @@ def main() -> int:
         "n_proteins": pt.get("n_proteins"),
         "n_train": pt.get("n_train"),
         "n_val": pt.get("n_val"),
+        "n_test": pt.get("n_test"),
         "epochs": pt.get("epochs"),
         "note": "engineering run; not a published generalization benchmark. Loss not comparable across inits.",
         "e3_jax": e3,
         "pytorch": {
             "final_loss": pt.get("final_loss"),
+            "final_train_mse": pt.get("final_train_mse"),
             "final_val_loss": pt.get("final_val_loss"),
+            "final_test_mse": pt.get("final_test_mse"),
             "training_time_s": pt.get("training_time_s"),
             "first_step_ms": pt.get("first_step_ms"),
             "mean_step_ms_ex_first": pt.get("mean_step_ms_ex_first"),
@@ -91,7 +100,9 @@ def main() -> int:
         },
         "jax": {
             "final_loss": jx.get("final_loss"),
+            "final_train_mse": jx.get("final_train_mse"),
             "final_val_loss": jx.get("final_val_loss"),
+            "final_test_mse": jx.get("final_test_mse"),
             "training_time_s": jx.get("training_time_s"),
             "first_step_ms": jx.get("first_step_ms"),
             "mean_step_ms_ex_first": jx.get("mean_step_ms_ex_first"),

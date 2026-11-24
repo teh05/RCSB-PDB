@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<title>Experiment hub — RCSB GNN</title>
+<style>
+:root {
+  --bg: #f4f2ec; --ink: #1c1c1c; --card: #ffffff; --accent: #1f4e79;
+  --muted: #666; --line: #d9d4c8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+header {
+  position: sticky; top: 0; z-index: 5; background: #ebe7dc; border-bottom: 1px solid var(--line);
+  padding: 12px 16px 10px;
+}
+h1 { margin: 0 0 8px; font-size: 1.15rem; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab {
+  border: 1px solid var(--line); background: #faf8f3; color: var(--ink);
+  padding: 8px 14px; cursor: pointer; font-size: 0.92rem;
+}
+.tab:hover { border-color: var(--accent); }
+.tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+main { padding: 16px; }
+.panel { display: none; }
+.panel.active { display: block; }
+h2 { font-size: 1.05rem; margin: 0 0 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+figure { margin: 0; background: var(--card); padding: 8px; border: 1px solid var(--line); }
+img { width: 100%; height: auto; display: block; }
+figcaption { font-size: 0.78rem; color: var(--muted); margin-top: 6px; }
+iframe { width: 100%; height: 75vh; border: 1px solid var(--line); background: #fff; }
+.open { color: var(--accent); }
+p { color: var(--muted); }
+</style></head><body>
+<header>
+  <h1>Gallery eksperimen — EDA · Model · Training · Compare · Tuning · Results · Protein</h1>
+  <nav class="tabs"><button type="button" class="tab" data-panel="protein">Protein</button><button type="button" class="tab" data-panel="eda">EDA</button><button type="button" class="tab" data-panel="models">Model</button><button type="button" class="tab" data-panel="training">Training</button><button type="button" class="tab" data-panel="compare">Compare</button><button type="button" class="tab" data-panel="tuning">Tuning</button><button type="button" class="tab" data-panel="results">Results</button></nav>
+</header>
+<main>
+
+<section id="panel-protein" class="panel">
+  <h2>Gallery protein</h2>
+  <p>Cartoon, all-atom, C-alpha, graf per PDB ID.</p>
+  <p><a class="open" href="gallery.html" target="_blank" rel="noopener">Buka gallery protein (full page)</a></p>
+  <iframe src="gallery.html" title="protein gallery" loading="lazy"></iframe>
+</section>
+<section id="panel-eda" class="panel"><h2>EDA</h2><div class="grid"><figure><img src="experiment/eda_nca_hist.png" alt="eda_nca_hist.png" loading="lazy"><figcaption>eda nca hist</figcaption></figure><figure><img src="experiment/eda_resolution_hist.png" alt="eda_resolution_hist.png" loading="lazy"><figcaption>eda resolution hist</figcaption></figure><figure><img src="experiment/eda_nca_vs_resolution.png" alt="eda_nca_vs_resolution.png" loading="lazy"><figcaption>eda nca vs resolution</figcaption></figure><figure><img src="experiment/eda_nchains_hist.png" alt="eda_nchains_hist.png" loading="lazy"><figcaption>eda nchains hist</figcaption></figure><figure><img src="experiment/eda_split_pie.png" alt="eda_split_pie.png" loading="lazy"><figcaption>eda split pie</figcaption></figure></div></section><section id="panel-models" class="panel"><h2>Model</h2><div class="grid"><figure><img src="experiment/model_params.png" alt="model_params.png" loading="lazy"><figcaption>model params</figcaption></figure><figure><img src="experiment/model_architecture.png" alt="model_architecture.png" loading="lazy"><figcaption>model architecture</figcaption></figure></div></section><section id="panel-training" class="panel"><h2>Training</h2><div class="grid"><figure><img src="experiment/train_val_overlay.png" alt="train_val_overlay.png" loading="lazy"><figcaption>train val overlay</figcaption></figure><figure><img src="experiment/train_mlp.png" alt="train_mlp.png" loading="lazy"><figcaption>train mlp</figcaption></figure><figure><img src="experiment/train_gcn.png" alt="train_gcn.png" loading="lazy"><figcaption>train gcn</figcaption></figure><figure><img src="experiment/train_gat.png" alt="train_gat.png" loading="lazy"><figcaption>train gat</figcaption></figure><figure><img src="experiment/train_schnet.png" alt="train_schnet.png" loading="lazy"><figcaption>train schnet</figcaption></figure><figure><img src="experiment/train_egnn.png" alt="train_egnn.png" loading="lazy"><figcaption>train egnn</figcaption></figure><figure><img src="experiment/train_egnn_jax.png" alt="train_egnn_jax.png" loading="lazy"><figcaption>train egnn jax</figcaption></figure></div></section><section id="panel-compare" class="panel"><h2>Compare</h2><div class="grid"><figure><img src="experiment/compare_mse.png" alt="compare_mse.png" loading="lazy"><figcaption>compare mse</figcaption></figure><figure><img src="experiment/compare_time.png" alt="compare_time.png" loading="lazy"><figcaption>compare time</figcaption></figure><figure><img src="experiment/compare_memory.png" alt="compare_memory.png" loading="lazy"><figcaption>compare memory</figcaption></figure></div></section><section id="panel-tuning" class="panel"><h2>Tuning</h2><div class="grid"><figure><img src="experiment/tune_grid.png" alt="tune_grid.png" loading="lazy"><figcaption>tune grid</figcaption></figure><figure><img src="experiment/tune_curves.png" alt="tune_curves.png" loading="lazy"><figcaption>tune curves</figcaption></figure></div></section><section id="panel-results" class="panel"><h2>Results</h2><div class="grid"><figure><img src="experiment/result_ranking.png" alt="result_ranking.png" loading="lazy"><figcaption>result ranking</figcaption></figure><figure><img src="experiment/result_pytorch_vs_jax.png" alt="result_pytorch_vs_jax.png" loading="lazy"><figcaption>result pytorch vs jax</figcaption></figure><figure><img src="experiment/result_board.png" alt="result_board.png" loading="lazy"><figcaption>result board</figcaption></figure></div></section>
+</main>
+<script>
+const tabs = document.querySelectorAll(".tab");
+const panels = document.querySelectorAll(".panel");
+const known = new Set(["protein", "eda", "models", "training", "compare", "tuning", "results"]);
+function show(id) {
+  tabs.forEach(t => t.classList.toggle("active", t.dataset.panel === id));
+  panels.forEach(p => p.classList.toggle("active", p.id === "panel-" + id));
+  history.replaceState(null, "", "#" + id);
+}
+tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.panel)));
+const initial = (location.hash || "#eda").replace("#", "");
+show(known.has(initial) ? initial : "eda");
+</script>
+</body></html>

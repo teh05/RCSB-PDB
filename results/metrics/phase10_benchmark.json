@@ -1,0 +1,59 @@
+{
+  "experiment_id": "phase10_pytorch_vs_jax",
+  "model": "EGNN",
+  "task": "edge_ca_distance_regression",
+  "dataset": "rcsb_xray_protein",
+  "n_proteins": 5007,
+  "n_train": 4005,
+  "n_val": 501,
+  "n_test": 501,
+  "epochs": 20,
+  "note": "engineering run; not a published generalization benchmark. Loss not comparable across inits.",
+  "e3_jax": {
+    "ok": true,
+    "framework": "jax",
+    "model": "EGNN",
+    "device": "cuda:0",
+    "atol": 0.001,
+    "max_abs_pred_rotation": 0.0,
+    "max_abs_pred_translation": 0.0,
+    "max_abs_coord_rotation": 2.384185791015625e-07,
+    "max_abs_coord_translation": 2.384185791015625e-07,
+    "note": "predicted distances should be SE(3)-invariant; coords SE(3)-equivariant"
+  },
+  "pytorch": {
+    "final_loss": 0.7581171989440918,
+    "final_train_mse": 0.8030933716045804,
+    "final_val_loss": 0.7990330694724905,
+    "final_test_mse": 0.8544445173636116,
+    "training_time_s": 128.7685180000044,
+    "first_step_ms": null,
+    "mean_step_ms_ex_first": null,
+    "memory": {
+      "allocated_mb": 66.4453125,
+      "reserved_mb": 272.0,
+      "peak_allocated_mb": 264.7880859375,
+      "peak_reserved_mb": 272.0,
+      "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU"
+    },
+    "GPU": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "jax": {
+    "final_loss": 0.46357566118240356,
+    "final_train_mse": 0.47765703181068814,
+    "final_val_loss": 0.47652789098875864,
+    "final_test_mse": 0.4962201397570353,
+    "training_time_s": 573.9553001000022,
+    "first_step_ms": null,
+    "mean_step_ms_ex_first": null,
+    "compile_s": 13.080001799993624,
+    "memory": {
+      "gpu_name": "cuda:0",
+      "backend": "gpu",
+      "allocated_mb": 3.665283203125,
+      "peak_allocated_mb": 293.99853515625
+    },
+    "GPU": "cuda:0"
+  },
+  "pytorch_over_jax_train_s": 0.22435286855538858
+}
