@@ -34,40 +34,73 @@ Jelajah hasil visual:
 
 ---
 
+## Visualisasi protein (sampel)
+
+Empat cara melihat struktur yang sama: **cartoon** (PyMOL) → **all-atom** → **Cα backbone** → **graf** (sequential gelap + radius 8 Å abu). Level graf Cα inilah yang masuk model.
+
+### 10AF — 4 panel
+
+| Cartoon | All-atom | Cα backbone | Graph XY |
+|:---:|:---:|:---:|:---:|
+| ![10AF cartoon](results/plots/10AF_cartoon.png) | ![10AF all-atom](results/plots/10AF_allatom_scatter.png) | ![10AF CA](results/plots/10AF_ca_backbone.png) | ![10AF graph](results/plots/10AF_graph.png) |
+
+### Cartoon sampel lain
+
+| 10CW | 10CX | 10DC | 10DT |
+|:---:|:---:|:---:|:---:|
+| ![10CW](results/plots/10CW_cartoon.png) | ![10CX](results/plots/10CX_cartoon.png) | ![10DC](results/plots/10DC_cartoon.png) | ![10DT](results/plots/10DT_cartoon.png) |
+
+| 10EE | 10EF | 10FS | 10FV | 10GA |
+|:---:|:---:|:---:|:---:|:---:|
+| ![10EE](results/plots/10EE_cartoon.png) | ![10EF](results/plots/10EF_cartoon.png) | ![10FS](results/plots/10FS_cartoon.png) | ![10FV](results/plots/10FV_cartoon.png) | ![10GA](results/plots/10GA_cartoon.png) |
+
+Gallery lengkap (4 panel × 10 ID): [`results/plots/gallery.html`](results/plots/gallery.html).
+
+---
+
 ## Rumus & formula singkat
+
+GitHub merender math dengan blok `$$ … $$`.
 
 **Jarak Euclidean** antar Cα (label & radius edge):
 
-\[
-d_{ij}=\|x_i-x_j\|_2=\sqrt{\sum_k(x_{ik}-x_{jk})^2}
-\]
+$$
+d_{ij} = \|x_i - x_j\|_2 = \sqrt{\sum_k (x_{ik} - x_{jk})^2}
+$$
 
 **Loss** (MSE pada edge):
 
-\[
-\mathcal{L}=\frac{1}{|E|}\sum_{(i,j)\in E}(\hat{d}_{ij}-d_{ij})^2
-\]
+$$
+\mathcal{L} = \frac{1}{|E|} \sum_{(i,j) \in E} \left( \hat{d}_{ij} - d_{ij} \right)^2
+$$
 
-**Head prediksi** (semua model): \(\hat{d}_{ij}=\mathrm{MLP}([h_i\|h_j])\).
+**Head prediksi** (semua model):
+
+$$
+\hat{d}_{ij} = \mathrm{MLP}\bigl([h_i \,\|\, h_j]\bigr)
+$$
 
 **GAT** — perhatian + softmax per tetangga:
 
-\[
-\alpha_{ij}=\frac{\exp(e_{ij})}{\sum_{k\in\mathcal{N}(i)}\exp(e_{ik})}
-\]
+$$
+\alpha_{ij} = \frac{\exp(e_{ij})}{\sum_{k \in \mathcal{N}(i)} \exp(e_{ik})}
+$$
 
 **SchNet** — Gaussian RBF jarak:
 
-\[
-\phi_k(d)=\exp\!\big(-\gamma(d-\mu_k)^2\big),\quad \gamma=(n_{\mathrm{rbf}}/\mathrm{cutoff})^2
-\]
+$$
+\phi_k(d) = \exp\bigl(-\gamma (d - \mu_k)^2\bigr), \quad \gamma = \bigl(n_{\mathrm{rbf}} / \mathrm{cutoff}\bigr)^2
+$$
 
 **EGNN** — pesan dari jarak kuadrat; update koordinat equivariant:
 
-\[
-m_{ij}=\phi_e(h_i,h_j,\|x_i-x_j\|^2),\quad
-x_i\leftarrow x_i+\mathrm{mean}_j\big[(x_i-x_j)\,\phi_x(m_{ij})\big]
-\]
+$$
+m_{ij} = \phi_e\bigl(h_i, h_j, \|x_i - x_j\|^2\bigr)
+$$
+
+$$
+x_i \leftarrow x_i + \mathrm{mean}_{j}\Bigl[(x_i - x_j)\,\phi_x(m_{ij})\Bigr]
+$$
 
 Prediksi jarak diharapkan **SE(3)-invariant**; koordinat EGNN **equivariant** (dicek di `src/geometry/se3.py`).
 
